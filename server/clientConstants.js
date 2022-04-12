@@ -12,7 +12,12 @@ module.exports = {
     FOOTER_DONATE_URL: config.footer_donate_url,
     FOOTER_CLI_URL: config.footer_cli_url,
     FOOTER_DMCA_URL: config.footer_dmca_url,
-    FOOTER_SOURCE_URL: config.footer_source_url
+    FOOTER_SOURCE_URL: config.footer_source_url,
+    COLORS: {
+      PRIMARY: config.ui_color_primary,
+      ACCENT: config.ui_color_accent
+    },
+    CUSTOM_ASSETS: config.ui_custom_assets
   },
   DEFAULTS: {
     DOWNLOADS: config.default_downloads,

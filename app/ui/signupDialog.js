@@ -50,7 +50,7 @@ module.exports = function() {
             ? ''
             : html`
                 <button
-                  class="my-3 link-blue font-medium"
+                  class="my-3 link-primary font-medium"
                   title="${state.translate('deletePopupCancel')}"
                   onclick=${cancel}
                 >

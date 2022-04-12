@@ -50,6 +50,12 @@ module.exports = function(app) {
             return `'nonce-${req.cspNonce}'`;
           }
         ],
+        styleSrc: [
+          "'self'",
+          function(req) {
+            return `'nonce-${req.cspNonce}'`;
+          }
+        ],
         formAction: ["'none'"],
         frameAncestors: ["'none'"],
         objectSrc: ["'none'"],

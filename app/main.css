@@ -39,7 +39,7 @@ body {
 }
 
 .btn {
-  @apply bg-blue-60;
+  @apply bg-primary;
   @apply text-white;
   @apply cursor-pointer;
   @apply py-4;
@@ -48,11 +48,11 @@ body {
 }
 
 .btn:hover {
-  @apply bg-blue-70;
+  @apply bg-primary_accent;
 }
 
 .btn:focus {
-  @apply bg-blue-70;
+  @apply bg-primary_accent;
 }
 
 .checkbox {
@@ -82,16 +82,16 @@ body {
 }
 
 .checkbox > label:hover::before {
-  @apply border-blue-50;
+  @apply border-primary;
 }
 
 .checkbox > input:focus + label::before {
-  @apply border-blue-50;
+  @apply border-primary;
 }
 
 .checkbox > input:checked + label::before {
-  @apply bg-blue-50;
-  @apply border-blue-50;
+  @apply bg-primary;
+  @apply border-primary;
 
   background-image: url('../assets/lock.svg');
   background-position: center;
@@ -104,8 +104,8 @@ body {
 }
 
 .checkbox > input:disabled + label::before {
-  @apply bg-blue-50;
-  @apply border-blue-50;
+  @apply bg-primary;
+  @apply border-primary;
 
   background-image: url('../assets/lock.svg');
   background-position: center;
@@ -153,16 +153,16 @@ footer li a:hover {
   white-space: nowrap;
 }
 
-.link-blue {
-  @apply text-blue-60;
+.link-primary {
+  @apply text-primary;
 }
 
-.link-blue:hover {
-  @apply text-blue-70;
+.link-primary:hover {
+  @apply text-primary_accent;
 }
 
-.link-blue:focus {
-  @apply text-blue-70;
+.link-primary:focus {
+  @apply text-primary_accent;
 }
 
 .main-header img {
@@ -212,7 +212,7 @@ progress::-webkit-progress-value {
       rgba(255, 255, 255, 0.4) 80%,
       transparent 80%
     ),
-    -webkit-linear-gradient(left, #0a84ff, #0a84ff);
+    -webkit-linear-gradient(left, var(--color-primary), var(--color-primary));
   /* stylelint-enable */
   border-radius: 2px;
   background-size: 21px 20px, 100% 100%, 100% 100%;
@@ -232,7 +232,7 @@ progress::-moz-progress-bar {
       rgba(255, 255, 255, 0.4) 80%,
       transparent 80%
     ),
-    -moz-linear-gradient(left, #0a84ff, #0a84ff);
+    -moz-linear-gradient(left, var(--color-primary), var(--color-primary));
   /* stylelint-enable */
   border-radius: 2px;
   background-size: 21px 20px, 100% 100%, 100% 100%;
@@ -283,28 +283,28 @@ select {
   }
 
   .btn {
-    @apply bg-blue-40;
+    @apply bg-primary;
     @apply text-white;
   }
 
   .btn:hover {
-    @apply bg-blue-50;
+    @apply bg-primary_accent;
   }
 
   .btn:focus {
-    @apply bg-blue-50;
+    @apply bg-primary_accent;
   }
 
-  .link-blue {
-    @apply text-blue-40;
+  .link-primary {
+    @apply text-primary;
   }
 
-  .link-blue:hover {
-    @apply text-blue-50;
+  .link-primary:hover {
+    @apply text-primary_accent;
   }
 
-  .link-blue:focus {
-    @apply text-blue-50;
+  .link-primary:focus {
+    @apply text-primary_accent;
   }
 
   .main > section {
@@ -363,20 +363,20 @@ select {
 
 /* begin signin button color experiment */
 
-.white-blue {
-  @apply border-blue-60;
+.white-primary {
+  @apply border-primary;
   @apply border-2;
-  @apply text-blue-60;
+  @apply text-primary;
 }
 
-.white-blue:hover,
-.white-blue:focus {
-  @apply bg-blue-60;
+.white-primary:hover,
+.white-primary:focus {
+  @apply bg-primary;
   @apply text-white;
 }
 
-.blue {
-  @apply bg-blue-60;
+.primary {
+  @apply bg-primary;
   @apply text-white;
 }
 

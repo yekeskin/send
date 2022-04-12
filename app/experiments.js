@@ -7,7 +7,7 @@ const experiments = {
       return true;
     },
     variant: function() {
-      return ['white-blue', 'blue', 'white-violet', 'violet'][
+      return ['white-primary', 'primary', 'white-violet', 'violet'][
         Math.floor(Math.random() * 4)
       ];
     },

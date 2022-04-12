@@ -11,7 +11,9 @@ module.exports = function(state) {
       <h1 class="text-center text-3xl font-bold my-2">
         ${state.translate('downloadFinish')}
       </h1>
-      <img src="${assets.get('completed.svg')}" class="my-8 h-48" />
+      <svg class="my-8 h-48 text-primary">
+        <use xlink:href="${assets.get('completed.svg')}#Page-1" />
+      </svg>
       <p
         class="text-grey-80 leading-normal dark:text-grey-40 ${state.user
           .loggedIn

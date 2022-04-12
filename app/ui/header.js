@@ -18,13 +18,26 @@ class Header extends Component {
   }
 
   createElement() {
+    let assetMap = {};
+    if (this.state.ui !== undefined) assetMap = this.state.ui.assets;
+    else
+      assetMap = {
+        icon:
+          this.state.WEB_UI.CUSTOM_ASSETS.icon !== ''
+            ? this.state.WEB_UI.CUSTOM_ASSETS.icon
+            : assets.get('icon.svg'),
+        wordmark:
+          this.state.WEB_UI.CUSTOM_ASSETS.wordmark !== ''
+            ? this.state.WEB_UI.CUSTOM_ASSETS.wordmark
+            : assets.get('wordmark.svg') + '#logo'
+      };
     const title =
       platform() === 'android'
         ? html`
             <a class="flex flex-row items-center">
-              <img src="${assets.get('icon.svg')}" />
+              <img src="${assetMap.icon}" />
               <svg class="w-48">
-                <use xlink:href="${assets.get('wordmark.svg')}#logo" />
+                <use xlink:href="${assetMap.wordmark}" />
               </svg>
             </a>
           `
@@ -32,10 +45,10 @@ class Header extends Component {
             <a class="flex flex-row items-center" href="/">
               <img
                 alt="${this.state.translate('title')}"
-                src="${assets.get('icon.svg')}"
+                src="${assetMap.icon}"
               />
               <svg viewBox="66 0 340 64" class="w-48 md:w-64">
-                <use xlink:href="${assets.get('wordmark.svg')}#logo" />
+                <use xlink:href="${assetMap.wordmark}" />
               </svg>
             </a>
           `;
