@@ -1,7 +1,10 @@
 const convict = require('convict');
+const convict_format_with_validator = require('convict-format-with-validator');
 const { tmpdir } = require('os');
 const path = require('path');
 const { randomBytes } = require('crypto');
+
+convict.addFormats(convict_format_with_validator);
 
 convict.addFormat({
   name: 'positive-int-array',
