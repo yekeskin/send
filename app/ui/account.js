@@ -69,7 +69,7 @@ class Account extends Component {
       return html`
         <send-account>
           <button
-            class="px-4 py-2 md:px-8 md:py-4 focus:outline signin border-2 link-blue border-blue-60 hover:border-blue-70 dark:border-blue-40 dark:hover:border-blue-50"
+            class="px-4 py-2 md:px-8 md:py-4 focus:outline signin border-2 link-primary border-primary hover:border-primary dark:border-primary dark:hover:border-primary"
             onclick="${e => this.login(e)}"
             title="${translate('signInOnlyButton')}"
           >
@@ -83,7 +83,7 @@ class Account extends Component {
         <input
           type="image"
           alt="${user.email}"
-          class="w-8 h-8 rounded-full border text-blue-50 md:text-white focus:outline"
+          class="w-8 h-8 rounded-full border text-primary md:text-white focus:outline"
           src="${user.avatar}"
           onclick="${e => this.avatarClick(e)}"
         />
@@ -95,7 +95,7 @@ class Account extends Component {
           <li class="p-2 text-grey-60 dark:text-grey-50">${user.email}</li>
           <li>
             <button
-              class="block w-full text-left px-4 py-2 text-grey-80 dark:text-grey-30 hover:bg-blue-50 hover:text-white cursor-pointer focus:outline"
+              class="block w-full text-left px-4 py-2 text-grey-80 dark:text-grey-30 hover:bg-primary hover:text-white cursor-pointer focus:outline"
               onclick="${e => this.logout(e)}"
               title="${translate('signOut')}"
             >

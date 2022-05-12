@@ -19,7 +19,7 @@ module.exports = function(state, emit) {
       <form class="md:w-128" onsubmit=${submit}>
         <fieldset class="border rounded p-4 my-4" onchange=${optionChanged}>
           <div class="flex items-center mb-2">
-            <svg class="h-8 w-6 mr-3 flex-shrink-0 text-white dark:text-grey-90">
+            <svg class="h-8 w-6 mr-3 flex-shrink-0 text-primary">
               <use xlink:href="${assets.get('blue_file.svg')}#icon"/>
             </svg>
             <p class="flex-grow">

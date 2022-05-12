@@ -24,6 +24,22 @@ module.exports = async function(req) {
     prefs.surveyUrl = config.survey_url;
   }
   const baseUrl = config.deriveBaseUrl(req);
+  const uiAssets = {
+    android_chrome_192px: assets.get('android-chrome-192x192.png'),
+    android_chrome_512px: assets.get('android-chrome-512x512.png'),
+    apple_touch_icon: assets.get('apple-touch-icon.png'),
+    favicon_16px: assets.get('favicon-16x16.png'),
+    favicon_32px: assets.get('favicon-32x32.png'),
+    icon: assets.get('icon.svg'),
+    safari_pinned_tab: assets.get('safari-pinned-tab.svg'),
+    facebook: baseUrl + '/' + assets.get('send-fb.jpg'),
+    twitter: baseUrl + '/' + assets.get('send-twitter.jpg'),
+    wordmark: assets.get('wordmark.svg') + '#logo'
+  };
+  Object.keys(uiAssets).forEach(index => {
+    if (config.ui_custom_assets[index] !== '')
+      uiAssets[index] = config.ui_custom_assets[index];
+  });
   return {
     archive: {
       numFiles: 0
@@ -35,7 +51,13 @@ module.exports = async function(req) {
     description:
       'Encrypt and send files with a link that automatically expires to ensure your important documents don’t stay online forever.',
     baseUrl,
-    ui: {},
+    ui: {
+      colors: {
+        primary: config.ui_color_primary,
+        accent: config.ui_color_accent
+      },
+      assets: uiAssets
+    },
     storage: {
       files: []
     },

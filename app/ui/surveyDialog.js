@@ -30,7 +30,7 @@ module.exports = function() {
           Give feedback
         </a>
         <button
-          class="link-blue font-medium cursor-pointer focus:outline"
+          class="link-primary font-medium cursor-pointer focus:outline"
           onclick="${close}"
           title="Skip"
         >

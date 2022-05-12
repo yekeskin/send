@@ -1,18 +1,20 @@
-const assets = require('../../common/assets');
+const state = require('../state');
 
-module.exports = function(req, res) {
+module.exports = async function(req, res) {
+  const appState = await state(req);
+
   const manifest = {
     name: 'Send',
     short_name: 'Send',
     lang: req.language,
     icons: [
       {
-        src: assets.get('android-chrome-192x192.png'),
+        src: appState.ui.assets.android_chrome_192px,
         type: 'image/png',
         sizes: '192x192'
       },
       {
-        src: assets.get('android-chrome-512x512.png'),
+        src: appState.ui.assets.android_chrome_512px,
         type: 'image/png',
         sizes: '512x512'
       }

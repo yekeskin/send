@@ -10,7 +10,7 @@ module.exports = function(state, emit) {
     strings = unsupportedStrings(state);
     why = html`
       <a
-        class="text-blue"
+        class="text-primary"
         href="https://github.com/timvisee/send/blob/master/docs/faq.md#why-is-my-browser-not-supported"
       >
         ${state.translate('notSupportedLink')}

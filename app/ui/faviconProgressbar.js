@@ -1,9 +1,11 @@
+/*global WEB_UI*/
+
 const { platform } = require('../utils');
 const assets = require('../../common/assets');
 
 const size = 32;
 const loaderWidth = 5;
-const loaderColor = '#0090ed';
+const loaderColor = WEB_UI.COLORS.PRIMARY;
 
 function drawCircle(canvas, context, color, lineWidth, outerWidth, percent) {
   canvas.width = canvas.height = outerWidth;
@@ -32,7 +34,10 @@ module.exports.updateFavicon = function(progressRatio) {
     const progress = progressRatio * 100;
     if (progress === 0 || progress === 100) {
       link.type = 'image/png';
-      link.href = assets.get('favicon-32x32.png');
+      link.href =
+        WEB_UI.CUSTOM_ASSETS.favicon_32px !== ''
+          ? WEB_UI.CUSTOM_ASSETS.favicon_32px
+          : assets.get('favicon-32x32.png');
       return;
     }
 

@@ -30,7 +30,7 @@ module.exports = function(name, url) {
           ${state.translate('shareLinkButton')}
         </button>
         <button
-          class="link-blue my-4 font-medium cursor-pointer focus:outline"
+          class="link-primary my-4 font-medium cursor-pointer focus:outline"
           onclick="${close}"
           title="${state.translate('okButton')}"
         >

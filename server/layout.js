@@ -21,20 +21,20 @@ module.exports = function(state, body = '') {
         <meta property="og:description" content="${state.description}" />
         <meta name="twitter:description" content="${state.description}" />
         <meta name="twitter:card" content="summary" />
-        <meta
-          property="og:image"
-          content="${state.baseUrl}/${assets.get('send-fb.jpg')}"
-        />
-        <meta
-          name="twitter:image"
-          content="${state.baseUrl}/${assets.get('send-twitter.jpg')}"
-        />
+        <meta property="og:image" content="${state.ui.assets.facebook}" />
+        <meta name="twitter:image" content="${state.ui.assets.twitter}" />
         <meta property="og:url" content="${state.baseUrl}" />
         <meta name="theme-color" content="#220033" />
         <meta name="msapplication-TileColor" content="#220033" />
 
         <link rel="manifest" href="/app.webmanifest" />
         <link rel="stylesheet" type="text/css" href="/inter.css" />
+        <style nonce=${state.cspNonce}>
+          :root {
+            --color-primary: ${state.ui.colors.primary};
+            --color-primary-accent: ${state.ui.colors.accent};
+          }
+        </style>
         <link
           rel="stylesheet"
           type="text/css"
@@ -43,23 +43,23 @@ module.exports = function(state, body = '') {
         <link
           rel="apple-touch-icon"
           sizes="180x180"
-          href="${assets.get('apple-touch-icon.png')}"
+          href="${state.ui.assets.apple_touch_icon}"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="32x32"
-          href="${assets.get('favicon-32x32.png')}"
+          href="${state.ui.assets.favicon_32px}"
         />
         <link
           rel="icon"
           type="image/png"
           sizes="16x16"
-          href="${assets.get('favicon-16x16.png')}"
+          href="${state.ui.assets.favicon_16px}"
         />
         <link
           rel="mask-icon"
-          href="${assets.get('safari-pinned-tab.svg')}"
+          href="${state.ui.assets.safari_pinned_tab}"
           color="#838383"
         />
         <script defer src="${assets.get('app.js')}"></script>

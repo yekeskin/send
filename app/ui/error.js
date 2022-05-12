@@ -13,7 +13,9 @@ module.exports = function(state, emit) {
         <h1 class="text-center text-3xl font-bold my-2">
           ${state.translate('errorPageHeader')}
         </h1>
-        <img class="my-12 h-48" src="${assets.get('error.svg')}" />
+        <svg class="text-primary my-12 h-48">
+          <use xlink:href="${assets.get('error.svg')}#svg114" />
+        </svg>
         <p
           class="max-w-md text-center text-grey-80 leading-normal dark:text-grey-40 ${state
             .user.loggedIn

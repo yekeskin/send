@@ -77,6 +77,26 @@ Redis is used as the metadata database for the backend and is required no matter
 
 *Note: more options can be found here: https://github.com/timvisee/send/blob/master/server/config.js*
 
+## Branding
+
+To change the look the colors aswell as some graphics can be changed via environment variables.  
+See the table below for the variables and their default values.
+
+| Name | Default | Description |
+|---|---|---|
+| UI_COLOR_PRIMARY | #0a84ff | The primary color |
+| UI_COLOR_ACCENT | #003eaa | The accent color (eg. for hover-effects) |
+| UI_CUSTOM_ASSETS_ANDROID_CHROME_192PX | | A custom icon for Android (192x192px) |
+| UI_CUSTOM_ASSETS_ANDROID_CHROME_512PX | | A custom icon for Android (512x512px) |
+| UI_CUSTOM_ASSETS_APPLE_TOUCH_ICON | | A custom icon for Apple |
+| UI_CUSTOM_ASSETS_FAVICON_16PX | | A custom favicon (16x16px) |
+| UI_CUSTOM_ASSETS_FAVICON_32PX | | A custom favicon (32x32px) |
+| UI_CUSTOM_ASSETS_ICON | | A custom icon (Logo on the top-left of the UI) |
+| UI_CUSTOM_ASSETS_SAFARI_PINNED_TAB | | A custom icon for Safari |
+| UI_CUSTOM_ASSETS_FACEBOOK | | A custom header image for Facebook |
+| UI_CUSTOM_ASSETS_TWITTER | | A custom header image for Twitter |
+| UI_CUSTOM_ASSETS_WORDMARK | | A custom wordmark (Text next to the logo) |
+
 ## Examples
 
 **Run using an Amazon Elasticache for the Redis DB, Amazon S3 for the storage backend, and Sentry for error reporting.**
@@ -114,6 +134,18 @@ $ docker run --net=timviseesend -v $PWD/uploads:/uploads -p 1443:1443 \
 Then open http://localhost:1443 to view the UI. (change the `localhost` to your IP or hostname above to serve the UI to others)
 
 To run with HTTPS, you will need to set up a reverse proxy with SSL termination in front of the backend. See Docker Compose below for an example setup.
+
+
+**Run with custom branding.**
+
+```bash
+$ docker run -p 1443:1443 \
+    -v $PWD/custom_assets:/app/dist/custom_assets \
+    -e 'UI_COLOR_PRIMARY=#f00' \
+    -e 'UI_COLOR_ACCENT=#a00' \
+    -e 'UI_CUSTOM_ASSETS_ICON=custom_assets/logo.svg' \
+    registry.gitlab.com/timvisee/send:latest
+```
 
 ## Docker Compose
 
