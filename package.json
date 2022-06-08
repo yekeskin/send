@@ -27,7 +27,7 @@
     "test:report": "nyc report --reporter=html",
     "test-integration": "cross-env NODE_ENV=development wdio test/wdio.docker.conf.js",
     "circleci-test-integration": "echo 'webdriverio tests need to be updated to node 12'",
-    "start": "npm run clean && cross-env NODE_ENV=development L10N_DEV=true FXA_CLIENT_ID=fced6b5e3f4c66b9 BASE_URL=http://localhost:1337 webpack-dev-server --port=1337 --mode=development",
+    "start": "npm run clean && cross-env NODE_ENV=development L10N_DEV=true FXA_URL=https://auth.teknorota.com/application/o/teknorota-send FXA_CLIENT_ID=caf8037f2d295437a5b22bbc0823a67683fa0542 FXA_KEY_SCOPE=https://auth.teknorota.com/application/o/teknorota-send/ FXA_CSP_OAUTH_URL=https://auth.teknorota.com/application/o/authorize/ FXA_CSP_PROFILE_URL=https://auth.teknorota.com/application/o/userinfo/ BASE_URL=http://localhost:1337 webpack-dev-server --port=1337 --mode=development",
     "android": "cross-env ANDROID=1 npm start",
     "prod": "node server/bin/prod.js"
   },
