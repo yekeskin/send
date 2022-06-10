@@ -1,5 +1,7 @@
 const fetch = require('node-fetch');
 const config = require('./config');
+const jwt = require('jsonwebtoken');
+const njwk = require('node-jwk');
 
 const KEY_SCOPE = config.fxa_key_scope;
 let fxaConfig = null;
@@ -16,6 +18,7 @@ async function getFxaConfig() {
     );
     fxaConfig = await res.json();
     fxaConfig.key_scope = KEY_SCOPE;
+    fxaConfig.redirect_uri = config.base_url;
     lastConfigRefresh = Date.now();
   } catch (e) {
     // continue with previous fxaConfig
@@ -32,19 +35,15 @@ module.exports = {
 
     const c = await getFxaConfig();
     try {
-      const verifyUrl = c.jwks_uri.replace('jwks', 'verify'); //HACK
-      const result = await fetch(verifyUrl, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({ token })
+      const infoRequest = await fetch(c.jwks_uri, {
+        method: 'GET'
       });
-      const info = await result.json();
-      if (
-        info.scope &&
-        Array.isArray(info.scope) &&
-        info.scope.includes(KEY_SCOPE)
-      ) {
-        return info.user;
+      const info = await infoRequest.json();
+      const keySet = njwk.JWKSet.fromJSON(JSON.stringify(info));
+      const decoded = jwt.decode(token, { complete: true });
+      const jwk = keySet.findKeyById(decoded.header.kid);
+      if (jwk && jwt.verify(token, jwk.key.toPublicKeyPEM())) {
+        return decoded.payload;
       }
     } catch (e) {
       // gulp

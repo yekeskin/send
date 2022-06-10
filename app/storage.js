@@ -210,14 +210,17 @@ class Storage {
       const now = Date.now();
       const tokens = JSON.parse(this.get('dlTokens'));
       const keep = {};
-      for (const id of Object.keys(tokens)) {
-        const t = tokens[id];
-        if (t.ts > now - 7 * 86400 * 1000) {
-          keep[id] = t;
+      if (tokens) {
+        for (const id of Object.keys(tokens)) {
+          const t = tokens[id];
+          if (t.ts > now - 7 * 86400 * 1000) {
+            keep[id] = t;
+          }
         }
-      }
-      if (Object.keys(keep).length < Object.keys(tokens).length) {
-        this.set('dlTokens', JSON.stringify(keep));
+
+        if (Object.keys(keep).length < Object.keys(tokens).length) {
+          this.set('dlTokens', JSON.stringify(keep));
+        }
       }
     } catch (e) {
       console.error(e);

@@ -52,9 +52,8 @@ module.exports = function(app) {
       }
     };
     if (config.fxa_client_id) {
-      csp.directives.connectSrc.push('https://accounts.firefox.com');
-      csp.directives.connectSrc.push('https://*.accounts.firefox.com');
-      csp.directives.imgSrc.push('https://firefoxusercontent.com');
+      csp.directives.connectSrc.push(config.fxa_base);
+      csp.directives.imgSrc.push(config.fxa_base);
       csp.directives.imgSrc.push('https://secure.gravatar.com');
     }
     if (config.sentry_id) {
@@ -134,8 +133,8 @@ module.exports = function(app) {
   );
   app.get(`/api/exists/:id${ID_REGEX}`, require('./exists'));
   app.get(`/api/metadata/:id${ID_REGEX}`, auth.hmac, require('./metadata'));
-  app.get('/api/filelist/:id([\\w-]{16})', auth.fxa, filelist.get);
-  app.post('/api/filelist/:id([\\w-]{16})', auth.fxa, filelist.post);
+  app.get('/api/filelist/:id', auth.fxa, filelist.get);
+  app.post('/api/filelist/:id', auth.fxa, filelist.post);
   // app.post('/api/upload', auth.fxa, require('./upload'));
   app.post(`/api/delete/:id${ID_REGEX}`, auth.owner, require('./delete'));
   app.post(`/api/password/:id${ID_REGEX}`, auth.owner, require('./password'));

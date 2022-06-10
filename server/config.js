@@ -74,6 +74,26 @@ const conf = convict({
     default: 'mock',
     env: 'REDIS_HOST'
   },
+  redis_port: {
+    format: Number,
+    default: 6379,
+    env: 'REDIS_PORT'
+  },
+  redis_user: {
+    format: String,
+    default: '',
+    env: 'REDIS_USER'
+  },
+  redis_password: {
+    format: String,
+    default: '',
+    env: 'REDIS_PASSWORD'
+  },
+  redis_db: {
+    format: String,
+    default: '',
+    env: 'REDIS_DB'
+  },
   redis_event_expire: {
     format: Boolean,
     default: false,
@@ -164,6 +184,11 @@ const conf = convict({
     format: 'url',
     default: 'http://localhost:3030',
     env: 'FXA_URL'
+  },
+  fxa_base: {
+    format: 'url',
+    default: 'http://localhost:3030',
+    env: 'FXA_BASE'
   },
   fxa_client_id: {
     format: String,

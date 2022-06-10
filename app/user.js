@@ -148,7 +148,8 @@ export default class User {
       code_challenge,
       code_challenge_method: 'S256',
       response_type: 'code',
-      scope: `profile ${this.authConfig.key_scope}`,
+      scope: `email longterm openid profile`,
+      redirect_uri: `${this.authConfig.redirect_uri}/oauth`,
       state,
       keys_jwk
     };
@@ -181,16 +182,18 @@ export default class User {
     if (state !== localState) {
       throw new Error('state mismatch');
     }
+    const requestData = new URLSearchParams();
+    requestData.append('grant_type', 'authorization_code');
+    requestData.append('code', code);
+    requestData.append('client_id', this.authConfig.client_id);
+    requestData.append('code_verifier', this.storage.get('pkceVerifier'));
+
     const tokenResponse = await fetch(this.authConfig.token_endpoint, {
       method: 'POST',
       headers: {
-        'Content-Type': 'application/json'
+        'Content-Type': 'application/x-www-form-urlencoded'
       },
-      body: JSON.stringify({
-        code,
-        client_id: this.authConfig.client_id,
-        code_verifier: this.storage.get('pkceVerifier')
-      })
+      body: requestData
     });
     const auth = await tokenResponse.json();
     const infoResponse = await fetch(this.authConfig.userinfo_endpoint, {
@@ -202,7 +205,7 @@ export default class User {
     const userInfo = await infoResponse.json();
     userInfo.access_token = auth.access_token;
     userInfo.refresh_token = auth.refresh_token;
-    userInfo.fileListKey = await getFileListKey(this.storage, auth.keys_jwe);
+    // userInfo.fileListKey = await getFileListKey(this.storage, auth.keys_jwe);
     this.info = userInfo;
     this.storage.remove('pkceVerifier');
   }
@@ -212,16 +215,17 @@ export default class User {
       return false;
     }
     try {
+      const requestData = new URLSearchParams();
+      requestData.append('grant_type', 'refresh_token');
+      requestData.append('client_id', this.authConfig.client_id);
+      requestData.append('refresh_token', this.refreshToken);
+
       const tokenResponse = await fetch(this.authConfig.token_endpoint, {
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json'
+          'Content-Type': 'application/x-www-form-urlencoded'
         },
-        body: JSON.stringify({
-          client_id: this.authConfig.client_id,
-          grant_type: 'refresh_token',
-          refresh_token: this.refreshToken
-        })
+        body: requestData
       });
       if (tokenResponse.ok) {
         const auth = await tokenResponse.json();
@@ -239,25 +243,27 @@ export default class User {
   async logout() {
     try {
       if (this.refreshToken) {
+        const requestData = new URLSearchParams();
+        requestData.append('refresh_token', this.refreshToken);
+
         await fetch(this.authConfig.revocation_endpoint, {
           method: 'POST',
           headers: {
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/x-www-form-urlencoded'
           },
-          body: JSON.stringify({
-            refresh_token: this.refreshToken
-          })
+          body: requestData
         });
       }
       if (this.bearerToken) {
+        const requestData = new URLSearchParams();
+        requestData.append('token', this.bearerToken);
+
         await fetch(this.authConfig.revocation_endpoint, {
           method: 'POST',
           headers: {
-            'Content-Type': 'application/json'
+            'Content-Type': 'application/x-www-form-urlencoded'
           },
-          body: JSON.stringify({
-            token: this.bearerToken
-          })
+          body: requestData
         });
       }
     } catch (e) {
@@ -274,9 +280,10 @@ export default class User {
       return this.storage.merge();
     }
     let list = [];
-    const key = b64ToArray(this.info.fileListKey);
-    const sha = await crypto.subtle.digest('SHA-256', key);
-    const kid = arrayToB64(new Uint8Array(sha)).substring(0, 16);
+    // const key = b64ToArray(this.info.fileListKey);
+    // const sha = await crypto.subtle.digest('SHA-256', key);
+    // const kid = arrayToB64(new Uint8Array(sha)).substring(0, 16);
+    const kid = this.info.sub;
     const retry = async () => {
       const refreshed = await this.refresh();
       if (refreshed) {
@@ -287,10 +294,7 @@ export default class User {
     };
     try {
       const encrypted = await getFileList(this.bearerToken, kid);
-      const decrypted = await streamToArrayBuffer(
-        decryptStream(blobStream(encrypted), key)
-      );
-      list = JSON.parse(textDecoder.decode(decrypted));
+      list = JSON.parse(atob(encrypted));
     } catch (e) {
       if (e.message === '401') {
         return retry(e);
@@ -301,12 +305,7 @@ export default class User {
       return changes;
     }
     try {
-      const blob = new Blob([
-        textEncoder.encode(JSON.stringify(this.storage.files))
-      ]);
-      const encrypted = await streamToArrayBuffer(
-        encryptStream(blobStream(blob), key)
-      );
+      const encrypted = btoa(JSON.stringify(this.storage.files));
       await setFileList(this.bearerToken, kid, encrypted);
     } catch (e) {
       if (e.message === '401') {

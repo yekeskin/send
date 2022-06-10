@@ -392,7 +392,7 @@ export async function getFileList(bearerToken, kid) {
   const headers = new Headers({ Authorization: `Bearer ${bearerToken}` });
   const response = await fetch(getApiUrl(`/api/filelist/${kid}`), { headers });
   if (response.ok) {
-    const encrypted = await response.blob();
+    const encrypted = await response.text();
     return encrypted;
   }
   throw new Error(response.status);

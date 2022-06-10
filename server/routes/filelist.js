@@ -2,10 +2,11 @@ const crypto = require('crypto');
 const config = require('../config');
 const storage = require('../storage');
 const Limiter = require('../limiter');
+const Stream = require('stream');
 
 function id(user, kid) {
   const sha = crypto.createHash('sha256');
-  sha.update(user);
+  sha.update(user.sub);
   sha.update(kid);
   const hash = sha.digest('hex');
   return `filelist-${hash}`;
@@ -31,7 +32,10 @@ module.exports = {
     const kid = req.params.id;
     try {
       const limiter = new Limiter(1024 * 1024 * 10);
-      const fileStream = req.pipe(limiter);
+      const inputStream = new Stream.Readable();
+      inputStream.push(req.body);
+      inputStream.push(null);
+      const fileStream = inputStream.pipe(limiter);
       await storage.set(
         id(req.user, kid),
         fileStream,
