@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = 가져오는 중…
 encryptingFile = 암호화 중…
 decryptingFile = 복호화 중…
@@ -11,13 +11,13 @@ unlockButtonLabel = 잠금 해제
 downloadButtonLabel = 다운로드
 downloadFinish = 다운로드 완료
 fileSizeProgress = ({ $partialSize } / { $totalSize })
-sendYourFilesLink = Firefox Send 써보기
+sendYourFilesLink = Send 써보기
 errorPageHeader = 오류가 발생했습니다!
 fileTooBig = 파일의 크기가 너무 큽니다. { $size } 보다 작아야 합니다.
 linkExpiredAlt = 링크가 만료됨
 notSupportedHeader = 이 브라우저는 지원되지 않습니다.
 notSupportedLink = 왜 이 브라우저는 지원이 되지 않나요?
-notSupportedOutdatedDetail = 안타깝게도 사용중인 Firefox 버전에서는 Firefox Send에 사용되는 웹 기술을 지원하지 않습니다. 브라우저 업데이트가 필요합니다.
+notSupportedOutdatedDetail = 안타깝게도 사용중인 Firefox 버전에서는 Send에 사용되는 웹 기술을 지원하지 않습니다. 브라우저 업데이트가 필요합니다.
 updateFirefox = Firefox 업데이트
 deletePopupCancel = 아니오
 deleteButtonHover = 삭제
@@ -25,8 +25,8 @@ footerLinkLegal = 법적 정보
 footerLinkPrivacy = 개인정보 보호
 footerLinkCookies = 쿠키
 passwordTryAgain = 비밀번호가 맞지 않습니다. 다시 시도해 주세요.
-javascriptRequired = Firefox Send는 JavaScript를 필요로 합니다
-whyJavascript = 왜 Firefox Send에 JavaScript가 필요하죠?
+javascriptRequired = Send는 JavaScript를 필요로 합니다
+whyJavascript = 왜 Send에 JavaScript가 필요하죠?
 enableJavascript = JavaScript를 활성화하고 다시 시도해 주세요.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }시간 { $minutes }분
@@ -39,8 +39,8 @@ passwordSetError = 이 비밀번호를 설정할 수 없었습니다
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -94,8 +94,8 @@ tooManyArchives =
        *[other] { $count }개의 아카이브만 허용됩니다.
     }
 expiredTitle = 이 링크는 만료되었습니다.
-notSupportedDescription = { -send-brand }는 이 브라우저와 작동하지 않습니다. { -send-short-brand }는 최신 { -firefox }와 가장 잘 작동하며, 대부분의 최신 웹 브라우저와도 잘 작동합니다.
-downloadFirefox = { -firefox } 다운로드
+notSupportedDescription = { -send-brand }는 이 브라우저와 작동하지 않습니다. { -send-short-brand }는 최신  와 가장 잘 작동하며, 대부분의 최신 웹 브라우저와도 잘 작동합니다.
+downloadFirefox =   다운로드
 legalTitle = { -send-short-brand } 개인정보처리방침
 legalDateStamp = 버전 1.0, 2019년 3월 12일자
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -113,7 +113,7 @@ emailPlaceholder = 이메일 입력
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = { $size }까지 파일을 보낼 수 있게 로그인
 signInOnlyButton = 로그인
-accountBenefitTitle = { -firefox } 계정 생성 또는 로그인
+accountBenefitTitle =   계정 생성 또는 로그인
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = { $size }까지의 파일 공유
 accountBenefitDownloadCount = 더 많은 사람들과 함께 파일 공유
@@ -130,7 +130,7 @@ noStreamsWarning = 이 브라우저는 이렇게 큰 파일은 암호화 해제�
 noStreamsOptionCopy = 다른 브라우저에서 열 수 있도록 링크를 복사
 noStreamsOptionFirefox = 우리가 애용하는 브라우저를 사용해 보세요
 noStreamsOptionDownload = 이 브라우저로 계속하기
-downloadFirefoxPromo = 완전히 새로운 { -firefox }로 { -send-short-brand }가 제공됩니다.
+downloadFirefoxPromo = 완전히 새로운  로 { -send-short-brand }가 제공됩니다.
 # the next line after the colon contains a file name
 shareLinkDescription = 파일 링크 공유:
 shareLinkButton = 링크 공유

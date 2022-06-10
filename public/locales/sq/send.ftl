@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = Po importohet…
 encryptingFile = Po fshehtëzohet…
 decryptingFile = Po shfshehtëzohet…
@@ -19,13 +19,13 @@ unlockButtonLabel = Zhbllokoje
 downloadButtonLabel = Shkarkoje
 downloadFinish = Shkarkim i Plotësuar
 fileSizeProgress = ({ $partialSize } nga { $totalSize }) gjithsej
-sendYourFilesLink = Provoni Firefox Send
+sendYourFilesLink = Provoni Send
 errorPageHeader = Diç shkoi ters!
 fileTooBig = Kjo kartelë është shumë e madhe për ngarkim. Do të duhej të ishte më pak se { $size }.
 linkExpiredAlt = Lidhja skadoi
 notSupportedHeader = Shfletuesi juaj nuk mbulohet.
 notSupportedLink = Pse nuk mbulohet ky shfletues?
-notSupportedOutdatedDetail = Mjerisht, ky version i Firefox-it nuk e mbulon teknologjinë web mbi të cilën bazohet Firefox Send. Do t’ju duhet të përditësoni shfletuesin tuaj.
+notSupportedOutdatedDetail = Mjerisht, ky version i Firefox-it nuk e mbulon teknologjinë web mbi të cilën bazohet Send. Do t’ju duhet të përditësoni shfletuesin tuaj.
 updateFirefox = Përditësojeni Firefox-in
 deletePopupCancel = Anuloje
 deleteButtonHover = Fshije
@@ -33,8 +33,8 @@ footerLinkLegal = Ligjore
 footerLinkPrivacy = Privatësi
 footerLinkCookies = Cookies
 passwordTryAgain = Fjalëkalim i pasaktë. Riprovoni.
-javascriptRequired = Firefox Send lyp JavaScript
-whyJavascript = Ç’i duhet Firefox Send-it JavaScript-i?
+javascriptRequired = Send lyp JavaScript
+whyJavascript = Ç’i duhet Send-it JavaScript-i?
 enableJavascript = Ju lutemi, aktivizoni JavaScript-in dhe riprovoni.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }h { $minutes }m
@@ -47,8 +47,8 @@ passwordSetError = Ky fjalëkalim s’u caktua dot
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -108,8 +108,8 @@ tooManyArchives =
        *[other] Lejohen vetëm { $count } arkiva.
     }
 expiredTitle = Kjo lidhje ka skaduar.
-notSupportedDescription = { -send-brand } s’do të funksionojë me këtë shfletues. { -send-short-brand } funksionin më mirë me versionin më të ri të { -firefox }, dhe do të funksionojë me versionin e tanishëm të shumicës së shfletuesve.
-downloadFirefox = Shkarkoni { -firefox }
+notSupportedDescription = { -send-brand } s’do të funksionojë me këtë shfletues. { -send-short-brand } funksionin më mirë me versionin më të ri të  , dhe do të funksionojë me versionin e tanishëm të shumicës së shfletuesve.
+downloadFirefox = Shkarkoni  
 legalTitle = Njoftim Privatësie Për { -send-short-brand }
 legalDateStamp = Version 1.0, daton 12 mars, 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -127,7 +127,7 @@ emailPlaceholder = Jepni email-in tuaj
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Bëni hyrjen që të dërgoni deri më { $size }
 signInOnlyButton = Hyni
-accountBenefitTitle = Krijoni një Llogari { -firefox } ose bëni hyrjen në një të tillë
+accountBenefitTitle = Krijoni një Llogari   ose bëni hyrjen në një të tillë
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Ndani me të tjerët kartela deri { $size }
 accountBenefitDownloadCount = Ndani kartela me më tepër persona
@@ -145,7 +145,7 @@ noStreamsWarning = Ky shfletues mund të mos jetë në gjendje të shfshehtëzoj
 noStreamsOptionCopy = Kopjoje lidhjen për ta hapur në një tjetër shfletues
 noStreamsOptionFirefox = Provoni shfletuesin tonë të parapëlqyer
 noStreamsOptionDownload = Vazhdo me këtë shfletues
-downloadFirefoxPromo = { -send-short-brand } ju vjen nga { -firefox }-i i ri fringo.
+downloadFirefoxPromo = { -send-short-brand } ju vjen nga  -i i ri fringo.
 # the next line after the colon contains a file name
 shareLinkDescription = Ndani me të tjerët lidhjen për te kartela juaj:
 shareLinkButton = Ndani me të tjerët lidhjen

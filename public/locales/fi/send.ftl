@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = Tuodaan…
 encryptingFile = Salataan...
 decryptingFile = Puretaan salausta...
@@ -19,13 +19,13 @@ unlockButtonLabel = Avaa
 downloadButtonLabel = Lataa
 downloadFinish = Lataus valmis
 fileSizeProgress = { $partialSize } / { $totalSize }
-sendYourFilesLink = Kokeile Firefox Send -palvelua
+sendYourFilesLink = Kokeile Send -palvelua
 errorPageHeader = Jokin meni pieleen!
 fileTooBig = Tämä tiedosto on liian suuri ladattavaksi. Sen pitäisi olla pienempi kuin { $size }.
 linkExpiredAlt = Linkki on vanhentunut
 notSupportedHeader = Selaintasi ei tueta.
 notSupportedLink = Miksi selaintani ei tueta?
-notSupportedOutdatedDetail = Valitettavasti tämä Firefoxin versio ei tue Firefox Sendiä käyttävää web-tekniikkaa. Sinun on päivitettävä selaimesi.
+notSupportedOutdatedDetail = Valitettavasti tämä Firefoxin versio ei tue Sendiä käyttävää web-tekniikkaa. Sinun on päivitettävä selaimesi.
 updateFirefox = Päivitä Firefox
 deletePopupCancel = Peruuta
 deleteButtonHover = Poista
@@ -34,7 +34,7 @@ footerLinkPrivacy = Tietosuoja
 footerLinkCookies = Evästeet
 passwordTryAgain = Väärä salasana. Yritä uudelleen.
 javascriptRequired = Firefox-Send vaatii JavaScriptin
-whyJavascript = Miksi Firefox Send vaatii JavaScriptin?
+whyJavascript = Miksi Send vaatii JavaScriptin?
 enableJavascript = Ota JavaScript käyttöön ja yritä uudelleen.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } t { $minutes } min
@@ -47,8 +47,8 @@ passwordSetError = Tätä salasanaa ei voitu asettaa
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -108,8 +108,8 @@ tooManyArchives =
        *[other] Vain { $count } arkistoa on sallittu.
     }
 expiredTitle = Tämä linkki on vanhentunut.
-notSupportedDescription = { -send-brand } ei toimi tällä selaimella. { -send-short-brand } toimii parhaiten { -firefox }in uusimmalla versiolla, ja toimii useimpien selainten uusimmilla versioilla.
-downloadFirefox = Lataa { -firefox }
+notSupportedDescription = { -send-brand } ei toimi tällä selaimella. { -send-short-brand } toimii parhaiten  in uusimmalla versiolla, ja toimii useimpien selainten uusimmilla versioilla.
+downloadFirefox = Lataa  
 legalTitle = { -send-short-brand }-yksityisyyskäytäntö
 legalDateStamp = Versio 1.0, päivätty 13. maaliskuuta 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -127,7 +127,7 @@ emailPlaceholder = Kirjoita sähköpostiosoitteesi
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Kirjautumalla voit lähettää jopa { $size } kokoisia tiedostoja
 signInOnlyButton = Kirjaudu sisään
-accountBenefitTitle = Luo { -firefox }-tili tai kirjaudu sisään
+accountBenefitTitle = Luo  -tili tai kirjaudu sisään
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Jaa jopa { $size } kokoisia tiedostoja
 accountBenefitDownloadCount = Jaa tiedostoja useamman ihmisen kesken
@@ -145,7 +145,7 @@ noStreamsWarning = Tämä selain ei välttämättä osaa purkaa salausta näin s
 noStreamsOptionCopy = Kopioi linkki avataksesi sen toisessa selaimessa
 noStreamsOptionFirefox = Kokeile suosikkiselaintamme
 noStreamsOptionDownload = Jatka tällä selaimella
-downloadFirefoxPromo = { -send-short-brand } on olemassa kiitos uuden { -firefox }in.
+downloadFirefoxPromo = { -send-short-brand } on olemassa kiitos uuden  in.
 # the next line after the colon contains a file name
 shareLinkDescription = Jaa linkki tiedostoosi:
 shareLinkButton = Jaa linkki

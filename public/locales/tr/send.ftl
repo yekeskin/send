@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = İçe aktarılıyor…
 encryptingFile = Şifreleniyor…
 decryptingFile = Şifre çözülüyor…
@@ -15,13 +15,13 @@ unlockButtonLabel = Kilidi aç
 downloadButtonLabel = İndir
 downloadFinish = İndirme tamamlandı
 fileSizeProgress = ({ $partialSize } / { $totalSize })
-sendYourFilesLink = Firefox Send’i deneyin
+sendYourFilesLink = Send’i deneyin
 errorPageHeader = Bir şeyler ters gitti!
 fileTooBig = Dosyanız çok büyük. En fazla { $size } boyutunda olmalı.
 linkExpiredAlt = Bağlantı zaman aşımına uğramış
 notSupportedHeader = Tarayıcınız desteklenmiyor.
 notSupportedLink = Tarayıcım neden desteklenmiyor?
-notSupportedOutdatedDetail = Kullandığınız Firefox sürümü Firefox Send için gereken web teknolojilerini desteklemiyor. Tarayıcınızı güncellemeniz gerekiyor.
+notSupportedOutdatedDetail = Kullandığınız Firefox sürümü Send için gereken web teknolojilerini desteklemiyor. Tarayıcınızı güncellemeniz gerekiyor.
 updateFirefox = Firefox’u güncelle
 deletePopupCancel = Vazgeç
 deleteButtonHover = Sil
@@ -29,8 +29,8 @@ footerLinkLegal = Yasal Bilgiler
 footerLinkPrivacy = Gizlilik
 footerLinkCookies = Çerezler
 passwordTryAgain = Yanlış parola. Yeniden deneyin.
-javascriptRequired = Firefox Send için JavaScript gerekir
-whyJavascript = Firefox Send neden JavaScript kullanıyor?
+javascriptRequired = Send için JavaScript gerekir
+whyJavascript = Send neden JavaScript kullanıyor?
 enableJavascript = Lütfen JavaScript'i etkinleştirip yeniden deneyin.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } sa { $minutes } dk
@@ -43,8 +43,8 @@ passwordSetError = Parola ayarlanamadı
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -104,8 +104,8 @@ tooManyArchives =
        *[other] En fazla { $count } arşive izin veriliyor.
     }
 expiredTitle = Bu bağlantının süresi doldu.
-notSupportedDescription = { -send-brand } bu tarayıcıyı desteklemiyor. { -send-short-brand } en iyi şekilde { -firefox }’un son sürümüyle ve çoğu tarayıcının güncel sürümüyle çalışır.
-downloadFirefox = { -firefox }’u indir
+notSupportedDescription = { -send-brand } bu tarayıcıyı desteklemiyor. { -send-short-brand } en iyi şekilde  ’un son sürümüyle ve çoğu tarayıcının güncel sürümüyle çalışır.
+downloadFirefox =  ’u indir
 legalTitle = { -send-short-brand } Gizlilik Bildirimi
 legalDateStamp = Sürüm 1.0, 12 Mart 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -123,7 +123,7 @@ emailPlaceholder = E-posta adresinizi yazın
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = { $size }’ye kadar dosya göndermek için giriş yapın
 signInOnlyButton = Giriş yap
-accountBenefitTitle = { -firefox } Hesabı açın veya giriş yapın
+accountBenefitTitle =   Hesabı açın veya giriş yapın
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = { $size } boyutlu dosyaları paylaşma
 accountBenefitDownloadCount = Daha fazla kişiyle dosya paylaşma
@@ -141,7 +141,7 @@ noStreamsWarning = Bu tarayıcı bu kadar büyük bir dosyanın şifresini çöz
 noStreamsOptionCopy = Bağlantıyı başka bir tarayıcıda açmak için kopyala
 noStreamsOptionFirefox = En sevdiğimiz tarayıcıyı deneyin
 noStreamsOptionDownload = Bu tarayıcıyla devam edin
-downloadFirefoxPromo = { -send-short-brand }, yepyeni { -firefox } tarafından sunulmaktadır.
+downloadFirefoxPromo = { -send-short-brand }, yepyeni   tarafından sunulmaktadır.
 # the next line after the colon contains a file name
 shareLinkDescription = Dosyanızın bağlantısını paylaşın:
 shareLinkButton = Bağlantıyı paylaş

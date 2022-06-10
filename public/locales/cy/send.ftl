@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = Mewnforio…
 encryptingFile = Wrthi'n amgryptio…
 decryptingFile = Wrthi'n dadgryptio…
@@ -27,13 +27,13 @@ unlockButtonLabel = Datgloi
 downloadButtonLabel = Llwytho i Lawr
 downloadFinish = Llwytho wedi Gorffen
 fileSizeProgress = ({ $partialSize } o { $totalSize })
-sendYourFilesLink = Rhowch gynnig ar Firefox Send
+sendYourFilesLink = Rhowch gynnig ar Send
 errorPageHeader = Aeth rhywbeth o'i le!
 fileTooBig = Mae'r ffeil yn rhy fawr i'w llwytho. Dylai fod yn llai na { $size }.
 linkExpiredAlt = Mae'r ddolen wedi dod i ben
 notSupportedHeader = Nid yw eich porwr yn cael ei gynnal.
 notSupportedLink = Pam nad yw fy mhorwr yn cael ei gynnal?
-notSupportedOutdatedDetail = Yn anffodus, nid yw'r fersiwn yma o Firefox yn cynnal y technoleg gwe sy'n gyrru Firefox Send. Bydd angen i chi ddiweddaru eich porwr.
+notSupportedOutdatedDetail = Yn anffodus, nid yw'r fersiwn yma o Firefox yn cynnal y technoleg gwe sy'n gyrru Send. Bydd angen i chi ddiweddaru eich porwr.
 updateFirefox = Diweddaru Firefox
 deletePopupCancel = Diddymu
 deleteButtonHover = Dileu
@@ -41,8 +41,8 @@ footerLinkLegal = Cyfreithiol
 footerLinkPrivacy = Preifatrwydd
 footerLinkCookies = Cwcis
 passwordTryAgain = Cyfrinair anghywir. Ceisiwch eto.
-javascriptRequired = Mae Firefox Send angen JavaScript
-whyJavascript = Pam fod Firefox Send angen JavaScript?
+javascriptRequired = Mae Send angen JavaScript
+whyJavascript = Pam fod Send angen JavaScript?
 enableJavascript = Galluogwch JavaScript a cheisio eto.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }a { $minutes }m
@@ -55,8 +55,8 @@ passwordSetError = Nid oedd modd gosod y cyfrinair hwn
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Anfon
 -firefox = Firefox
 -mozilla = Mozilla
@@ -140,8 +140,8 @@ tooManyArchives =
        *[other] Dim ond { $count } archif sy'n cael eu caniatáu.
     }
 expiredTitle = Mae'r ddolen hon wedi dod i ben.
-notSupportedDescription = Ni fydd { -send-brand } yn gweithio gyda'r porwr hwn. Mae { -send-short-brand } yn gweithio orau gyda'r fersiwn ddiweddaraf o { -firefox }, a bydd yn gweithio gyda'r fersiwn gyfredol o'r rhan fwyaf o borwyr.
-downloadFirefox = Llwytho { -firefox } i Lawr
+notSupportedDescription = Ni fydd { -send-brand } yn gweithio gyda'r porwr hwn. Mae { -send-short-brand } yn gweithio orau gyda'r fersiwn ddiweddaraf o  , a bydd yn gweithio gyda'r fersiwn gyfredol o'r rhan fwyaf o borwyr.
+downloadFirefox = Llwytho   i Lawr
 legalTitle = Hysbysiad Preifatrwydd { -send-short-brand }
 legalDateStamp = Fersiwn 1.0, dyddiedig Mawrth 12, 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -159,7 +159,7 @@ emailPlaceholder = Rhowch eich e-bost
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Mewngofnodi i anfon hyd at { $size }
 signInOnlyButton = Mewngofnodi
-accountBenefitTitle = Creu Cyfrif { -firefox } neu fewngofnodi
+accountBenefitTitle = Creu Cyfrif   neu fewngofnodi
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Rhannu ffeiliau hyd at { $size }
 accountBenefitDownloadCount = Rhannu ffeiliau gyda mwy o bobl
@@ -181,7 +181,7 @@ noStreamsWarning = Efallai na fydd y porwr hwn yn gallu dadgryptio ffeil mor faw
 noStreamsOptionCopy = Copïwch y ddolen i'w agor mewn porwr arall
 noStreamsOptionFirefox = Rhowch gynnig ar ein hoff porwr
 noStreamsOptionDownload = Parhau gyda'r porwr hwn
-downloadFirefoxPromo = Mae { -send-short-brand } yn cael ei gynnig i ci gan y { -firefox } newydd.
+downloadFirefoxPromo = Mae { -send-short-brand } yn cael ei gynnig i ci gan y   newydd.
 # the next line after the colon contains a file name
 shareLinkDescription = Rhannu'r ddolen i'ch ffeil:
 shareLinkButton = Rhannu'r ddolen

@@ -1,4 +1,4 @@
-# Firefox Send is a brand name and should not be localized.
+# Send is a brand name and should not be localized.
 title = فَيَرفُكس سِنْد
 siteFeedback = الانطباعات
 importingFile = يستورد…
@@ -56,8 +56,8 @@ passwordSetError = يجب ألا تُضبط كلمة السر هذه
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -141,8 +141,8 @@ tooManyArchives =
        *[other] لا يُسمح إلا ب‍ { $count } أرشيف.
     }
 expiredTitle = انقضى وقت الرابط.
-notSupportedDescription = لن يعمل { -send-brand } في هذا المتصفح. أفضل المتصفحات التي يعمل معها { -send-short-brand } هو { -firefox } بآخر إصدارة، كما وأحدث إصدارة من أغلب المتصفحات الموجودة.
-downloadFirefox = نزِّل { -firefox }
+notSupportedDescription = لن يعمل { -send-brand } في هذا المتصفح. أفضل المتصفحات التي يعمل معها { -send-short-brand } هو   بآخر إصدارة، كما وأحدث إصدارة من أغلب المتصفحات الموجودة.
+downloadFirefox = نزِّل  
 legalTitle = تنويه خصوصية { -send-short-brand }
 legalDateStamp = الإصدارة ١٫٠ بتاريخ ١٢ مارس ٢٠١٩
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -159,7 +159,7 @@ emailPlaceholder = أدخل بريدك الإلكتروني
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = لِج وأرسِل ملفات يصل حجمها { $size }
 signInOnlyButton = لِج
-accountBenefitTitle = أنشِئ حساب { -firefox } أو لِج إلى حسابك
+accountBenefitTitle = أنشِئ حساب   أو لِج إلى حسابك
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = شارِك ملفات يصل حجمها { $size }
 accountBenefitDownloadCount = شارِك الملفات مع أناس أكثر وأكثر
@@ -181,7 +181,7 @@ noStreamsWarning = هناك احتمال بألا يقدر هذا المتصفح
 noStreamsOptionCopy = انسخ الرابط لتفتحه في متصفح آخر
 noStreamsOptionFirefox = جرّب متصفّحنا المفضل
 noStreamsOptionDownload = واصِل بهذا المتصفح
-downloadFirefoxPromo = ‏{ -send-short-brand } تقدمة { -firefox } الجديد الأنيق.
+downloadFirefoxPromo = ‏{ -send-short-brand } تقدمة   الجديد الأنيق.
 # the next line after the colon contains a file name
 shareLinkDescription = شارِك الرابط الذي يصل إلى الملف:
 shareLinkButton = شارِك الرابط

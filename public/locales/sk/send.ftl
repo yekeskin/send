@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = Importuje sa…
 encryptingFile = Šifruje sa…
 decryptingFile = Dešifruje sa…
@@ -21,13 +21,13 @@ unlockButtonLabel = Odomknúť
 downloadButtonLabel = Prevziať
 downloadFinish = Preberanie bolo dokončené
 fileSizeProgress = ({ $partialSize } z { $totalSize })
-sendYourFilesLink = Vyskúšajte Firefox Send
+sendYourFilesLink = Vyskúšajte Send
 errorPageHeader = Vyskytol sa problém.
 fileTooBig = Súbor je príliš veľký. Mal by byť menší než { $size }.
 linkExpiredAlt = Platnosť odkazu vypršala
 notSupportedHeader = Váš prehliadač nie je podporovaný.
 notSupportedLink = Prečo nie je môj prehliadač podporovaný?
-notSupportedOutdatedDetail = Žiaľ, táto verzia Firefoxu nepodporuje webovú technológiu, ktorá poháňa Firefox Send. Budete musieť aktualizovať svoj prehliadač.
+notSupportedOutdatedDetail = Žiaľ, táto verzia Firefoxu nepodporuje webovú technológiu, ktorá poháňa Send. Budete musieť aktualizovať svoj prehliadač.
 updateFirefox = Aktualizovať Firefox
 deletePopupCancel = Zrušiť
 deleteButtonHover = Odstrániť
@@ -35,8 +35,8 @@ footerLinkLegal = Právne informácie
 footerLinkPrivacy = Súkromie
 footerLinkCookies = Cookies
 passwordTryAgain = Nesprávne heslo. Skúste to znova.
-javascriptRequired = Firefox Send vyžaduje JavaScript
-whyJavascript = Prečo Firefox Send vyžaduje JavaScript?
+javascriptRequired = Send vyžaduje JavaScript
+whyJavascript = Prečo Send vyžaduje JavaScript?
 enableJavascript = Prosím, povoľte JavaScript a skúste to znova.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } hod. { $minutes } min.
@@ -49,8 +49,8 @@ passwordSetError = Heslo nešlo nastaviť
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -117,7 +117,7 @@ tooManyArchives =
     }
 expiredTitle = Platnosť odkazu vypršala.
 notSupportedDescription = { -send-brand } nebude v tomto prehliadači fungovať. { -send-short-brand } najlepšie funguje v najnovšej verzii { -firefox(case: "gen") } alebo aktuálnych verziách najpoužívanejších prehliadačov.
-downloadFirefox = Prevziať { -firefox }
+downloadFirefox = Prevziať  
 legalTitle = Zásady ochrany súkromia služby { -send-short-brand }
 legalDateStamp = Verzia 1.0, z 12. marca 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -135,7 +135,7 @@ emailPlaceholder = Zadajte e-mailovú adresu
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Pre odoslanie súborov s veľkosťou až { $size }, sa, prosím, prihláste
 signInOnlyButton = Prihlásiť sa
-accountBenefitTitle = Vytvorte si účet { -firefox } alebo sa prihláste
+accountBenefitTitle = Vytvorte si účet   alebo sa prihláste
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Zdieľanie súborov s veľkosťou až { $size }
 accountBenefitDownloadCount = Zdieľanie súborov s viacerými ľuďmi
@@ -154,7 +154,7 @@ noStreamsWarning = Tento prehliadač nemusí byť schopný dešifrovať takto ve
 noStreamsOptionCopy = Skopírovať odkaz pre otvorenie v inom prehliadači
 noStreamsOptionFirefox = Vyskúšajte náš obľúbený prehliadač
 noStreamsOptionDownload = Pokračovať v tomto prehliadači
-downloadFirefoxPromo = { -send-short-brand } vám prináša najnovší { -firefox }.
+downloadFirefoxPromo = { -send-short-brand } vám prináša najnovší  .
 # the next line after the colon contains a file name
 shareLinkDescription = Zdieľajte odkaz na súbor:
 shareLinkButton = Zdieľať odkaz

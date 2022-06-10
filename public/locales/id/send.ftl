@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = Mengimpor…
 encryptingFile = Mengenkripsi...
 decryptingFile = Mendekripsi...
@@ -17,13 +17,13 @@ unlockButtonLabel = Buka
 downloadButtonLabel = Unduh
 downloadFinish = Unduhan Selesai
 fileSizeProgress = ({ $partialSize } dari { $totalSize })
-sendYourFilesLink = Coba Firefox Send
+sendYourFilesLink = Coba Send
 errorPageHeader = Terjadi kesalahan!
 fileTooBig = Berkas terlalu besar untuk diunggah. Harus kurang dari { $size }.
 linkExpiredAlt = Tautan kedaluwarsa
 notSupportedHeader = Peramban Anda tidak mendukung.
 notSupportedLink = Mengapa peramban saya tidak didukung?
-notSupportedOutdatedDetail = Sayangnya Firefox versi ini tidak mendukung teknologi web yang menggerakkan Firefox Send. Anda perlu memperbarui peramban Anda.
+notSupportedOutdatedDetail = Sayangnya Firefox versi ini tidak mendukung teknologi web yang menggerakkan Send. Anda perlu memperbarui peramban Anda.
 updateFirefox = Perbarui Firefox
 deletePopupCancel = Batal
 deleteButtonHover = Hapus
@@ -31,8 +31,8 @@ footerLinkLegal = Legal
 footerLinkPrivacy = Privasi
 footerLinkCookies = Kuki
 passwordTryAgain = Sandi salah. Silakan coba lagi.
-javascriptRequired = Firefox Send membutuhkan JavaScript.
-whyJavascript = Mengapa Firefox Send membutuhkan JavaScript?
+javascriptRequired = Send membutuhkan JavaScript.
+whyJavascript = Mengapa Send membutuhkan JavaScript?
 enableJavascript = Silakan aktifkan JavaScript dan coba lagi.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }j { $minutes }m
@@ -45,8 +45,8 @@ passwordSetError = Tidak bisa menyetel sandi ini
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -100,8 +100,8 @@ tooManyArchives =
        *[other] Hanya { $count } arsip diperbolehkan.
     }
 expiredTitle = Tautan ini telah kadaluarsa.
-notSupportedDescription = { -send-brand } tidak dapat digunakan dengan peramban ini. { -send-short-brand } bekerja maksimal dengan versi terbaru { -firefox }, dan akan bekerja dengan versi terkini mayoritas peramban.
-downloadFirefox = Unduh { -firefox }
+notSupportedDescription = { -send-brand } tidak dapat digunakan dengan peramban ini. { -send-short-brand } bekerja maksimal dengan versi terbaru  , dan akan bekerja dengan versi terkini mayoritas peramban.
+downloadFirefox = Unduh  
 legalTitle = Pemberitahuan Privasi { -send-short-brand }
 legalDateStamp = Versi 1.0, tertanggal 12 Maret 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -119,7 +119,7 @@ emailPlaceholder = Masukkan surel Anda
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Masuk untuk dapat mengirim hingga { $size }
 signInOnlyButton = Masuk
-accountBenefitTitle = Buat { -firefox } Account atau masuk
+accountBenefitTitle = Buat   Account atau masuk
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Bagikan berkas hingga { $size }
 accountBenefitDownloadCount = Bagikan berkas kepada lebih banyak orang
@@ -136,7 +136,7 @@ noStreamsWarning = Peramban ini mungkin tidak dapat mendekripsi berkas sebesar i
 noStreamsOptionCopy = Salin tautan untuk dibuka di peramban lainnya
 noStreamsOptionFirefox = Coba peramban favorit kami
 noStreamsOptionDownload = Lanjutkan dengan peramban ini
-downloadFirefoxPromo = { -send-short-brand } dipersembahkan untuk Anda oleh { -firefox } terbaru.
+downloadFirefoxPromo = { -send-short-brand } dipersembahkan untuk Anda oleh   terbaru.
 # the next line after the colon contains a file name
 shareLinkDescription = Bagikan tautan ke berkas Anda:
 shareLinkButton = Bagikan tautan

@@ -25,11 +25,11 @@ module.exports = function(state, emit) {
             >
             <span
               >describes how we handle that information. Below are the top
-              things you should know about Firefox Send. You can also view the
+              things you should know about Send. You can also view the
               code</span
             >
             <a
-              href="https://github.com/mozilla/send/blob/master/docs/metrics.md"
+              href="https://github.com/yekmyk/send/blob/master/docs/metrics.md"
               target="__blank"
               rel="noopener noreferrer"
               class="link-blue hover:underline"

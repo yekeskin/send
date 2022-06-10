@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = Імпортуємо...
 encryptingFile = Шифруємо...
 decryptingFile = Розшифровуємо...
@@ -21,13 +21,13 @@ unlockButtonLabel = Розблокувати
 downloadButtonLabel = Завантажити
 downloadFinish = Завантаження завершено
 fileSizeProgress = ({ $partialSize } з { $totalSize })
-sendYourFilesLink = Спробуйте Firefox Send
+sendYourFilesLink = Спробуйте Send
 errorPageHeader = Щось пішло не так!
 fileTooBig = Цей файл завеликий для вивантаження. Він має бути меншим за { $size }.
 linkExpiredAlt = Час дії посилання минув
 notSupportedHeader = Ваш браузер не підтримується.
 notSupportedLink = Чому мій браузер не підтримується?
-notSupportedOutdatedDetail = На жаль, ця версія Firefox не підтримує веб-технологію, завдяки якій працює Firefox Send. Вам потрібно оновити свій браузер.
+notSupportedOutdatedDetail = На жаль, ця версія Firefox не підтримує веб-технологію, завдяки якій працює Send. Вам потрібно оновити свій браузер.
 updateFirefox = Оновити Firefox
 deletePopupCancel = Скасувати
 deleteButtonHover = Видалити
@@ -35,8 +35,8 @@ footerLinkLegal = Права
 footerLinkPrivacy = Приватність
 footerLinkCookies = Куки
 passwordTryAgain = Невірний пароль. Спробуйте знову.
-javascriptRequired = Firefox Send потребує JavaScript
-whyJavascript = Чому для Firefox Send потрібен JavaScript?
+javascriptRequired = Send потребує JavaScript
+whyJavascript = Чому для Send потрібен JavaScript?
 enableJavascript = Будь ласка, увімкніть JavaScript та спробуйте знову.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } год. { $minutes } хв.
@@ -49,8 +49,8 @@ passwordSetError = Неможливо встановити цей пароль
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -116,8 +116,8 @@ tooManyArchives =
        *[other] Дозволяється лише { $count } архівів.
     }
 expiredTitle = Термін дії цього посилання завершився.
-notSupportedDescription = { -send-brand } не працюватиме з цим браузером. { -send-short-brand } найкраще працює з найновішою версією { -firefox }, а також з більшістю інших браузерів.
-downloadFirefox = Завантажити { -firefox }
+notSupportedDescription = { -send-brand } не працюватиме з цим браузером. { -send-short-brand } найкраще працює з найновішою версією  , а також з більшістю інших браузерів.
+downloadFirefox = Завантажити  
 legalTitle = Повідомлення про приватність { -send-short-brand }
 legalDateStamp = Версія 1.0 від 12 березня 2019 року
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -135,7 +135,7 @@ emailPlaceholder = Введіть свою електронну пошту
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Увійдіть, щоб надсилати файли розміром до { $size }
 signInOnlyButton = Увійти
-accountBenefitTitle = Створіть обліковий запис { -firefox } або увійдіть
+accountBenefitTitle = Створіть обліковий запис   або увійдіть
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Обмінюйтесь файлами розміром до { $size }
 accountBenefitDownloadCount = Обмінюйтесь файлами з більшою кількістю людей
@@ -154,7 +154,7 @@ noStreamsWarning = Цьому браузеру може не вдатися ро
 noStreamsOptionCopy = Скопіюйте посилання, щоб відкрити його в іншому браузері
 noStreamsOptionFirefox = Спробуйте наш улюблений браузер
 noStreamsOptionDownload = Продовжити в цьому браузері
-downloadFirefoxPromo = { -send-short-brand } доступний для вас в цілком новому { -firefox }.
+downloadFirefoxPromo = { -send-short-brand } доступний для вас в цілком новому  .
 # the next line after the colon contains a file name
 shareLinkDescription = Надішліть посилання на свій файл:
 shareLinkButton = Поділитись посиланням

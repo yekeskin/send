@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = Đang nhập...
 encryptingFile = Đang mã hóa...
 decryptingFile = Đang giải mã...
@@ -17,13 +17,13 @@ unlockButtonLabel = Mở khóa
 downloadButtonLabel = Tải xuống
 downloadFinish = Tải xuống hoàn tất
 fileSizeProgress = ({ $partialSize } trong { $totalSize })
-sendYourFilesLink = Dùng thử Firefox Send
+sendYourFilesLink = Dùng thử Send
 errorPageHeader = Có gì đó không ổn!
 fileTooBig = Tập tin này quá lớn để tải lên. Kích thước tập tin phải nhỏ hơn { $size }.
 linkExpiredAlt = Liên kết đã hết hạn
 notSupportedHeader = Trình duyệt của bạn không được hỗ trợ.
 notSupportedLink = Tại sao trình duyệt của tôi không được hỗ trợ?
-notSupportedOutdatedDetail = Thật không may là phiên bản Firefox này không hỗ trợ công nghệ được sử dụng trong Firefox Send. Bạn cần cập nhật trình duyệt của bạn.
+notSupportedOutdatedDetail = Thật không may là phiên bản Firefox này không hỗ trợ công nghệ được sử dụng trong Send. Bạn cần cập nhật trình duyệt của bạn.
 updateFirefox = Cập nhật Firefox
 deletePopupCancel = Hủy bỏ
 deleteButtonHover = Xóa
@@ -31,8 +31,8 @@ footerLinkLegal = Pháp lý
 footerLinkPrivacy = Quyền riêng tư
 footerLinkCookies = Cookie
 passwordTryAgain = Sai mật khẩu. Vui lòng thử lại.
-javascriptRequired = Firefox Send cần JavaScript
-whyJavascript = Tại sao Firefox Send cần JavaScript?
+javascriptRequired = Send cần JavaScript
+whyJavascript = Tại sao Send cần JavaScript?
 enableJavascript = Vui lòng kích hoạt JavaScript và thử lại.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } giờ { $minutes } phút
@@ -45,8 +45,8 @@ passwordSetError = Không thể đặt mật khẩu này
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -100,8 +100,8 @@ tooManyArchives =
        *[other] Chỉ cho phép { $count } lưu trữ.
     }
 expiredTitle = Liên kết này đã hết hạn.
-notSupportedDescription = { -send-brand } sẽ không hoạt động với trình duyệt này. { -send-short-brand } hoạt động tốt nhất với phiên bản { -firefox } mới nhất và sẽ hoạt động với phiên bản hiện tại của hầu hết các trình duyệt.
-downloadFirefox = Tải xuống { -firefox }
+notSupportedDescription = { -send-brand } sẽ không hoạt động với trình duyệt này. { -send-short-brand } hoạt động tốt nhất với phiên bản   mới nhất và sẽ hoạt động với phiên bản hiện tại của hầu hết các trình duyệt.
+downloadFirefox = Tải xuống  
 legalTitle = Thông báo bảo mật { -send-short-brand }
 legalDateStamp = Phiên bản 1.0, ngày 12 tháng 3 năm 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -119,7 +119,7 @@ emailPlaceholder = Nhập email của bạn
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Đăng nhập để gửi tối đa { $size }
 signInOnlyButton = Đăng nhập
-accountBenefitTitle = Tạo tài khoản { -firefox } hoặc đăng nhập
+accountBenefitTitle = Tạo tài khoản   hoặc đăng nhập
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Chia sẻ tập tin lên tới { $size }
 accountBenefitDownloadCount = Chia sẻ tập tin với nhiều người hơn
@@ -136,7 +136,7 @@ noStreamsWarning = Trình duyệt này có khả năng không thể giải mã m
 noStreamsOptionCopy = Sao chép liên kết để mở trong một trình duyệt khác
 noStreamsOptionFirefox = Hãy dùng thử trình duyệt yêu thích của chúng tôi
 noStreamsOptionDownload = Tiếp tục với trình duyệt này
-downloadFirefoxPromo = { -send-short-brand } được mang đến cho bạn bởi { -firefox } hoàn toàn mới.
+downloadFirefoxPromo = { -send-short-brand } được mang đến cho bạn bởi   hoàn toàn mới.
 # the next line after the colon contains a file name
 shareLinkDescription = Chia sẻ liên kết đến tập tin của bạn:
 shareLinkButton = Chia sẻ liên kết

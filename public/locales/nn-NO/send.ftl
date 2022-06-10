@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = Importerer…
 encryptingFile = Krypterer…
 decryptingFile = Dekrypterer...
@@ -19,13 +19,13 @@ unlockButtonLabel = Lås opp
 downloadButtonLabel = Last ned
 downloadFinish = Nedlastinga er fullført.
 fileSizeProgress = ({ $partialSize } av { $totalSize })
-sendYourFilesLink = Prøv Firefox Send
+sendYourFilesLink = Prøv Send
 errorPageHeader = Noko gjekk gale!
 fileTooBig = Fila er for stor, og kan ikkje lastast opp. Ho må vere mindre enn { $size }.
 linkExpiredAlt = Lenka har gått ut
 notSupportedHeader = Nettlesaren din er ikkje støtta.
 notSupportedLink = Kvifor er ikkje nettlesaren min støtta?
-notSupportedOutdatedDetail = Dessverre støttar ikkje denne versjonen av Firefox nett-teknologien som driv Firefox Send. Du må å oppdatere nettlesaren din.
+notSupportedOutdatedDetail = Dessverre støttar ikkje denne versjonen av Firefox nett-teknologien som driv Send. Du må å oppdatere nettlesaren din.
 updateFirefox = Oppdater Firefox
 deletePopupCancel = Avbryt
 deleteButtonHover = Slett
@@ -33,8 +33,8 @@ footerLinkLegal = Juridisk informasjon
 footerLinkPrivacy = Personvern
 footerLinkCookies = Infokapslar
 passwordTryAgain = Feil passord. Prøv på nytt.
-javascriptRequired = Firefox Send krev JavaScript.
-whyJavascript = Kvifor krev Firefox Send JavaScript?
+javascriptRequired = Send krev JavaScript.
+whyJavascript = Kvifor krev Send JavaScript?
 enableJavascript = Slå på JavaScript og prøv igjen.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }t { $minutes }m
@@ -47,8 +47,8 @@ passwordSetError = Dette passordet kunne ikkje stillast inn
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -108,8 +108,8 @@ tooManyArchives =
        *[other] Berre { $count } arkiv er lov.
     }
 expiredTitle = Denne lenka har gått ut.
-notSupportedDescription = { -send-brand } fungerer ikkje med denne nettlesaren. { -send-short-brand } fungerer best med siste versjon av { -firefox } og med dei fleste andre nye nettlesarar.
-downloadFirefox = Last ned { -firefox }
+notSupportedDescription = { -send-brand } fungerer ikkje med denne nettlesaren. { -send-short-brand } fungerer best med siste versjon av   og med dei fleste andre nye nettlesarar.
+downloadFirefox = Last ned  
 legalTitle = { -send-short-brand }, om personvernpraksis
 legalDateStamp = Versjon 1.0, datert den 12 mars 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -127,7 +127,7 @@ emailPlaceholder = Skriv inn e-postadressa di
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Logg inn for å sende filer på opptil { $size }
 signInOnlyButton = Logg inn
-accountBenefitTitle = Lag ein { -firefox }-konto eller logg inn
+accountBenefitTitle = Lag ein  -konto eller logg inn
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Del filer på opptil { $size }
 accountBenefitDownloadCount = Del filer med fleire personar
@@ -145,7 +145,7 @@ noStreamsWarning = Denne nettlesaren kan kanskje ikkje dekryptere ei så stor fi
 noStreamsOptionCopy = Kopier lenka for å opne henne i ein annan nettlesar
 noStreamsOptionFirefox = Prøv favorittnettlesaren vår
 noStreamsOptionDownload = Fortset med denne nettlesaren
-downloadFirefoxPromo = { -send-short-brand } vert presentert for deg av den heilt nye { -firefox }.
+downloadFirefoxPromo = { -send-short-brand } vert presentert for deg av den heilt nye  .
 # the next line after the colon contains a file name
 shareLinkDescription = Del lenka til fila di:
 shareLinkButton = Del lenke

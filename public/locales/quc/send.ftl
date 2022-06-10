@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 siteFeedback = Utzijoxik
 importingFile = Ujek'ik…
 encryptingFile = Uwiqik…
@@ -20,13 +20,13 @@ unlockButtonLabel = Utzoqopixik
 downloadButtonLabel = Uqasaxik
 downloadFinish = Tz'aqat uqasaxik
 fileSizeProgress = ({ $partialSize } rech { $totalSize })
-sendYourFilesLink = Chak'amb'ejaj Firefox Send
+sendYourFilesLink = Chak'amb'ejaj Send
 errorPageHeader = K'o man utz ta xub'ano
 fileTooBig = Le kemk'olib'al sib'alaj nim chech upaqab'isaxik. Rajawaxik nitz' chi uwach{ $size }
 linkExpiredAlt = Xq'ax uq'ijol kemwiqb'al
 notSupportedHeader = Man toq'am ta le anik'onel
 notSupportedLink = ¿Jasche man toq'am ta le nunik'onel?
-notSupportedOutdatedDetail = Chakuyu' we okib'al rech Firefox man kutoq'aj ta le k'ak'eta'm rech web' le kuya' uchuq'ab' Firefox Send. Rajawaxik kak'ak'arisaj le anik'onel.
+notSupportedOutdatedDetail = Chakuyu' we okib'al rech Firefox man kutoq'aj ta le k'ak'eta'm rech web' le kuya' uchuq'ab' Send. Rajawaxik kak'ak'arisaj le anik'onel.
 updateFirefox = Chak'ak'arisaj Firefox
 deletePopupCancel = Uq'atexik
 deleteButtonHover = Uchupik
@@ -34,8 +34,8 @@ footerLinkLegal = Nim wuj
 footerLinkPrivacy = Echeb'alil
 footerLinkCookies = Cookies
 passwordTryAgain = Man utz ta le retokib'al. Chab'ana' chi jumul.
-javascriptRequired = Le Firefox Send kajawataj JavaScript chech
-whyJavascript = ¿jasche kajawataj JavaScript chech  Firefox Send?
+javascriptRequired = Le Send kajawataj JavaScript chech
+whyJavascript = ¿jasche kajawataj JavaScript chech  Send?
 enableJavascript = Chatzija' JavaScript k'ate k'u ri' chab'ana' chi jumul.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }h { $minutes }m
@@ -48,8 +48,8 @@ passwordSetError = Man kkowimb'ex ta ujeqeb'axik le retokib'al
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Utaqik
 -firefox = Firefox
 -mozilla = Mozilla
@@ -109,8 +109,8 @@ tooManyArchives =
        *[other] Xew { $count } taq kemk'olib'al ya'om b'e chech
     }
 expiredTitle = Xq'ax uq'ijol we kemwiqb'al
-notSupportedDescription = { -send-brand } man kchakun ta ruk' we nik'onel. { -send-short-brand } are qas utz uchakunem ruk' le maja naj okib'al rech { -firefox }, xuquje' kchakun ruk' le okib'al rech chanim rech nima ronojel taq nik'onelab'.
-downloadFirefox = Uqasaxik { -firefox }
+notSupportedDescription = { -send-brand } man kchakun ta ruk' we nik'onel. { -send-short-brand } are qas utz uchakunem ruk' le maja naj okib'al rech  , xuquje' kchakun ruk' le okib'al rech chanim rech nima ronojel taq nik'onelab'.
+downloadFirefox = Uqasaxik  
 legalTitle = { -send-short-brand } ub'ixikil rech echeb'alil
 legalDateStamp = Okib'al 1.0, uq'ijol rech urox ik' 12, 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -127,7 +127,7 @@ emailPlaceholder = Chach'apa' le ataqoqxa'nib'al
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Chamajij kemchak chech utaqik chech { $size }
 signInOnlyButton = Chamajij kemchak
-accountBenefitTitle = Chawinaqirisaj jun { -firefox } kemb'i'aj on chamajij kemchak
+accountBenefitTitle = Chawinaqirisaj jun   kemb'i'aj on chamajij kemchak
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Chakomone'j taq kemk'olib'al kq'ax pa uwi' { $size }
 accountBenefitDownloadCount = Chakomone'j taq kemk'olib'al kuk' nik'aj chi winaq
@@ -145,7 +145,7 @@ noStreamsWarning = We nik'onel wene man kkowin taj kusol jun jewa' unimal kemk'o
 noStreamsOptionCopy = Chawelesaj uwach le kemwiqb'al chech ujaqik jun chi nik'onel
 noStreamsOptionFirefox = Chak'amb'ejaj le ajawatal nik'onel
 noStreamsOptionDownload = Chab'ana' na ruk' we nik'onel
-downloadFirefoxPromo = { -send-short-brand } k'amom la chi awech rumal le k'ak' { -firefox }.
+downloadFirefoxPromo = { -send-short-brand } k'amom la chi awech rumal le k'ak'  .
 # the next line after the colon contains a file name
 shareLinkDescription = Chakomone'j le kemwiqb'al chech le akemk'olib'al:
 shareLinkButton = Chakomone'j kemwiqb'al

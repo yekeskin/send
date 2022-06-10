@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = Importuojama…
 encryptingFile = Šifruojama…
 decryptingFile = Iššifruojama…
@@ -21,13 +21,13 @@ unlockButtonLabel = Atrakinti
 downloadButtonLabel = Parsisiųsti
 downloadFinish = Parsiuntimas baigtas
 fileSizeProgress = ({ $partialSize } iš { $totalSize })
-sendYourFilesLink = Išbandyti „Firefox Send“
+sendYourFilesLink = Išbandyti „Send“
 errorPageHeader = Nutiko kažkas negero!
 fileTooBig = Pasirinktas failas yra per didelis, kad jį būtų galima įkelti. Failo dydis neturėtų viršyti { $size }
 linkExpiredAlt = Saitas nebegalioja
 notSupportedHeader = Jūsų naršyklė nepalaikoma.
 notSupportedLink = Kodėl mano naršyklė nepalaikoma?
-notSupportedOutdatedDetail = Deja, šioje „Firefox“ naršyklės laidoje nepalaikoma „Firefox Send“ veikti reikalinga technologija. Jeigu norite naudotis šia paslauga, turėsite atnaujinti savo naršyklę.
+notSupportedOutdatedDetail = Deja, šioje „Firefox“ naršyklės laidoje nepalaikoma „Send“ veikti reikalinga technologija. Jeigu norite naudotis šia paslauga, turėsite atnaujinti savo naršyklę.
 updateFirefox = Atnaujinti „Firefox“
 deletePopupCancel = Atsisakyti
 deleteButtonHover = Šalinti
@@ -35,8 +35,8 @@ footerLinkLegal = Teisinė informacija
 footerLinkPrivacy = Privatumas
 footerLinkCookies = Slapukai
 passwordTryAgain = Slaptažodis netinka. Bandykite dar kartą.
-javascriptRequired = „Firefox Send“ veikimui būtina įgalinti „JavaScript“ palaikymą
-whyJavascript = Kodėl „Firefox Send“ neveikia išjungus „JavaScript“?
+javascriptRequired = „Send“ veikimui būtina įgalinti „JavaScript“ palaikymą
+whyJavascript = Kodėl „Send“ neveikia išjungus „JavaScript“?
 enableJavascript = Įgalinkit „JavaScript“ ir bandykite dar kartą.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } val. { $minutes } min.
@@ -49,8 +49,8 @@ passwordSetError = Slaptažodžio nustatyti nepavyko
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla =
@@ -124,8 +124,8 @@ tooManyArchives =
        *[other] Leidžiama turėti iki ne daugiau kaip { $count } archyvų.
     }
 expiredTitle = Šis saitas nebegalioja.
-notSupportedDescription = „{ -send-brand }“ su šia naršykle neveikia. „{ -send-short-brand }“ geriausiai veikia su paskiausia „{ -firefox }“ laida, o taip pat veikia su daugumos kitų naršyklių paskiausiomis laidomis.
-downloadFirefox = Parsisiųsti „{ -firefox }“
+notSupportedDescription = „{ -send-brand }“ su šia naršykle neveikia. „{ -send-short-brand }“ geriausiai veikia su paskiausia „ “ laida, o taip pat veikia su daugumos kitų naršyklių paskiausiomis laidomis.
+downloadFirefox = Parsisiųsti „ “
 legalTitle = „{ -send-short-brand }“ privatumo pranešimas
 legalDateStamp = 1.0 versija, 2019 m. kovo 12 d
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -143,7 +143,7 @@ emailPlaceholder = Įveskite savo el. pašto adresą
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Prisijunkite, jeigu norite siųsti iki { $size }
 signInOnlyButton = Prisijungti
-accountBenefitTitle = Susikurkite „{ -firefox }“ paskyrą arba prisijunkite
+accountBenefitTitle = Susikurkite „ “ paskyrą arba prisijunkite
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Dalinkitės iki { $size } dydžio failais
 accountBenefitDownloadCount = Dalinkitės su daugiau žmonių
@@ -162,7 +162,7 @@ noStreamsWarning = jūsų naršyklei gali nepavykti iššifruoti tokio didelio f
 noStreamsOptionCopy = Nukopijuokite saitą ir atverkite jį kita naršykle
 noStreamsOptionFirefox = Išbandykite mūsų mėgstamiausią naršyklę
 noStreamsOptionDownload = Tęsti naudojantis šia naršykle
-downloadFirefoxPromo = „{ -send-short-brand }“ jums atkeliauja iš naujosios „{ -firefox }“.
+downloadFirefoxPromo = „{ -send-short-brand }“ jums atkeliauja iš naujosios „ “.
 # the next line after the colon contains a file name
 shareLinkDescription = Pasidalinkite saitu į jūsų failą:
 shareLinkButton = Dalintis saitu

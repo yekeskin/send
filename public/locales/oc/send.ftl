@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = Importacion…
 encryptingFile = Chiframent…
 decryptingFile = Deschiframent…
@@ -19,13 +19,13 @@ unlockButtonLabel = Desverrolhar
 downloadButtonLabel = Telecargar
 downloadFinish = Telecargament acabat
 fileSizeProgress = ({ $partialSize } sus { $totalSize })
-sendYourFilesLink = Ensajar Firefox Send
+sendYourFilesLink = Ensajar Send
 errorPageHeader = I a quicòm que truca.
 fileTooBig = Aqueste fichièr es tròp gròs per l’enviar. Sa talha deu èsser inferiora a { $size }.
 linkExpiredAlt = Lo ligam a expirat
 notSupportedHeader = Vòstre navegador es pas compatible.
 notSupportedLink = Perqué mon navegador es pas compatible ?
-notSupportedOutdatedDetail = Aquesta version de Firefox es pas compatibla amb la tecnologia web amb la quala fonciona Firefox Send. Vos cal metre a jorn lo navegador.
+notSupportedOutdatedDetail = Aquesta version de Firefox es pas compatibla amb la tecnologia web amb la quala fonciona Send. Vos cal metre a jorn lo navegador.
 updateFirefox = Metre a jorn Firefox
 deletePopupCancel = Anullar
 deleteButtonHover = Suprimir
@@ -33,8 +33,8 @@ footerLinkLegal = Mencions legalas
 footerLinkPrivacy = Vida privada
 footerLinkCookies = Cookies
 passwordTryAgain = Senhal incorrècte. Tornatz ensajar.
-javascriptRequired = Firefox Send requesís JavaScript
-whyJavascript = Perque Firefox Send requesís JavaScript ?
+javascriptRequired = Send requesís JavaScript
+whyJavascript = Perque Send requesís JavaScript ?
 enableJavascript = Volgatz activar lo JavaScript e ensajatz tornamai.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } h { $minutes } min
@@ -47,8 +47,8 @@ passwordSetError = Aqueste senhal a pas pogut èsser definit
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -108,8 +108,8 @@ tooManyArchives =
        *[other] Pas que { $count } archius son autorizats.
     }
 expiredTitle = Aqueste ligam a expirat.
-notSupportedDescription = { -send-brand } foncionarà pas amb aqueste navegador. { -send-short-brand } fonciona melhor amb la darrièra version de { -firefox } e foncionarà amb la version mai recenta de la màger part dels navegadors.
-downloadFirefox = Telecargar { -firefox }
+notSupportedDescription = { -send-brand } foncionarà pas amb aqueste navegador. { -send-short-brand } fonciona melhor amb la darrièra version de   e foncionarà amb la version mai recenta de la màger part dels navegadors.
+downloadFirefox = Telecargar  
 legalTitle = Avís de confidencialitat de { -send-short-brand }
 legalDateStamp = Version 1.0 del 12 de març de 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -127,7 +127,7 @@ emailPlaceholder = Picatz vòstra adreça electronica
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Connectatz-vos per enviar fins a { $size }
 signInOnlyButton = Connexion
-accountBenefitTitle = Creatz un compte { -firefox } o connectatz-vos
+accountBenefitTitle = Creatz un compte   o connectatz-vos
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Partejatz de fichièrs fins a { $size }
 accountBenefitDownloadCount = Partejatz de fichièrs amb mai de personas
@@ -145,7 +145,7 @@ noStreamsWarning = Pòt arribar qu’aqueste navegador pòsca pas deschifrar un 
 noStreamsOptionCopy = Copiatz lo ligam per lo dobrir dins un autre navegador
 noStreamsOptionFirefox = Ensajatz nòstre navegador preferit
 noStreamsOptionDownload = Contunhar amb aqueste navegador
-downloadFirefoxPromo = Lo nòu { -firefox } vos provesís { -send-short-brand }.
+downloadFirefoxPromo = Lo nòu   vos provesís { -send-short-brand }.
 # the next line after the colon contains a file name
 shareLinkDescription = Partejatz lo ligam cap a vòstre fichièr :
 shareLinkButton = Partejar lo ligam

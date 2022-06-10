@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = Uvažanje …
 encryptingFile = Šifriranje ...
 decryptingFile = Dešifriranje ...
@@ -23,13 +23,13 @@ unlockButtonLabel = Odkleni
 downloadButtonLabel = Prenesi
 downloadFinish = Prenos končan
 fileSizeProgress = ({ $partialSize } od { $totalSize })
-sendYourFilesLink = Preskusite Firefox Send
+sendYourFilesLink = Preskusite Send
 errorPageHeader = Prišlo je do težave!
 fileTooBig = Ta datoteka je prevelika za nalaganje. Največja možna velikost je { $size }.
 linkExpiredAlt = Povezava je potekla
 notSupportedHeader = Vaš brskalnik ni podprt.
 notSupportedLink = Zakaj moj brskalnik ni podprt?
-notSupportedOutdatedDetail = Ta brskalnik žal ne podpira tehnologije, na kateri temelji Firefox Send. Svoj brskalnik boste morali posodobiti.
+notSupportedOutdatedDetail = Ta brskalnik žal ne podpira tehnologije, na kateri temelji Send. Svoj brskalnik boste morali posodobiti.
 updateFirefox = Posodobi Firefox
 deletePopupCancel = Prekliči
 deleteButtonHover = Izbriši
@@ -37,8 +37,8 @@ footerLinkLegal = Pravno obvestilo
 footerLinkPrivacy = Zasebnost
 footerLinkCookies = Piškotki
 passwordTryAgain = Napačno geslo. Poskusite znova.
-javascriptRequired = Firefox Send zahteva JavaScript
-whyJavascript = Zakaj Firefox Send zahteva JavaScript?
+javascriptRequired = Send zahteva JavaScript
+whyJavascript = Zakaj Send zahteva JavaScript?
 enableJavascript = Omogočite JavaScript in poskusite znova.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }h { $minutes }m
@@ -51,8 +51,8 @@ passwordSetError = Gesla ni mogoče nastaviti
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox =
     { $sklon ->
@@ -141,7 +141,7 @@ tooManyArchives =
     }
 expiredTitle = Ta povezava je potekla.
 notSupportedDescription = { -send-brand } v tem brskalniku ne bo deloval. { -send-short-brand } najbolje deluje v najnovejši različici { -firefox(sklon: "rodilnik") }, deloval pa bo tudi v trenutni različici večine brskalnikov.
-downloadFirefox = Prenesite { -firefox }
+downloadFirefox = Prenesite  
 legalTitle = Obvestilo o zasebnosti za { -send-short-brand }
 legalDateStamp = Različica 1.0, v veljavi od 12. marca 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -159,7 +159,7 @@ emailPlaceholder = Vnesite e-poštni naslov
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Prijavite se za pošiljanje do { $size }
 signInOnlyButton = Prijava
-accountBenefitTitle = Ustvarite { -firefox } Račun ali se prijavite
+accountBenefitTitle = Ustvarite   Račun ali se prijavite
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Delite datoteke do velikosti { $size }
 accountBenefitDownloadCount = Delite datoteke z več osebami
@@ -179,7 +179,7 @@ noStreamsWarning = Ta brskalnik morda ne bo zmogel dešifrirati tako velike dato
 noStreamsOptionCopy = Kopirajte povezavo, da jo odprete v drugem brskalniku
 noStreamsOptionFirefox = Poskusite z našim najljubšim brskalnikom
 noStreamsOptionDownload = Nadaljujte s tem brskalnikom
-downloadFirefoxPromo = { -send-short-brand } vam omogoča čisto novi { -firefox }.
+downloadFirefoxPromo = { -send-short-brand } vam omogoča čisto novi  .
 # the next line after the colon contains a file name
 shareLinkDescription = Delite povezavo do datoteke:
 shareLinkButton = Deli povezavo

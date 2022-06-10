@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 siteFeedback = Shitechnawati
 importingFile = Mukalaktia nemi…
 encryptingFile = Tikichtakawiat tinemit…
@@ -20,13 +20,13 @@ unlockButtonLabel = Shiktapua
 downloadButtonLabel = Shiktemulti
 downloadFinish = Senkiska mutemultij
 fileSizeProgress = ({ $partialSize } ipal { $totalSize })
-sendYourFilesLink = Shikejeku Firefox Send
+sendYourFilesLink = Shikejeku Send
 errorPageHeader = IJtakawtuk!
 fileTooBig = Ini tajkwilul sujsul etek pal tiktejkultia. Ma nemi san { $size }.
 linkExpiredAlt = Ne ilpika pulijtuk
 notSupportedHeader = Te tikishmatit ne mutachialuni.
 notSupportedLink = Taika te ankishmatit nutachialuni?
-notSupportedOutdatedDetail = Ini tamakalis ipal Firefox tesu kimati ne tzawaltekitilis ne kiyulitia Firefox Send. Nemi pal tikyankwilia ne mutachialuni.
+notSupportedOutdatedDetail = Ini tamakalis ipal Firefox tesu kimati ne tzawaltekitilis ne kiyulitia Send. Nemi pal tikyankwilia ne mutachialuni.
 updateFirefox = Shikyankwili Firefox
 deletePopupCancel = Shikilwi tesu
 deleteButtonHover = Shikpulu
@@ -34,8 +34,8 @@ footerLinkLegal = Ipanpa ne tajtuli
 footerLinkPrivacy = Teichtakayu
 footerLinkCookies = Cookies
 passwordTryAgain = Ne ichtakatajkwilul tesu yek. Shikejeku uksenpa.
-javascriptRequired = Firefox Send muneki JavaScript
-whyJavascript = Taika Firefox Send muneki JavaScript?
+javascriptRequired = Send muneki JavaScript
+whyJavascript = Taika Send muneki JavaScript?
 enableJavascript = Shichiwa ma JavaScript tekiti wan shikejeku uksenpa.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }h { $minutes }m
@@ -48,8 +48,8 @@ passwordSetError = Te tiweliket tiktaliat ini ichtakataketzalis
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Shiktitani
 -firefox = Firefox
 -mozilla = Mozilla
@@ -109,8 +109,8 @@ tooManyArchives =
        *[other] Semaya { $count } amapial weli mutitania.
     }
 expiredTitle = Ne ilpika puliwik.
-notSupportedDescription = { -send-brand } tesu yawi tekiti iwan ini tachialuni. { -send-short-brand } tekiti sujsul yek iwan ne tipan tamakalis ipal { -firefox }, wan nusan iwan ne tipan tamakalis ipal miak tachialuni.
-downloadFirefox = Shiktemulti { -firefox }
+notSupportedDescription = { -send-brand } tesu yawi tekiti iwan ini tachialuni. { -send-short-brand } tekiti sujsul yek iwan ne tipan tamakalis ipal  , wan nusan iwan ne tipan tamakalis ipal miak tachialuni.
+downloadFirefox = Shiktemulti  
 legalTitle = { -send-short-brand } Tanawatilis ipanpa teichtakayu
 legalDateStamp = Tamakalis 1.0, tik marzoj 12, 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -127,7 +127,7 @@ emailPlaceholder = Shiktali mutepusamaw
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Shiktali mutukay pal tiktitania { $size }
 signInOnlyButton = Shiktali mutukay
-accountBenefitTitle = Shikchiwa se mutapujka tik { -firefox } ush shiktali mutukay
+accountBenefitTitle = Shikchiwa se mutapujka tik   ush shiktali mutukay
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Shiktakuli tajtajkwilul ka { $size }
 accountBenefitDownloadCount = Shiktakuli tajtajkwilul iwan seuk
@@ -145,7 +145,7 @@ noStreamsWarning = Ini tachialuni anka te weli kichtakapua ini tajkwilul wey.
 noStreamsOptionCopy = Shikishkupina ne ilpika pal tiktapua tik ukse tachialuni
 noStreamsOptionFirefox = Shikejeku ne tachialuni tikishwelitat
 noStreamsOptionDownload = Ma ninemi senpa iwan ini tachialuni
-downloadFirefoxPromo = Ne yankwik { -firefox } metzwikilia { -send-short-brand }.
+downloadFirefoxPromo = Ne yankwik   metzwikilia { -send-short-brand }.
 # the next line after the colon contains a file name
 shareLinkDescription = Shiktakuli ne ilpika ipal mutajkwilul:
 shareLinkButton = Shiktakuli ne ilpika

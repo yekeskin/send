@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = Ojegueruhína…
 encryptingFile = Mo’ãmby…
 decryptingFile = Ñemo’ã’o…
@@ -19,13 +19,13 @@ unlockButtonLabel = Mbojera
 downloadButtonLabel = Mboguejy
 downloadFinish = Oguejypáma
 fileSizeProgress = ({ $partialSize } rehe { $totalSize })
-sendYourFilesLink = Eipuru Firefox Send
+sendYourFilesLink = Eipuru Send
 errorPageHeader = ¡Oiko jejavy!
 fileTooBig = Marandurenda tuichaiterei ehupi hag̃ua. Michĩveva’erã { $size } gui.
 linkExpiredAlt = Juajuha ndoikóiva
 notSupportedHeader = Ne kundaha ndorekói pytyvõ.
 notSupportedLink = ¿Mba’ére che kundahára ndorekói ñepytyvõ?
-notSupportedOutdatedDetail = Ko Firefox rembiapo ndaipu’akái ñanduti rembipurupyahu oikotevẽva Firefox Send. Embohekopyahúke ne kundahára.
+notSupportedOutdatedDetail = Ko Firefox rembiapo ndaipu’akái ñanduti rembipurupyahu oikotevẽva Send. Embohekopyahúke ne kundahára.
 updateFirefox = Firefox mbohekopyahu
 deletePopupCancel = Heja
 deleteButtonHover = Mboguete
@@ -33,8 +33,8 @@ footerLinkLegal = Añetegua
 footerLinkPrivacy = Ñemigua
 footerLinkCookies = Kookie
 passwordTryAgain = Ñe’ẽñemi ndoikóiva. Eha’ãjey.
-javascriptRequired = Firefox Send oikotevẽ JavaScript
-whyJavascript = ¿Mba’ére Firefox Send oikotevẽ JavaScript?
+javascriptRequired = Send oikotevẽ JavaScript
+whyJavascript = ¿Mba’ére Send oikotevẽ JavaScript?
 enableJavascript = Ikatúpa embojuruja JavaScript ha eha’ãjey uperire.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } h { $minutes } m
@@ -47,8 +47,8 @@ passwordSetError = Ndaikatúi oikóvo ko ñe’ẽñemi
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -108,8 +108,8 @@ tooManyArchives =
        *[other] Oñemoneĩ { $count } marandurenda añoite
     }
 expiredTitle = Ko juajuha ndoikovéima.
-notSupportedDescription = { -send-brand } ndoikomo’ãi ko kundahára ndive. { -send-short-brand } oikoporãvéta { -firefox } rembiapokue ipyahuvéva ndive, ha oikóta opavavete kundahára ndive.
-downloadFirefox = Emboguejy { -firefox }
+notSupportedDescription = { -send-brand } ndoikomo’ãi ko kundahára ndive. { -send-short-brand } oikoporãvéta   rembiapokue ipyahuvéva ndive, ha oikóta opavavete kundahára ndive.
+downloadFirefox = Emboguejy  
 legalTitle = { -send-short-brand } Marandu ñemigua
 legalDateStamp = Mba’epyahu 1.0, 12 jasyapy 2019 peguare
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -127,7 +127,7 @@ emailPlaceholder = Emoinge ne ñanduti veve
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Eñepyrũ tembiapo emondo hag̃ua { $size } peve
 signInOnlyButton = Eñepyrũ tembiapo
-accountBenefitTitle = Emoheñói { -firefox } mba’ete térã eñepyrũ tembiapo
+accountBenefitTitle = Emoheñói   mba’ete térã eñepyrũ tembiapo
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Emoherakuã marandurenda { $size } peve
 accountBenefitDownloadCount = Emoherakuã marandurenda hetave tapicha ndive
@@ -145,7 +145,7 @@ noStreamsWarning = Ikatu ko kundahára ndoikuaái marandurenda tuichaitereíva.
 noStreamsOptionCopy = Embokuatia juajuha embojuruja hag̃ua ambue kundahárape.
 noStreamsOptionFirefox = Eipuru ore kundahára rohayhuvéva
 noStreamsOptionDownload = Eku’ejey ko kundahára ndive
-downloadFirefoxPromo = Ipyahúva { -firefox } ome’ẽse ndéve { -send-short-brand }.
+downloadFirefoxPromo = Ipyahúva   ome’ẽse ndéve { -send-short-brand }.
 # the next line after the colon contains a file name
 shareLinkDescription = Emoherakuã juajuha ne mba’e’oka ndive:
 shareLinkButton = Emoherakuã juajuha

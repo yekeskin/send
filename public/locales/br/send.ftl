@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = Oc'h enporzhiañ …
 encryptingFile = Oc'h enrinegañ..
 decryptingFile = Oc'h ezrinegañ...
@@ -25,13 +25,13 @@ unlockButtonLabel = Dibrennañ
 downloadButtonLabel = Pellgargañ
 downloadFinish = Pellgargadur echu
 fileSizeProgress = ({ $partialSize } war { $totalSize })
-sendYourFilesLink = Esaeit Firefox Send
+sendYourFilesLink = Esaeit Send
 errorPageHeader = Degouezhet ez eus bet ur fazi!
 fileTooBig = Re vras eo ar restr-mañ evit e pellgas. Rankout a ra bezañ nebeutoc'h eget { $size }
 linkExpiredAlt = Ere diamzeret
 notSupportedHeader = N'eo ket skoret ho merdeer.
 notSupportedLink = Perak n'eo ket skoret ma merdeer?
-notSupportedOutdatedDetail = Siwazh n'eo ket skoret ar c'halvezerezhioù implijet evit Firefox Send gant an handelv-mañ eus Firefox. Ret e vo deoc'h hizivaat ho merdeer.
+notSupportedOutdatedDetail = Siwazh n'eo ket skoret ar c'halvezerezhioù implijet evit Send gant an handelv-mañ eus Firefox. Ret e vo deoc'h hizivaat ho merdeer.
 updateFirefox = Hizivaat Firefox
 deletePopupCancel = Nullañ
 deleteButtonHover = Dilemel
@@ -39,8 +39,8 @@ footerLinkLegal = Lezennel
 footerLinkPrivacy = Buhez prevez
 footerLinkCookies = Toupinoù
 passwordTryAgain = Ger-tremen direizh. Klaskit en-dro.
-javascriptRequired = Firefox Send a azgoulenn Javascript
-whyJavascript = Perak e azgoulenn Firefox Send Javascript?
+javascriptRequired = Send a azgoulenn Javascript
+whyJavascript = Perak e azgoulenn Send Javascript?
 enableJavascript = Gweredekait Javascript ha klaskit en-dro.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }e { $minutes }m
@@ -53,8 +53,8 @@ passwordSetError = N'haller ket despizañ ar ger-tremen
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -132,8 +132,8 @@ tooManyArchives =
        *[other] Aotreet eo{ $count } diell nemetken.
     }
 expiredTitle = Diamzeret eo an ere.
-notSupportedDescription = { -send-brand } n'aio ket en-dro war ar merdeer-mañ. { -send-short-brand } a za en-dro gwelloc'h gant handelv diwezhañ { -firefox }, ha mont a raio en-dro gant handelv bremanel lodenn vrasañ ar merdeerioù.
-downloadFirefox = Pellgargañ { -firefox }
+notSupportedDescription = { -send-brand } n'aio ket en-dro war ar merdeer-mañ. { -send-short-brand } a za en-dro gwelloc'h gant handelv diwezhañ  , ha mont a raio en-dro gant handelv bremanel lodenn vrasañ ar merdeerioù.
+downloadFirefox = Pellgargañ  
 legalTitle = Evezhiadenn a fed buhez prevez { -send-short-brand }
 legalDateStamp = Handelv 1.0, d'an 12 a viz Meurzh 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -151,7 +151,7 @@ emailPlaceholder = Enankit ho chomlec'h postel
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Kennaskit evit kas betek { $size }
 signInOnlyButton = Kennaskañ
-accountBenefitTitle = Krouit ur gont { -firefox } pe kennaskit
+accountBenefitTitle = Krouit ur gont   pe kennaskit
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Rannit restroù betek { $size }
 accountBenefitDownloadCount = Rannit restroù gant muioc'h a dud
@@ -172,7 +172,7 @@ noStreamsWarning = Posupl eo ne vefe ket gouest ar merdeer-mañ da ezrinegañ ur
 noStreamsOptionCopy = Eilit an ere evit digeriñ anezhañ en ur merdeer all
 noStreamsOptionFirefox = Esaeit hor merdeer karetañ
 noStreamsOptionDownload = Kenderc'hel gant ar merdeer-mañ
-downloadFirefoxPromo = { -send-short-brand } a zo kinniget deoc'h gant ar { -firefox } nevez-flamm.
+downloadFirefoxPromo = { -send-short-brand } a zo kinniget deoc'h gant ar   nevez-flamm.
 # the next line after the colon contains a file name
 shareLinkDescription = Rannit an ere etrezek ho restr:
 shareLinkButton = Rannañ an ere

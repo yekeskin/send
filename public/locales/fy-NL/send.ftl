@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = Ymportearje…
 encryptingFile = Fersiferje…
 decryptingFile = Untsiferje…
@@ -19,13 +19,13 @@ unlockButtonLabel = Deblokkearje
 downloadButtonLabel = Downloade
 downloadFinish = Download foltôge
 fileSizeProgress = ({ $partialSize } fan { $totalSize })
-sendYourFilesLink = Firefox Send probearje
+sendYourFilesLink = Send probearje
 errorPageHeader = Der is wat misgien!
 fileTooBig = It bestân is te grut om op te laden. It moat lytser wêze as { $size }.
 linkExpiredAlt = Keppeling ferrûn
 notSupportedHeader = Jo browser wurdt net stipe.
 notSupportedLink = Wêrom wurdt myn browser net stipe?
-notSupportedOutdatedDetail = Spitigernôch stipet dizze ferzje fan Firefox de webtechnology dy't Firefox Send mooflik makket net. Jo moatte jo browser fernije.
+notSupportedOutdatedDetail = Spitigernôch stipet dizze ferzje fan Firefox de webtechnology dy't Send mooflik makket net. Jo moatte jo browser fernije.
 updateFirefox = Firefox fernije
 deletePopupCancel = Annulearje
 deleteButtonHover = Fuortsmite
@@ -33,8 +33,8 @@ footerLinkLegal = Juridysk
 footerLinkPrivacy = Privacy
 footerLinkCookies = Cookies
 passwordTryAgain = Net krekt wachtwurd. Probearje it opnij.
-javascriptRequired = Firefox Send fereasket JavaScript.
-whyJavascript = Werom hat Firefox Send JavaScript nedich?
+javascriptRequired = Send fereasket JavaScript.
+whyJavascript = Werom hat Send JavaScript nedich?
 enableJavascript = Skeakelje JavaScript yn en probearje nochris.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }o { $minutes }m
@@ -47,8 +47,8 @@ passwordSetError = Dit wachtwurd koe net ynsteld wurde
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -108,8 +108,8 @@ tooManyArchives =
        *[other] Der binne mar { $count } argiven tastien.
     }
 expiredTitle = Dizze keppeling is ferrûn.
-notSupportedDescription = { -send-brand } funksjonearret net mei dizze browser. { -send-short-brand } funksjonearret it bêste mei de nijste ferzje fan { -firefox } en funksjonearret mei de aktuele ferzje fan de measte browsers.
-downloadFirefox = { -firefox } downloade
+notSupportedDescription = { -send-brand } funksjonearret net mei dizze browser. { -send-short-brand } funksjonearret it bêste mei de nijste ferzje fan   en funksjonearret mei de aktuele ferzje fan de measte browsers.
+downloadFirefox =   downloade
 legalTitle = { -send-short-brand }-privacyferklearring
 legalDateStamp = Ferzje 1.0, datearre 12 maart 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -127,7 +127,7 @@ emailPlaceholder = Fier jo e-mailadres yn
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Meld jo oan, om bestannen oant { $size } te stjoeren
 signInOnlyButton = Oanmelde
-accountBenefitTitle = Meitsje in { -firefox }-account of meld jo oan
+accountBenefitTitle = Meitsje in  -account of meld jo oan
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Diel bestannen oant { $size }
 accountBenefitDownloadCount = Diel bestannen mei mear minsken
@@ -145,7 +145,7 @@ noStreamsWarning = Dizze browser kin in sa'n grut bestân mooglik net fersiferje
 noStreamsOptionCopy = Kopiearje de koppeling om yn in oare browser te iepenjen
 noStreamsOptionFirefox = Probearje ús favorite browser
 noStreamsOptionDownload = Trochgean mei dizze browser
-downloadFirefoxPromo = { -send-short-brand } wurdt jo oanbean troch it folslein fernijde { -firefox }.
+downloadFirefoxPromo = { -send-short-brand } wurdt jo oanbean troch it folslein fernijde  .
 # the next line after the colon contains a file name
 shareLinkDescription = Diel de keppeling nei jo bestân:
 shareLinkButton = Keppeling diele

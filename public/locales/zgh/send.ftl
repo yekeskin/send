@@ -1,4 +1,4 @@
-# Firefox Send is a brand name and should not be localized.
+# Send is a brand name and should not be localized.
 title = ⴼⴰⵢⵔⴼⵓⴽⵙ ⵙⵉⵏⴷ
 siteFeedback = ⵜⴰⵙⴷⵎⵉⵔⵜ
 importingFile = ⴰⵙⴽⵛⵎ...
@@ -48,7 +48,7 @@ passwordSetError = ⵓⵔ ⵜⵣⵎⵉⵔ ⵜⴳⵓⵔⵉ ⴰ ⵏ ⵓⵣⵔⴰ�
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
 -send-brand = ⴼⴰⵢⵔⴼⵓⴽⵙ ⵙⵉⵏⴷ
 -send-short-brand = ⵙⵉⵏⴷ
 -firefox = ⴼⴰⵢⵔⴼⵓⴽⵙ
@@ -109,8 +109,8 @@ tooManyArchives =
        *[other] ⵖⴰⵙ { $count } ⵜⵎⵃⴹⴰⵢ ⴰⵢ ⵉⵔⵔⴳⵏ.
     }
 expiredTitle = ⵉⵎⵎⵓⵜ ⵓⵙⵖⵏ ⴰ.
-notSupportedDescription = ⵓⵔ ⵔⴰⴷ ⵉⵙⵡⵓⵔⵉ { -send-brand } ⵙ ⵓⵎⵙⵙⴰⵔⴰ ⴰ. ⴷⴰ ⵉⵙⵡⵓⵔⵓⵢ { -send-short-brand } ⵎⵍⵉⵃ ⵙ ⵜⵍⵇⵇⵎⵜ ⵜⴰⵎⴳⴳⴰⵔⵓⵜ ⵏ { -firefox }, ⴷ ⵔⴰⴷ ⵉⵙⵡⵓⵔⵉ ⵙ ⵜⵍⵇⵇⵎⵜ ⵜⴰⵎⵉⵔⴰⵏⵜ ⵏ ⵓⵎⴰⵜⴰ ⵏ ⵉⵎⵙⵙⴰⵔⴰⵜⵏ.
-downloadFirefox = ⴰⴳⵎ { -firefox }
+notSupportedDescription = ⵓⵔ ⵔⴰⴷ ⵉⵙⵡⵓⵔⵉ { -send-brand } ⵙ ⵓⵎⵙⵙⴰⵔⴰ ⴰ. ⴷⴰ ⵉⵙⵡⵓⵔⵓⵢ { -send-short-brand } ⵎⵍⵉⵃ ⵙ ⵜⵍⵇⵇⵎⵜ ⵜⴰⵎⴳⴳⴰⵔⵓⵜ ⵏ  , ⴷ ⵔⴰⴷ ⵉⵙⵡⵓⵔⵉ ⵙ ⵜⵍⵇⵇⵎⵜ ⵜⴰⵎⵉⵔⴰⵏⵜ ⵏ ⵓⵎⴰⵜⴰ ⵏ ⵉⵎⵙⵙⴰⵔⴰⵜⵏ.
+downloadFirefox = ⴰⴳⵎ  
 legalTitle = ⵜⵓⵙⵎⵉⵔⵜ ⵏ ⵜⵉⵏⵏⵓⵜⵍⴰ ⵏ { -send-short-brand }
 legalDateStamp = ⵜⴰⵍⵇⵇⵎⵜ 1.0, ⵜⵉⵏ 12 ⵎⴰⵕⵚ 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -127,7 +127,7 @@ emailPlaceholder = ⵙⵙⴽⵛⵎⴰⵜ ⵉⵎⴰⵢⵍ ⵏⵏⵓⵏ
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = ⴽⵛⵎ ⴰⴼⴰⴷ ⴰⴷ ⵜⴰⵣⵏⴷ ⴰⵔ { $size }
 signInOnlyButton = ⴽⵛⵎ
-accountBenefitTitle = ⵙⵏⴼⵍⵓⵍ ⴰⵎⵉⴹⴰⵏ ⵏ { -firefox } ⵏⵉⵖ ⵜⵣⵎⵎⴻⵎⴷ
+accountBenefitTitle = ⵙⵏⴼⵍⵓⵍ ⴰⵎⵉⴹⴰⵏ ⵏ   ⵏⵉⵖ ⵜⵣⵎⵎⴻⵎⴷ
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = ⴱⴹⵓ ⵉⴼⵓⵢⵍⴰ ⴰⵔ { $size }
 accountBenefitDownloadCount = ⴱⴹⵓ ⵉⴼⵓⵢⵍⴰ ⴰⴽⴷ ⵡⵓⴳⴳⴰⵔ ⵏ ⵎⴷⴷⵏ
@@ -145,7 +145,7 @@ noStreamsWarning = ⵉⵣⵎⵔ ⵓⵎⵙⵙⴰⵔⴰ ⴰ ⴰⴷ ⵓⵔ ⵉⵖ�
 noStreamsOptionCopy = ⵙⵙⵏⵖⵍⴰⵜ ⴰⵙⵖⵏ ⴰⴼⴰⴷ ⴰⴷ ⵜ ⵜⵕⵥⵎⵎ ⴳ ⴽⵔⴰ ⵏ ⵓⵎⵙⵙⴰⵔⴰ ⵢⴰⴹⵏ
 noStreamsOptionFirefox = ⴰⵔⵎⴰⵜ ⴰⵎⵙⵙⴰⵔⴰ ⵏⵏⵖ ⴰⵎⵓⴼⴰⵢ
 noStreamsOptionDownload = ⵙⵎⴷ ⵙ ⵓⵎⵙⵙⴰⵔⴰ ⴰ
-downloadFirefoxPromo = ⵉⵜⵜⵓⵙⵓⵎⵔ ⴰⵡⵏ { -send-short-brand } ⵙⴳ ⵖⵓⵔ { -firefox } ⴰⵎⴰⵢⵏⵓ ⴰⴽⴽⵯ.
+downloadFirefoxPromo = ⵉⵜⵜⵓⵙⵓⵎⵔ ⴰⵡⵏ { -send-short-brand } ⵙⴳ ⵖⵓⵔ   ⴰⵎⴰⵢⵏⵓ ⴰⴽⴽⵯ.
 # the next line after the colon contains a file name
 shareLinkDescription = ⴱⴹⵓⵢⴰⵜ ⴰⵙⵖⵏ ⵖⵔ ⵓⴼⴰⵢⵍⵓ ⵏⵏⵓⵏ:
 shareLinkButton = ⴱⴹⵓ ⴰⵙⵖⵏ

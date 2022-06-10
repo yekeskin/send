@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 siteFeedback = Tu'un jianininu
 importingFile = Nasia´a…
 encryptingFile = Encriptando...
@@ -19,13 +19,13 @@ unlockButtonLabel = Nkasɨ
 downloadButtonLabel = Xinuu
 downloadFinish = Nnɨ´ɨ xinuu
 fileSizeProgress = ({ $partialSize } de { $totalSize })
-sendYourFilesLink = Ni´i Firefox Send
+sendYourFilesLink = Ni´i Send
 errorPageHeader = ¡Iyo iin ntu nkene va´a!
 fileTooBig = Archivo ya´a ka´nu. Nejia chunku´va { $size }
 linkExpiredAlt = Nnɨ´ɨ enlace
 notSupportedHeader = Ntu íyo tiñu nuu ka̱a̱ nánuku ya´a.
 notSupportedLink = ¿Navi ntu satiñu nuu ka̱a̱ nánuku ya´a?
-notSupportedOutdatedDetail = Tuni Firefox ya´a ntu satiñu vii jii Firefox Send. Nejika xinunu a jíía ka̱a̱ nánuku.
+notSupportedOutdatedDetail = Tuni Firefox ya´a ntu satiñu vii jii Send. Nejika xinunu a jíía ka̱a̱ nánuku.
 updateFirefox = Naxi´ñá Firefox
 deletePopupCancel = Nkuvi-ka
 deleteButtonHover = Xita
@@ -33,8 +33,8 @@ footerLinkLegal = Tu´un nichi
 footerLinkPrivacy = Tu´un xitu a kumiji noo´o
 footerLinkCookies = Cookies
 passwordTryAgain = Contraseña ntu vatu. Nachu´un tuku.
-javascriptRequired = Firefox Send ni´i JavaScript
-whyJavascript = ¿Navi Firefox Send ni´i JavaScript?
+javascriptRequired = Send ni´i JavaScript
+whyJavascript = ¿Navi Send ni´i JavaScript?
 enableJavascript = Kua´a jia´a JavaScript jee nachu´un tuku.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }h { $minutes }m
@@ -47,8 +47,8 @@ passwordSetError = Ntu nkuvi sá´á contraseña
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -108,8 +108,8 @@ tooManyArchives =
        *[other] Ntu xini { $count } archivos íyo
     }
 expiredTitle = Nnɨ'ɨ link ya´a.
-notSupportedDescription = { -send-brand } nsatiñu jii ka̱a̱ nánuku ya´a. { -send-short-brand } satiñu va´a jii tuni íchi yata { -firefox }, jee satiñu va´a jii tuni íyo ntañu´u kuaiyo daa ka̱a̱ nánuku.
-downloadFirefox = Xinuun { -firefox }
+notSupportedDescription = { -send-brand } nsatiñu jii ka̱a̱ nánuku ya´a. { -send-short-brand } satiñu va´a jii tuni íchi yata  , jee satiñu va´a jii tuni íyo ntañu´u kuaiyo daa ka̱a̱ nánuku.
+downloadFirefox = Xinuun  
 legalTitle = Tu´un xitu a kumiji noo´o { -send-short-brand }
 legalDateStamp = Versión 1.0 del 12 de marzo de 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -126,7 +126,7 @@ emailPlaceholder = Chu´un email noo´o
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Kajie´e sesión saa chu´un íchi nee { $size }
 signInOnlyButton = Kajie´e sesión
-accountBenefitTitle = Sá´á iin cuenta { -firefox } a xiin kajie´e sesión
+accountBenefitTitle = Sá´á iin cuenta   a xiin kajie´e sesión
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Kua´a archivo ka´nu { $size }
 accountBenefitDownloadCount = Kua´a archivos jii inka ñivɨ
@@ -144,7 +144,7 @@ noStreamsWarning = Kuvi ka̱a̱ nánaku ya´a nxituvi a vaji nuu iin archivo ka�
 noStreamsOptionCopy = Tɨɨn enlace jee síne nuu inka ka̱a̱ nánuku
 noStreamsOptionFirefox = Ni´i ka̱a̱ nánuku va´a
 noStreamsOptionDownload = Kaka jii ka̱a̱ nánuku ya´a
-downloadFirefoxPromo = { -send-short-brand } taji jíía { -firefox }.
+downloadFirefoxPromo = { -send-short-brand } taji jíía  .
 # the next line after the colon contains a file name
 shareLinkDescription = Kua´a enlace archivo noo´o
 shareLinkButton = Kua´a link

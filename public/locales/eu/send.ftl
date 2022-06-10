@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 siteFeedback = Iritzia
 importingFile = Inportatzen…
 encryptingFile = Zifratzen...
@@ -20,13 +20,13 @@ unlockButtonLabel = Desblokeatu
 downloadButtonLabel = Deskargatu
 downloadFinish = Deskarga burututa
 fileSizeProgress = ({ $totalSize } / { $partialSize })
-sendYourFilesLink = Probatu Firefox Send
+sendYourFilesLink = Probatu Send
 errorPageHeader = Zerbait gaizki joan da!
 fileTooBig = Fitxategia handiegia da kargatzeko. { $size } baino txikiagoa izan behar du.
 linkExpiredAlt = Lotura iraungi da
 notSupportedHeader = Zure nabigatzailea ez da onartzen.
 notSupportedLink = Zergatik ez da nire nabigatzailea onartzen?
-notSupportedOutdatedDetail = Zoritxarrez Firefox bertsio honek ez du Firefox Send-ek behar duen web teknologia onartzen. Zure nabigatzailea eguneratu behar duzu.
+notSupportedOutdatedDetail = Zoritxarrez Firefox bertsio honek ez du Send-ek behar duen web teknologia onartzen. Zure nabigatzailea eguneratu behar duzu.
 updateFirefox = Eguneratu Firefox
 deletePopupCancel = Utzi
 deleteButtonHover = Ezabatu
@@ -34,8 +34,8 @@ footerLinkLegal = Lege-oharra
 footerLinkPrivacy = Pribatutasuna
 footerLinkCookies = Cookieak
 passwordTryAgain = Pasahitz okerra. Saiatu berriro.
-javascriptRequired = JavaScript beharrezkoa da Firefox Send erabiltzeko.
-whyJavascript = Zergatik behar du Firefox Send-ek JavasScript?
+javascriptRequired = JavaScript beharrezkoa da Send erabiltzeko.
+whyJavascript = Zergatik behar du Send-ek JavasScript?
 enableJavascript = Gaitu JavaScript eta saiatu berriro.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }h { $minutes }m
@@ -48,8 +48,8 @@ passwordSetError = Pasahitz hau ezin da ezarri
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -109,8 +109,8 @@ tooManyArchives =
        *[other] Soilik { $count } artxibo onartzen dira.
     }
 expiredTitle = Lotura hau iraungi da.
-notSupportedDescription = { -send-brand } ez da nabigatzaile honetan ibiliko. { -send-short-brand } hobeto dabil { -firefox }(r)en azken bertsioarekin; halaber, nabigatzaile gehienen azken bertsioarekin ibiliko da.
-downloadFirefox = Deskargatu { -firefox }
+notSupportedDescription = { -send-brand } ez da nabigatzaile honetan ibiliko. { -send-short-brand } hobeto dabil  (r)en azken bertsioarekin; halaber, nabigatzaile gehienen azken bertsioarekin ibiliko da.
+downloadFirefox = Deskargatu  
 legalTitle = { -send-short-brand } pribatutasun-oharra
 legalDateStamp = 1.0 bertsioa, 2019ko martxoaren 12koa.
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -127,7 +127,7 @@ emailPlaceholder = Idatzi zure helbide elektronikoa
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Hasi saioa { $size } arte bidaltzeko
 signInOnlyButton = Hasi saioa
-accountBenefitTitle = Sortu { -firefox } kontu bat edo hasi saioa
+accountBenefitTitle = Sortu   kontu bat edo hasi saioa
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Partekatu { $size } arteko fitxategiak
 accountBenefitDownloadCount = Partekatu fitxategiak jende gehiagorekin
@@ -145,7 +145,7 @@ noStreamsWarning = Baliteke nabigatzailea gai ez izatea horrelako tamaina handik
 noStreamsOptionCopy = Kopiatu lotura beste nabigatzaile batean irekitzeko
 noStreamsOptionFirefox = Probatu gure nabigatzaile gogokoena
 noStreamsOptionDownload = Jarraitu nabigatzaile honekin
-downloadFirefoxPromo = Erabat berritutako { -firefox }(e)k eskaintzen dizu { -send-short-brand }
+downloadFirefoxPromo = Erabat berritutako  (e)k eskaintzen dizu { -send-short-brand }
 # the next line after the colon contains a file name
 shareLinkDescription = Partekatu zure fitxategirako lotura:
 shareLinkButton = Partekatu lotura

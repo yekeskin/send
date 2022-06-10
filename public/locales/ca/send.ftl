@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = S'està important…
 encryptingFile = S'està xifrant…
 decryptingFile = S'està desxifrant…
@@ -19,13 +19,13 @@ unlockButtonLabel = Desbloca
 downloadButtonLabel = Baixa
 downloadFinish = Ha acabat la baixada
 fileSizeProgress = ({ $partialSize } de { $totalSize })
-sendYourFilesLink = Proveu el Firefox Send
+sendYourFilesLink = Proveu el Send
 errorPageHeader = Hi ha hagut un problema
 fileTooBig = Aquest fitxer és massa gros per pujar-lo. Ha de tenir menys de { $size }.
 linkExpiredAlt = L'enllaç ha caducat
 notSupportedHeader = El vostre navegador no és compatible.
 notSupportedLink = Per què el meu navegador no és compatible?
-notSupportedOutdatedDetail = Aquesta versió del Firefox no admet la tecnologia web amb què funciona el Firefox Send. Haureu d'actualitzar el navegador.
+notSupportedOutdatedDetail = Aquesta versió del Firefox no admet la tecnologia web amb què funciona el Send. Haureu d'actualitzar el navegador.
 updateFirefox = Actualitza el Firefox
 deletePopupCancel = Cancel·la
 deleteButtonHover = Suprimeix
@@ -33,8 +33,8 @@ footerLinkLegal = Avís legal
 footerLinkPrivacy = Privadesa
 footerLinkCookies = Galetes
 passwordTryAgain = La contrasenya és incorrecta. Torneu-ho a provar.
-javascriptRequired = El Firefox Send necessita JavaScript
-whyJavascript = Per què el Firefox Send necessita JavaScript?
+javascriptRequired = El Send necessita JavaScript
+whyJavascript = Per què el Send necessita JavaScript?
 enableJavascript = Activeu el JavaScript i torneu-ho a provar.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } h { $minutes } min
@@ -47,9 +47,9 @@ passwordSetError = No s'ha pogut definir la contrasenya
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
--send-short-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
+-send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
 introTitle = Compartició de fitxers senzilla i privada
@@ -108,8 +108,8 @@ tooManyArchives =
        *[other] Només es permeten { $count } fitxers.
     }
 expiredTitle = Aquest enllaç ha caducat.
-notSupportedDescription = El { -send-brand } no funcionarà amb aquest navegador. El { -send-short-brand } funciona millor amb l'última versió del { -firefox } i funcionarà amb la versió més recent de la majoria de navegadors.
-downloadFirefox = Baixa el { -firefox }
+notSupportedDescription = El { -send-brand } no funcionarà amb aquest navegador. El { -send-short-brand } funciona millor amb l'última versió del   i funcionarà amb la versió més recent de la majoria de navegadors.
+downloadFirefox = Baixa el  
 legalTitle = Avís de privadesa del { -send-short-brand }
 legalDateStamp = Versió 1.0, amb data del 12 de març de 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -127,7 +127,7 @@ emailPlaceholder = Introduïu la vostra adreça electrònica
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Inicieu la sessió per enviar fins a { $size }
 signInOnlyButton = Inicia la sessió
-accountBenefitTitle = Creeu un compte del { -firefox } o inicieu la sessió
+accountBenefitTitle = Creeu un compte del   o inicieu la sessió
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Compartiu fitxers fins a { $size }
 accountBenefitDownloadCount = Compartiu fitxers amb més persones
@@ -145,7 +145,7 @@ noStreamsWarning = Pot ser que aquest navegador no pugui desxifrar un fitxer tan
 noStreamsOptionCopy = Copieu l'enllaç per obrir-lo en un altre navegador
 noStreamsOptionFirefox = Proveu el nostre navegador preferit
 noStreamsOptionDownload = Segueix amb aquest navegador
-downloadFirefoxPromo = El nou { -firefox } us ofereix el { -send-short-brand }
+downloadFirefoxPromo = El nou   us ofereix el { -send-short-brand }
 # the next line after the colon contains a file name
 shareLinkDescription = Compartiu l'enllaç al vostre fitxer:
 shareLinkButton = Comparteix l'enllaç

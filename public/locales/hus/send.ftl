@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 siteFeedback = Ka olna' max jant'oj yab u t'ojnal alwa'
 importingFile = k'wajat i chiyál...
 encryptingFile = K'wajat i tsinat dheyál...
@@ -18,13 +18,13 @@ unlockButtonLabel = Ka japiy
 downloadButtonLabel = Ka pa'ba'
 downloadFinish = Tala' pa'iyits
 fileSizeProgress = { $partialSize } xi ti { $totalSize }
-sendYourFilesLink = Ka eyendha' Firefox Send
+sendYourFilesLink = Ka eyendha' Send
 errorPageHeader = ¡Yab kalej alwa'!
 fileTooBig = Tekedh pulik axi a le' ka kadh'ba', kwa'al kin alemna' { $size }
 linkExpiredAlt = Yabats u awil ki ela'
 notSupportedHeader = Yab u awil ka japiyat k'al axi NAVEGADOR
 notSupportedLink = ¿Jale' ti u NAVEGADOR yab in japiyal?
-notSupportedOutdatedDetail = Yab u awil ka eyendha' Firefox Send kom an NAVEGADOR Firefox biyalits. Ka Pa'ba' axi it.
+notSupportedOutdatedDetail = Yab u awil ka eyendha' Send kom an NAVEGADOR Firefox biyalits. Ka Pa'ba' axi it.
 updateFirefox = Ka itmedha' Firefox
 deletePopupCancel = Ka kuba'
 deleteButtonHover = Ka pakuw
@@ -32,8 +32,8 @@ footerLinkLegal = Axi walkadh ka t'ajan
 footerLinkPrivacy = Tsinataláb
 footerLinkCookies = Cookies
 passwordTryAgain = Yab ja' an tsinat japixtaláb. Ka exa' junil.
-javascriptRequired = Firefox Send in yejenchal JavaScript
-whyJavascript = ¿Jale' Firefox Send in yejenchal JavaScript?
+javascriptRequired = Send in yejenchal JavaScript
+whyJavascript = ¿Jale' Send in yejenchal JavaScript?
 enableJavascript = Ka lek'wtsiy JavaScript ani ka exa' junil.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }h { $minutes }m
@@ -46,8 +46,8 @@ passwordSetError = Axi tsinat japixtaláb yab u awil ka eyendha'
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -105,8 +105,8 @@ tooManyArchives =
             Expidh u awil { $count } i t'ojláb.
     }
 expiredTitle = An enlace talíts in tsap.
-notSupportedDescription = { -send-brand } yab u t'ojnal al axi navegador. { -send-short-brand } u t'ojnal alwa' k'al an { -firefox } axi it, ani ne'ets ka t'ojon alwa' k'al an it navegadorchik.
-downloadFirefox = Ka pa'ba' { -firefox }
+notSupportedDescription = { -send-brand } yab u t'ojnal al axi navegador. { -send-short-brand } u t'ojnal alwa' k'al an   axi it, ani ne'ets ka t'ojon alwa' k'al an it navegadorchik.
+downloadFirefox = Ka pa'ba'  
 legalTitle = Tin kwentaj an "Tsinaxtaláb a k'al" { -send-short-brand }
 legalDateStamp = Versión 1.0 ani t'ajadh ti Marzo 12 ti tamub 2019.
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -123,7 +123,7 @@ emailPlaceholder = Ka punuw a abnax dhuchlab Correo Electrónico.
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Kit otsits abal ka ejtow ka abna' ma { $size }
 signInOnlyButton = Kit otsits
-accountBenefitTitle = Ka ts'ejka' jún a it k'al (cuenta) { -firefox } o kit otsits max a kwa'alits jún.
+accountBenefitTitle = Ka ts'ejka' jún a it k'al (cuenta)   o kit otsits max a kwa'alits jún.
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Ka buk'uw a t'ojlabil, ma { $size }
 accountBenefitDownloadCount = Ka buk'uw a t'ojlabil k'al pil i atiklabchik
@@ -142,7 +142,7 @@ noStreamsWarning = Walám axi navegador yab ne'ets kin ejtow kin japiy jún i t'
 noStreamsOptionCopy = Ka k'ot'biy an enlace abal ka japiy al pil i navegador
 noStreamsOptionFirefox = Ka eyendha' i navegador
 noStreamsOptionDownload = yab kit kalej al axi navegador
-downloadFirefoxPromo = An it { -firefox } ti pidhál { -send-short-brand }
+downloadFirefoxPromo = An it   ti pidhál { -send-short-brand }
 # the next line after the colon contains a file name
 shareLinkDescription = Ka abna' an enlace al an eyendhanél:
 shareLinkButton = Ka abna' an enlace

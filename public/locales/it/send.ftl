@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = Importazione in corso…
 encryptingFile = Crittazione in corso…
 decryptingFile = Decrittazione in corso…
@@ -19,13 +19,13 @@ unlockButtonLabel = Sblocca
 downloadButtonLabel = Scarica
 downloadFinish = Download completato
 fileSizeProgress = ({ $partialSize } di { $totalSize })
-sendYourFilesLink = Prova Firefox Send
+sendYourFilesLink = Prova Send
 errorPageHeader = Si è verificato un errore.
 fileTooBig = Le dimensioni di questo file sono eccessive. Dovrebbe essere inferiore a { $size }.
 linkExpiredAlt = Link scaduto
 notSupportedHeader = Il browser in uso non è supportato.
 notSupportedLink = Perché questo browser non risulta supportato?
-notSupportedOutdatedDetail = Purtroppo questa versione di Firefox non supporta le tecnologie web alla base di Firefox Send. È necessario aggiornare il browser.
+notSupportedOutdatedDetail = Purtroppo questa versione di Firefox non supporta le tecnologie web alla base di Send. È necessario aggiornare il browser.
 updateFirefox = Aggiorna Firefox
 deletePopupCancel = Annulla
 deleteButtonHover = Elimina
@@ -33,8 +33,8 @@ footerLinkLegal = Note legali
 footerLinkPrivacy = Privacy
 footerLinkCookies = Cookie
 passwordTryAgain = Password errata, riprovare.
-javascriptRequired = Firefox Send richiede JavaScript
-whyJavascript = Perché Firefox Send richiede JavaScript?
+javascriptRequired = Send richiede JavaScript
+whyJavascript = Perché Send richiede JavaScript?
 enableJavascript = Attiva JavaScript e riprova.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }h { $minutes }m
@@ -47,8 +47,8 @@ passwordSetError = Impossibile impostare la password
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -100,8 +100,8 @@ tooManyArchives =
        *[other] Sono consentiti solo { $count } archivi.
     }
 expiredTitle = Questo link è scaduto.
-notSupportedDescription = Non è possibile utilizzare { -send-brand } con questo browser. { -send-short-brand } funziona al meglio con l’ultima versione di { -firefox } ma è compatibile con l’ultima versione della maggior parte dei browser.
-downloadFirefox = Scarica { -firefox }
+notSupportedDescription = Non è possibile utilizzare { -send-brand } con questo browser. { -send-short-brand } funziona al meglio con l’ultima versione di   ma è compatibile con l’ultima versione della maggior parte dei browser.
+downloadFirefox = Scarica  
 legalTitle = Informativa sulla privacy di { -send-short-brand }
 legalDateStamp = Versione 1.0 del 12 marzo 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -119,7 +119,7 @@ emailPlaceholder = Inserisci il tuo indirizzo email
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Accedi per inviare fino a { $size }
 signInOnlyButton = Accedi
-accountBenefitTitle = Crea un account { -firefox } o accedi
+accountBenefitTitle = Crea un account   o accedi
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Condividi file fino a { $size }
 accountBenefitDownloadCount = Condividi file con più persone
@@ -137,7 +137,7 @@ noStreamsWarning = Questo browser potrebbe non essere in grado di decrittare un 
 noStreamsOptionCopy = Copia il link e aprilo in un altro browser
 noStreamsOptionFirefox = Prova il nostro browser preferito
 noStreamsOptionDownload = Continua con questo browser
-downloadFirefoxPromo = { -send-short-brand } è offerto dal nuovissimo { -firefox }.
+downloadFirefoxPromo = { -send-short-brand } è offerto dal nuovissimo  .
 # the next line after the colon contains a file name
 shareLinkDescription = Condividi il link al tuo file:
 shareLinkButton = Condividi link

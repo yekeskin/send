@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = Увозим…
 encryptingFile = Шифрујем…
 decryptingFile = Дешифрујем…
@@ -21,13 +21,13 @@ unlockButtonLabel = Откључај
 downloadButtonLabel = Преузми
 downloadFinish = Преузимање је завршено.
 fileSizeProgress = ({ $partialSize } од { $totalSize })
-sendYourFilesLink = Испробајте Firefox Send
+sendYourFilesLink = Испробајте Send
 errorPageHeader = Нешто је пошло наопако!
 fileTooBig = Та датотека је превелика за отпремање. Треба да буде мања од { $size }.
 linkExpiredAlt = Веза је истекла
 notSupportedHeader = Ваш прегледач није подржан.
 notSupportedLink = Зашто мој прегледач није подржан?
-notSupportedOutdatedDetail = Нажалост, ово издање Firefox-a не подржава веб технологију која омогућава Firefox Send. Мораћете да ажурирате ваш прегледач.
+notSupportedOutdatedDetail = Нажалост, ово издање Firefox-a не подржава веб технологију која омогућава Send. Мораћете да ажурирате ваш прегледач.
 updateFirefox = Ажурирај Firefox
 deletePopupCancel = Откажи
 deleteButtonHover = Обриши
@@ -35,8 +35,8 @@ footerLinkLegal = Правни подаци
 footerLinkPrivacy = Приватност
 footerLinkCookies = Колачићи
 passwordTryAgain = Нетачна лозинка. Пробајте поново.
-javascriptRequired = За Firefox Send је потребан JavaScript
-whyJavascript = Зашто је потребан JavaScript за Firefox Send?
+javascriptRequired = За Send је потребан JavaScript
+whyJavascript = Зашто је потребан JavaScript за Send?
 enableJavascript = Омогућите JavaScript и пробајте поново.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }ч { $minutes }м
@@ -49,8 +49,8 @@ passwordSetError = Не можемо поставити ову лозинку
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -116,8 +116,8 @@ tooManyArchives =
        *[other] Дозвољено је само { $count } архива.
     }
 expiredTitle = Ова веза је истекла.
-notSupportedDescription = { -send-brand } неће радити у овом прегледачу. { -send-short-brand } најбоље ради са последњим издањем прегледача { -firefox } и радиће са тренутним издањима већине других прегледача.
-downloadFirefox = Преузми { -firefox }
+notSupportedDescription = { -send-brand } неће радити у овом прегледачу. { -send-short-brand } најбоље ради са последњим издањем прегледача   и радиће са тренутним издањима већине других прегледача.
+downloadFirefox = Преузми  
 legalTitle = Политика приватности услуге { -send-short-brand }
 legalDateStamp = Издање 1.0, датум објављивања 12. март 2019. године
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -135,7 +135,7 @@ emailPlaceholder = Унесите вашу е-адресу
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Пријавите се да пошаљете садржај до { $size }
 signInOnlyButton = Пријавите се
-accountBenefitTitle = Направите { -firefox } налог или се пријавите
+accountBenefitTitle = Направите   налог или се пријавите
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Поделите датотеке велике до { $size }
 accountBenefitDownloadCount = Поделите датотеке са више особа
@@ -154,7 +154,7 @@ noStreamsWarning = Овај прегледач можда неће моћи да
 noStreamsOptionCopy = Копирај везу за отварање у другом прегледачу
 noStreamsOptionFirefox = Пробајте наш омиљени прегледач
 noStreamsOptionDownload = Наставите у овом прегледачу
-downloadFirefoxPromo = { -send-short-brand } вам је омогућен захваљући потпуно новом програму { -firefox }.
+downloadFirefoxPromo = { -send-short-brand } вам је омогућен захваљући потпуно новом програму  .
 # the next line after the colon contains a file name
 shareLinkDescription = Поделите везу до датотеке:
 shareLinkButton = Поделите везу

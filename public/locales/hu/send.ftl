@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = Importálás…
 encryptingFile = Titkosítás…
 decryptingFile = Visszafejtés…
@@ -19,13 +19,13 @@ unlockButtonLabel = Feloldás
 downloadButtonLabel = Letöltés
 downloadFinish = A letöltés befejeződött
 fileSizeProgress = ({ $partialSize } / { $totalSize })
-sendYourFilesLink = Próbálja ki a Firefox Sendet
+sendYourFilesLink = Próbálja ki a Sendet
 errorPageHeader = Hiba történt!
 fileTooBig = Ez a fájl túl nagy a feltöltéshez. Kevesebb mint { $size } kell legyen.
 linkExpiredAlt = A hivatkozás lejárt
 notSupportedHeader = A böngésző nem támogatott.
 notSupportedLink = Miért nem támogatott a böngészőm?
-notSupportedOutdatedDetail = Sajnos a Firefox ezen verziója nem támogatja a Firefox Send alapját képező technológiát. Frissítenie kell a böngészőjét.
+notSupportedOutdatedDetail = Sajnos a Firefox ezen verziója nem támogatja a Send alapját képező technológiát. Frissítenie kell a böngészőjét.
 updateFirefox = Firefox frissítése
 deletePopupCancel = Mégse
 deleteButtonHover = Törlés
@@ -33,8 +33,8 @@ footerLinkLegal = Jogi információk
 footerLinkPrivacy = Adatvédelem
 footerLinkCookies = Sütik
 passwordTryAgain = Helytelen jelszó. Próbálja meg újra.
-javascriptRequired = A Firefox Sendhez JavaScript szükséges
-whyJavascript = Miért van szükség JavaScriptre a Firefox Sendhez?
+javascriptRequired = A Sendhez JavaScript szükséges
+whyJavascript = Miért van szükség JavaScriptre a Sendhez?
 enableJavascript = Kérjük engedélyezze a JavaScriptet, majd próbálkozzon újra.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }ó { $minutes }p
@@ -47,8 +47,8 @@ passwordSetError = Ez a jelszó nem állítható be
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -108,8 +108,8 @@ tooManyArchives =
        *[other] Csak { $count } archívum engedélyezett.
     }
 expiredTitle = Ez a hivatkozás elévült.
-notSupportedDescription = A { -send-brand } nem működik ebben a böngészőben. A { -send-short-brand } a { -firefox } legfrissebb verziójával működik a legjobban, de működik a legtöbb böngésző aktuális verziójával is.
-downloadFirefox = A { -firefox } letöltése
+notSupportedDescription = A { -send-brand } nem működik ebben a böngészőben. A { -send-short-brand } a   legfrissebb verziójával működik a legjobban, de működik a legtöbb böngésző aktuális verziójával is.
+downloadFirefox = A   letöltése
 legalTitle = { -send-short-brand } adatvédelmi nyilatkozat
 legalDateStamp = 1.0-s verzió, kelt 2019. március 12-én
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -127,7 +127,7 @@ emailPlaceholder = Adja meg az e-mail címét
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Jelentkezzen be, és küldjön legfeljebb { $size }-ot
 signInOnlyButton = Bejelentkezés
-accountBenefitTitle = Hozzon létre egy { -firefox } fiókot vagy jelentkezzen be
+accountBenefitTitle = Hozzon létre egy   fiókot vagy jelentkezzen be
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Osszon meg fájlokat { $size }-ig
 accountBenefitDownloadCount = Osszon meg fájlokat több emberrel
@@ -145,7 +145,7 @@ noStreamsWarning = Előfordulhat, hogy a böngésző nem fog tudni visszafejteni
 noStreamsOptionCopy = Másolja a hivatkozást, és nyissa meg egy másik böngészőben
 noStreamsOptionFirefox = Próbálja ki a kedvenc böngészőnket
 noStreamsOptionDownload = Folytatás ezzel a böngészővel
-downloadFirefoxPromo = A { -send-short-brand }et a vadonatúj { -firefox } hozza el Önnek.
+downloadFirefoxPromo = A { -send-short-brand }et a vadonatúj   hozza el Önnek.
 # the next line after the colon contains a file name
 shareLinkDescription = Ossza meg a fájlja hivatkozását:
 shareLinkButton = Hivatkozás megosztása

@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = దిగుమతవుతోంది...
 encryptingFile = గుప్తీకరిస్తోంది...
 decryptingFile = వ్యక్తపరుస్తోంది...
@@ -19,7 +19,7 @@ unlockButtonLabel = తాళం తీయి
 downloadButtonLabel = దిగుమతి
 downloadFinish = దిగుమతి పూర్తయింది
 fileSizeProgress = { $totalSize }) యొక్క ({ $partialSize }
-sendYourFilesLink = Firefox sendను ప్రయత్నించండి
+sendYourFilesLink = Sendను ప్రయత్నించండి
 errorPageHeader = ఏదో తప్పిదం జరిగింది!
 fileTooBig = ఆ ఫైలు ఎక్కించడానికి చాలా పెద్దగా ఉంది. ఫైళ్ళు { $size } కంటే తక్కువ పరిమాణంలో ఉండాలి.
 linkExpiredAlt = లంకె గడువు ముగిసింది
@@ -33,8 +33,8 @@ footerLinkLegal = చట్టపరమైన
 footerLinkPrivacy = గోప్యత
 footerLinkCookies = కుకీలు
 passwordTryAgain = సరికాని సంకేతపదం. మళ్ళీ ప్రయత్నించండి.
-javascriptRequired = Firefox Sendకి జావాస్క్రిప్టు కావాలి
-whyJavascript = Firefox Sendకి జావాస్క్రిప్టు ఎందుకు కావాలి?
+javascriptRequired = Sendకి జావాస్క్రిప్టు కావాలి
+whyJavascript = Sendకి జావాస్క్రిప్టు ఎందుకు కావాలి?
 enableJavascript = జావాస్క్రిప్టు చేతనంచేసి మళ్ళీ ప్రయత్నించండి.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }గం { $minutes }ని
@@ -47,8 +47,8 @@ passwordSetError = ఈ సంకేతపదం పెట్టలేకపో�
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = పంపించు
 -firefox = Firefox
 -mozilla = Mozilla
@@ -92,7 +92,7 @@ copyLinkDescription = మీ ఫైలును భాగస్వామ్య�
 copyLinkButton = లంకెను నకలుతీయి
 downloadTitle = ఫైళ్లను దింపుకోండి
 expiredTitle = ఈ లంకె గడువు ముగిసింది.
-downloadFirefox = { -firefox } ను దింపుకోండి
+downloadFirefox =   ను దింపుకోండి
 legalTitle = { -send-short-brand } గోప్యతా నోటీసు
 legalDateStamp = వెర్షన్ 1.0, మార్చి 12, 2019 నాటిది
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -109,7 +109,7 @@ emailPlaceholder = ఈ ఈమెయిలును ఇవ్వండి
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = { $size } వరకు పంపడానికి ప్రవేశించండి
 signInOnlyButton = ప్రవేశించండి
-accountBenefitTitle = ఒక { -firefox } ఖాతాని సృష్టించండి లేదా ప్రవేశించండి
+accountBenefitTitle = ఒక   ఖాతాని సృష్టించండి లేదా ప్రవేశించండి
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = { $size } పరిమాణం ఫైళ్ళ వరకు పంచుకోండి
 accountBenefitDownloadCount = ఫైళ్లను ఎక్కువ మందితో పంచుకోండి
@@ -126,7 +126,7 @@ noStreamsWarning = ఈ బ్రౌజర్ ఈ ఫైలును పెద్
 noStreamsOptionCopy = మరొక బ్రౌజర్‌లో తెరవడానికి లంకెను నకలు చేయండి
 noStreamsOptionFirefox = మా అభిమాన బ్రౌజర్‌ను ప్రయత్నించండి
 noStreamsOptionDownload = ఈ బ్రౌజర్‌తో కొనసాగించండి
-downloadFirefoxPromo = { -send-short-brand } క్రొత్త { -firefox } ద్వారా మీ ముందుకు తీసుకురాబడుతుంది.
+downloadFirefoxPromo = { -send-short-brand } క్రొత్త   ద్వారా మీ ముందుకు తీసుకురాబడుతుంది.
 # the next line after the colon contains a file name
 shareLinkDescription = మీ ఫైలుకు లంకెను పంచుకోండి:
 shareLinkButton = లంకెను పంచుకోండి

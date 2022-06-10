@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 siteFeedback = Tagasiside
 importingFile = Importimine...
 encryptingFile = Krüptimine…
@@ -20,13 +20,13 @@ unlockButtonLabel = Ava
 downloadButtonLabel = Laadi alla
 downloadFinish = Allalaadimine lõpetati
 fileSizeProgress = ({ $partialSize }/{ $totalSize })
-sendYourFilesLink = Proovi Firefox Send'i
+sendYourFilesLink = Proovi Send'i
 errorPageHeader = Midagi läks valesti!
 fileTooBig = Fail on üleslaadimiseks liiga suur. See peaks olema väiksem kui { $size }.
 linkExpiredAlt = Link on aegunud
 notSupportedHeader = Sinu brauser pole toetatud.
 notSupportedLink = Miks mu brauser toetatud pole?
-notSupportedOutdatedDetail = Kahjuks ei toeta see Firefoxi versioon veebitehnoloogiaid, mis teevad Firefox Sendi toimimise võimalikuks. Sa pead oma brauserit uuendama.
+notSupportedOutdatedDetail = Kahjuks ei toeta see Firefoxi versioon veebitehnoloogiaid, mis teevad Sendi toimimise võimalikuks. Sa pead oma brauserit uuendama.
 updateFirefox = Uuenda Firefox
 deletePopupCancel = Loobu
 deleteButtonHover = Kustuta
@@ -34,8 +34,8 @@ footerLinkLegal = Õiguslik teave
 footerLinkPrivacy = Privaatsusest
 footerLinkCookies = Küpsistest
 passwordTryAgain = Vale parool. Palun proovi uuesti.
-javascriptRequired = Firefox Send'i kasutamiseks tuleb JavaScript lubada
-whyJavascript = Miks Firefox Send JavaScripti vajab?
+javascriptRequired = Send'i kasutamiseks tuleb JavaScript lubada
+whyJavascript = Miks Send JavaScripti vajab?
 enableJavascript = Palun luba JavaScript ja proovi uuesti.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }t { $minutes }m
@@ -48,8 +48,8 @@ passwordSetError = Parooli muutmine ebaõnnestus
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -109,8 +109,8 @@ tooManyArchives =
        *[other] Vaid { $count } arhiveerimist on lubatud.
     }
 expiredTitle = Link on aegunud.
-notSupportedDescription = { -send-brand } ei tööta selle veebilehitsejaga. Kõige paremini töötab { -send-short-brand } uusima { -firefox }iga ja töötab ka enamikes teistes uuendatud brauserites.
-downloadFirefox = Laadi { -firefox } alla
+notSupportedDescription = { -send-brand } ei tööta selle veebilehitsejaga. Kõige paremini töötab { -send-short-brand } uusima  iga ja töötab ka enamikes teistes uuendatud brauserites.
+downloadFirefox = Laadi   alla
 legalTitle = { -send-short-brand } privaatsusteade
 legalDateStamp = Versioon 1.0, alates 12. märts 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -127,7 +127,7 @@ emailPlaceholder = Sisesta e-posti aadress
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Logi sisse ning saad saata kuni { $size } suuruseid faile
 signInOnlyButton = Logi sisse
-accountBenefitTitle = Loo { -firefox }i konto või logi sisse
+accountBenefitTitle = Loo  i konto või logi sisse
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Jaga kuni { $size } suuruseid faile
 accountBenefitDownloadCount = Jaga faile enamate inimestega
@@ -145,7 +145,7 @@ noStreamsWarning = Sinu veebilehitseja ei pruugi suuta nii suurt faili dekrüpti
 noStreamsOptionCopy = Kopeeri link teises brauseris avamiseks
 noStreamsOptionFirefox = Proovi meie lemmikbrauserit
 noStreamsOptionDownload = Jätka selle brauseriga
-downloadFirefoxPromo = { -send-short-brand } toob sinuni uhiuus { -firefox }.
+downloadFirefoxPromo = { -send-short-brand } toob sinuni uhiuus  .
 # the next line after the colon contains a file name
 shareLinkDescription = Jaga linki failile:
 shareLinkButton = Jaga linki

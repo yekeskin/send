@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = กำลังนำเข้า…
 encryptingFile = กำลังเข้ารหัส…
 decryptingFile = กำลังถอดรหัส…
@@ -17,13 +17,13 @@ unlockButtonLabel = ปลดล็อก
 downloadButtonLabel = ดาวน์โหลด
 downloadFinish = การดาวน์โหลดเสร็จสมบูรณ์
 fileSizeProgress = ({ $partialSize } จาก { $totalSize })
-sendYourFilesLink = ลองใช้ Firefox Send
+sendYourFilesLink = ลองใช้ Send
 errorPageHeader = มีบางอย่างผิดพลาด!
 fileTooBig = ไฟล์นั้นใหญ่เกินกว่าจะอัปโหลดได้ ไฟล์ที่จะอัปโหลดควรมีขนาดน้อยกว่า { $size }
 linkExpiredAlt = ลิงก์หมดอายุแล้ว
 notSupportedHeader = ไม่รองรับเบราว์เซอร์ของคุณ
 notSupportedLink = ทำไมจึงไม่รองรับเบราว์เซอร์ของฉัน?
-notSupportedOutdatedDetail = น่าเสียดายที่ Firefox รุ่นนี้ไม่สนับสนุนเทคโนโลยีเว็บที่ขับเคลื่อน Firefox Send คุณจะต้องอัปเดตเบราว์เซอร์ของคุณ
+notSupportedOutdatedDetail = น่าเสียดายที่ Firefox รุ่นนี้ไม่สนับสนุนเทคโนโลยีเว็บที่ขับเคลื่อน Send คุณจะต้องอัปเดตเบราว์เซอร์ของคุณ
 updateFirefox = อัปเดต Firefox
 deletePopupCancel = ยกเลิก
 deleteButtonHover = ลบ
@@ -31,8 +31,8 @@ footerLinkLegal = ข้อกฎหมาย
 footerLinkPrivacy = ความเป็นส่วนตัว
 footerLinkCookies = คุกกี้
 passwordTryAgain = รหัสผ่านไม่ถูกต้อง ลองอีกครั้ง
-javascriptRequired = Firefox Send จำเป็นต้องใช้ JavaScript
-whyJavascript = ทำไม Firefox Send จึงจำเป็นต้องใช้ JavaScript?
+javascriptRequired = Send จำเป็นต้องใช้ JavaScript
+whyJavascript = ทำไม Send จึงจำเป็นต้องใช้ JavaScript?
 enableJavascript = โปรดเปิดใช้งาน JavaScript แล้วลองอีกครั้ง
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } ชม. { $minutes } นาที
@@ -45,8 +45,8 @@ passwordSetError = ไม่สามารถตั้งรหัสผ่า�
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -100,8 +100,8 @@ tooManyArchives =
        *[other] สามารถอัปโหลดไฟล์เก็บถาวรได้เพียง { $count } ไฟล์เท่านั้น
     }
 expiredTitle = ลิงก์นี้หมดอายุแล้ว
-notSupportedDescription = { -send-brand } จะไม่ทำงานกับเบราว์เซอร์นี้ { -send-short-brand } จะทำงานได้ดีที่สุดกับ { -firefox } รุ่นล่าสุด และจะทำงานกับเบราว์เซอร์ส่วนใหญ่ที่เป็นรุ่นปัจจุบัน
-downloadFirefox = ดาวน์โหลด { -firefox }
+notSupportedDescription = { -send-brand } จะไม่ทำงานกับเบราว์เซอร์นี้ { -send-short-brand } จะทำงานได้ดีที่สุดกับ   รุ่นล่าสุด และจะทำงานกับเบราว์เซอร์ส่วนใหญ่ที่เป็นรุ่นปัจจุบัน
+downloadFirefox = ดาวน์โหลด  
 legalTitle = ประกาศความเป็นส่วนตัวของ { -send-short-brand }
 legalDateStamp = รุ่น 1.0 วันที่ 12 มีนาคม 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -119,7 +119,7 @@ emailPlaceholder = ป้อนอีเมลของคุณ
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = ลงชื่อเข้าเพื่อส่งได้ถึง { $size }
 signInOnlyButton = ลงชื่อเข้า
-accountBenefitTitle = สร้างบัญชี { -firefox } หรือลงชื่อเข้า
+accountBenefitTitle = สร้างบัญชี   หรือลงชื่อเข้า
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = แบ่งปันไฟล์สูงสุดถึง { $size }
 accountBenefitDownloadCount = แบ่งปันไฟล์กับผู้คนมากขึ้น
@@ -136,7 +136,7 @@ noStreamsWarning = เบราว์เซอร์นี้อาจไม่�
 noStreamsOptionCopy = คัดลอกลิงก์เพื่อเปิดในเบราว์เซอร์อื่น
 noStreamsOptionFirefox = ลองเบราว์เซอร์โปรดของเรา
 noStreamsOptionDownload = ดำเนินการต่อด้วยเบราว์เซอร์นี้
-downloadFirefoxPromo = { -send-short-brand } สนับสนุนโดย { -firefox } โฉมใหม่
+downloadFirefoxPromo = { -send-short-brand } สนับสนุนโดย   โฉมใหม่
 # the next line after the colon contains a file name
 shareLinkDescription = แบ่งปันลิงก์ไปยังไฟล์ของคุณ:
 shareLinkButton = แบ่งปันลิงก์

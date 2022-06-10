@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = Se importă…
 encryptingFile = Se criptează…
 decryptingFile = Se decriptează…
@@ -21,13 +21,13 @@ unlockButtonLabel = Deblochează
 downloadButtonLabel = Descarcă
 downloadFinish = Descărcare încheiată
 fileSizeProgress = ({ $partialSize } din { $totalSize })
-sendYourFilesLink = Încearcă Firefox Send
+sendYourFilesLink = Încearcă Send
 errorPageHeader = Ceva nu a funcționat!
 fileTooBig = Acest fișier este prea mare. Ar trebuie să fie sub { $size }.
 linkExpiredAlt = Link expirat
 notSupportedHeader = Browserul tău nu este suportat.
 notSupportedLink = De ce browserul meu nu este suportat?
-notSupportedOutdatedDetail = Din păcate, această versiune de Firefox nu suportă tehnologiile web din spatele Firefox Send. Va trebui să actualizezi browserul.
+notSupportedOutdatedDetail = Din păcate, această versiune de Firefox nu suportă tehnologiile web din spatele Send. Va trebui să actualizezi browserul.
 updateFirefox = Actualizează Firefox
 deletePopupCancel = Renunță
 deleteButtonHover = Șterge
@@ -35,8 +35,8 @@ footerLinkLegal = Mențiuni legale
 footerLinkPrivacy = Confidențialitate
 footerLinkCookies = Cookie-uri
 passwordTryAgain = Parolă incorectă. Încearcă din nou.
-javascriptRequired = Firefox Send necesită JavaScript
-whyJavascript = De ce Firefox Send necesită JavaScript?
+javascriptRequired = Send necesită JavaScript
+whyJavascript = De ce Send necesită JavaScript?
 enableJavascript = Te rugăm să reactivezi JavaScript și să încerci din nou.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }h { $minutes }m
@@ -49,8 +49,8 @@ passwordSetError = Această parolă nu a putut fi setată
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -116,8 +116,8 @@ tooManyArchives =
        *[other] Numai { $count } de arhive sunt permise.
     }
 expiredTitle = Acest link a expirat.
-notSupportedDescription = { -send-brand } nu va funcționa pe acest browser. { -send-short-brand } funcționează cel mai bine cu ultima versiune de { -firefox } și va funcționa cu versiunea curentă a majorității browserelor.
-downloadFirefox = Descarcă { -firefox }
+notSupportedDescription = { -send-brand } nu va funcționa pe acest browser. { -send-short-brand } funcționează cel mai bine cu ultima versiune de   și va funcționa cu versiunea curentă a majorității browserelor.
+downloadFirefox = Descarcă  
 legalTitle = Notificare privind confidențialitatea { -send-short-brand }
 legalDateStamp = Versiunea 1.0 din data de 12 martie 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -135,7 +135,7 @@ emailPlaceholder = Introdu e-mailul tău
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Autentifică-te pentru a trimite până la { $size }
 signInOnlyButton = Autentificare
-accountBenefitTitle = Creează un cont { -firefox } sau autentifică-te
+accountBenefitTitle = Creează un cont   sau autentifică-te
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Partajează fișiere de până la { $size }
 accountBenefitDownloadCount = Partajează fișiere cu mai multe persoane
@@ -154,7 +154,7 @@ noStreamsWarning = Este posibil ca acest browser să nu poată decripta un fiși
 noStreamsOptionCopy = Copiază linkul pentru a-l deschide într-un alt browser
 noStreamsOptionFirefox = Încearcă browserul nostru favorit
 noStreamsOptionDownload = Continuă cu acest browser
-downloadFirefoxPromo = { -send-short-brand } îți este adus de noul { -firefox }.
+downloadFirefoxPromo = { -send-short-brand } îți este adus de noul  .
 # the next line after the colon contains a file name
 shareLinkDescription = Partajează linkul către fișier:
 shareLinkButton = Partajează linkul

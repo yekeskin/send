@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = インポート中...
 encryptingFile = 暗号化中...
 decryptingFile = 復号化中...
@@ -17,13 +17,13 @@ unlockButtonLabel = ロック解除
 downloadButtonLabel = ダウンロード
 downloadFinish = ダウンロード完了
 fileSizeProgress = ({ $partialSize } / { $totalSize })
-sendYourFilesLink = Firefox Send を試す
+sendYourFilesLink = Send を試す
 errorPageHeader = 何か問題が発生しました。
 fileTooBig = このファイルは大きすぎるためアップロードできません。上限は { $size } です。
 linkExpiredAlt = リンク期限切れ
 notSupportedHeader = お使いのブラウザーには対応していません。
 notSupportedLink = なぜ私のブラウザーには対応していないのでしょうか？
-notSupportedOutdatedDetail = 残念ながらお使いのバージョンの Firefox は Firefox Send が活用しているウェブ技術に対応していません。ブラウザーを更新する必要があります。
+notSupportedOutdatedDetail = 残念ながらお使いのバージョンの Firefox は Send が活用しているウェブ技術に対応していません。ブラウザーを更新する必要があります。
 updateFirefox = Firefox を更新
 deletePopupCancel = キャンセル
 deleteButtonHover = 削除
@@ -31,8 +31,8 @@ footerLinkLegal = 法的情報
 footerLinkPrivacy = プライバシー
 footerLinkCookies = Cookie
 passwordTryAgain = パスワードが正しくありません。再度入力してください。
-javascriptRequired = Firefox Send を使うには JavaScript が必要です
-whyJavascript = Firefox Send が JavaScript を必要とする理由
+javascriptRequired = Send を使うには JavaScript が必要です
+whyJavascript = Send が JavaScript を必要とする理由
 enableJavascript = JavaScript を有効にして再度試してください。
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } 時間 { $minutes } 分
@@ -45,8 +45,8 @@ passwordSetError = このパスワードは設定できませんでした
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -100,8 +100,8 @@ tooManyArchives =
        *[other] { $count } 回までしかダウンロードできません。
     }
 expiredTitle = このリンクは期限切れです。
-notSupportedDescription = { -send-brand } は、このブラウザーでは動作しません。{ -send-short-brand } は最新バージョンの { -firefox } で最もよく動作し、その他の現バージョンのブラウザーでも動作します。
-downloadFirefox = { -firefox } をダウンロード
+notSupportedDescription = { -send-brand } は、このブラウザーでは動作しません。{ -send-short-brand } は最新バージョンの   で最もよく動作し、その他の現バージョンのブラウザーでも動作します。
+downloadFirefox =   をダウンロード
 legalTitle = { -send-short-brand } プライバシー通知
 legalDateStamp = バージョン 1.0, 2019年3月12日時点
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -119,7 +119,7 @@ emailPlaceholder = メールアドレスを入力
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = ログインすると最大 { $size } のファイルを送信できます
 signInOnlyButton = ログイン
-accountBenefitTitle = { -firefox } アカウントを作成またはログイン
+accountBenefitTitle =   アカウントを作成またはログイン
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = 最大 { $size } までのファイルを共有
 accountBenefitDownloadCount = より多くの人とファイルを共有
@@ -136,7 +136,7 @@ noStreamsWarning = このブラウザーは、この大きさのファイルを�
 noStreamsOptionCopy = リンクをコピーして他のブラウザーで開いてください
 noStreamsOptionFirefox = Firefox を試してみる
 noStreamsOptionDownload = このブラウザーで続ける
-downloadFirefoxPromo = { -send-short-brand } はすべてが新しくなった { -firefox } により提供されています。
+downloadFirefoxPromo = { -send-short-brand } はすべてが新しくなった   により提供されています。
 # the next line after the colon contains a file name
 shareLinkDescription = ファイルへのリンクを共有しましょう:
 shareLinkButton = リンクを共有

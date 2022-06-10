@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = გადმოტანა...
 encryptingFile = დაშიფვრა...
 decryptingFile = გაშიფვრა...
@@ -19,13 +19,13 @@ unlockButtonLabel = გახსნა
 downloadButtonLabel = ჩამოტვირთვა
 downloadFinish = ჩამოტვირთვა დასრულდა
 fileSizeProgress = ({ $partialSize } { $totalSize }-იდან)
-sendYourFilesLink = გამოცადეთ Firefox Send
+sendYourFilesLink = გამოცადეთ Send
 errorPageHeader = რაღაც ხარვეზია!
 fileTooBig = ფაილი ზედმეტად დიდია. უნდა იყოს { $size } ზომაზე ნაკლები.
 linkExpiredAlt = ბმული ვადაგასულია
 notSupportedHeader = თქვენი ბრაუზერი არაა მხარდაჭერილი.
 notSupportedLink = რატომ არაა ჩემი ბრაუზერი მხარდაჭერილი?
-notSupportedOutdatedDetail = სამწუხაროდ, Firefox-ის ამ ვერსიას არ გააჩნია ის ტექნოლოგია, რომელიც აუცილებელია Firefox Send-ის მუშაობისთვის. გესაჭიროებათ, ბრაუზერის განახლება.
+notSupportedOutdatedDetail = სამწუხაროდ, Firefox-ის ამ ვერსიას არ გააჩნია ის ტექნოლოგია, რომელიც აუცილებელია Send-ის მუშაობისთვის. გესაჭიროებათ, ბრაუზერის განახლება.
 updateFirefox = Firefox-ის განახლება
 deletePopupCancel = გაუქმება
 deleteButtonHover = წაშლა
@@ -33,8 +33,8 @@ footerLinkLegal = სამართლებრივი საკითხე�
 footerLinkPrivacy = პირადულობა
 footerLinkCookies = ფუნთუშები
 passwordTryAgain = პაროლი არასწორია. სცადეთ ხელახლა.
-javascriptRequired = Firefox Send საჭიროებს JavaScript-ს
-whyJavascript = რატომ საჭიროებს Firefox Send JavaScript-ს?
+javascriptRequired = Send საჭიროებს JavaScript-ს
+whyJavascript = რატომ საჭიროებს Send JavaScript-ს?
 enableJavascript = გთხოვთ ჩართოთ JavaScript და სცადოთ ხელახლა.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }სთ { $minutes }წთ
@@ -47,8 +47,8 @@ passwordSetError = ამ პაროლის დაყენება ვე�
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -108,8 +108,8 @@ tooManyArchives =
        *[other] მხოლოდ { $count } არქივია დაშვებული.
     }
 expiredTitle = ბმული ვადაგასულია.
-notSupportedDescription = { -send-brand } არ იმუშავებს ამ ბრაუზერთან. { -send-short-brand } საუკეთესოდ მუშაობს ახალ { -firefox }-ზე და აგრეთვე უმეტესი ბრაუზერების უახლეს ვერსიებზე.
-downloadFirefox = ჩამოტვირთეთ { -firefox }
+notSupportedDescription = { -send-brand } არ იმუშავებს ამ ბრაუზერთან. { -send-short-brand } საუკეთესოდ მუშაობს ახალ  -ზე და აგრეთვე უმეტესი ბრაუზერების უახლეს ვერსიებზე.
+downloadFirefox = ჩამოტვირთეთ  
 legalTitle = { -send-short-brand } პირადულობის განაცხადი
 legalDateStamp = ვერსია 1.0, დათარიღებული 12 მარტით, 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -127,7 +127,7 @@ emailPlaceholder = შეიყვანეთ ელფოსტა
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = შედით ანგარიშზე, რომ გაგზავნოთ { $size }-მდე
 signInOnlyButton = შესვლა
-accountBenefitTitle = შექმენით { -firefox }-ანგარიში ან შედით
+accountBenefitTitle = შექმენით  -ანგარიში ან შედით
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = გააზიარეთ ფაილები { $size }-მდე
 accountBenefitDownloadCount = გაუზიარეთ ფაილები მეტ ხალხს
@@ -145,7 +145,7 @@ noStreamsWarning = ამ ბრაუზერმა, შესაძლოა 
 noStreamsOptionCopy = ბმულის ასლის აღება სხვა ბრაუზერში გასახსნელად
 noStreamsOptionFirefox = სცადეთ ჩვენი რჩეული ბრაუზერი
 noStreamsOptionDownload = განაგრძეთ ამ ბრაუზერით
-downloadFirefoxPromo = { -send-short-brand }-ს წარმოგიდგინეთ უახლესი { -firefox }.
+downloadFirefoxPromo = { -send-short-brand }-ს წარმოგიდგინეთ უახლესი  .
 # the next line after the colon contains a file name
 shareLinkDescription = ფაილის ბმულის გაზიარება:
 shareLinkButton = ბმულის გაზიარება

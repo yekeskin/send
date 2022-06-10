@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 siteFeedback = بازخورد
 importingFile = در حال وارد کردن…
 encryptingFile = در حال رمزنگاری…
@@ -20,13 +20,13 @@ unlockButtonLabel = باز کردن
 downloadButtonLabel = بارگیری
 downloadFinish = بارگیری کامل شد
 fileSizeProgress = ({ $partialSize } از { $totalSize })
-sendYourFilesLink = Firefox Send را امتحان کنید
+sendYourFilesLink = Send را امتحان کنید
 errorPageHeader = خطایی رخ داد!
 fileTooBig = این پرونده بسیار حجیم است. حجم آن می‌بایستی کم تر { $size } باشد.
 linkExpiredAlt = پیوند منقضی شده است
 notSupportedHeader = مرورگر شما پشتیبانی نمی‌شود.
 notSupportedLink = چرا از مرورگر من پشتیبانی نمی‌شود؟
-notSupportedOutdatedDetail = متاسفانه این نسخه از فایرفاکس این تکنولوژی وب که به Firefox Send قدرت می‌بخشد را پشتیبانی نمی‌کند. شما نیاز دارید تا مرورگر خود را بروز کنید.
+notSupportedOutdatedDetail = متاسفانه این نسخه از فایرفاکس این تکنولوژی وب که به Send قدرت می‌بخشد را پشتیبانی نمی‌کند. شما نیاز دارید تا مرورگر خود را بروز کنید.
 updateFirefox = بروزرسانی فایرفاکس
 deletePopupCancel = انصراف
 deleteButtonHover = حذف
@@ -34,8 +34,8 @@ footerLinkLegal = ملاحظات حقوقی
 footerLinkPrivacy = حریم‌خصوصی
 footerLinkCookies = کوکی‌ها
 passwordTryAgain = کلمه عبور اشتباه است. مجدد تلاش کنید.
-javascriptRequired = Firefox Send نیازمند جاوااسکریپت است
-whyJavascript = چرا Firefox Send جاوااسکریپت لازم داد؟
+javascriptRequired = Send نیازمند جاوااسکریپت است
+whyJavascript = چرا Send جاوااسکریپت لازم داد؟
 enableJavascript = لطفا جاوااسکریپت را فعال کنید و مجددا تلاش کنید.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }ساعت { $minutes }دقیقه
@@ -48,8 +48,8 @@ passwordSetError = امکان ثبت این گذواژه نیست
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = ارسال
 -firefox = فایرفاکس
 -mozilla = موزیلا
@@ -109,8 +109,8 @@ tooManyArchives =
        *[other] تنها { $count } بایگانی مجاز است.
     }
 expiredTitle = این پیوند منقضی شده است.
-notSupportedDescription = { -send-brand } با این مرورگر کار نخواهد کرد. { -send-short-brand } بهترین عملکرد را با آخرین نسخه { -firefox } خواهد داشت، و با آخرین نسخه اکثر مرورگر‌های کنونی کار می‌کند.
-downloadFirefox = دریافت { -firefox }
+notSupportedDescription = { -send-brand } با این مرورگر کار نخواهد کرد. { -send-short-brand } بهترین عملکرد را با آخرین نسخه   خواهد داشت، و با آخرین نسخه اکثر مرورگر‌های کنونی کار می‌کند.
+downloadFirefox = دریافت  
 legalTitle = { -send-short-brand } نکات حفظ حریم خصوصی
 legalDateStamp = نسخه ۱.۰، مورخ ۱۲، ۲۰۱۹
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -127,7 +127,7 @@ emailPlaceholder = ایمیل خود را وارد کنید
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = برای ارسال تا { $size } وارد شوید
 signInOnlyButton = ورود
-accountBenefitTitle = یک حساب { -firefox } ایجاد کنید یا وارد شوید
+accountBenefitTitle = یک حساب   ایجاد کنید یا وارد شوید
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = پرونده‌هایی تا { $size } را اشتراک‌گذاری کنید
 accountBenefitDownloadCount = پرونده‌ها را با افراد بیشتری به اشتراک بگذارید
@@ -145,7 +145,7 @@ noStreamsWarning = ممکن است این مرورگر نتواند یک پرو�
 noStreamsOptionCopy = لینک را کپی کنید تا در مرورگر دیگری باز شود
 noStreamsOptionFirefox = مرورگر مورد علاقه ما را امتحان کنید
 noStreamsOptionDownload = با این مرورگر ادامه دهید
-downloadFirefoxPromo = { -send-short-brand } با جدیدترین { -firefox } برای شما آماده شده است.
+downloadFirefoxPromo = { -send-short-brand } با جدیدترین   برای شما آماده شده است.
 # the next line after the colon contains a file name
 shareLinkDescription = پیوند مربوط به پرونده خود را به اشتراک بگذارید:
 shareLinkButton = اشتراک‌گذاری پیوند

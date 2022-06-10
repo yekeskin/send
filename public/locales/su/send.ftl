@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = Ngimpor...
 encryptingFile = Ngénkripsi...
 decryptingFile = Ngadékripsi...
@@ -17,13 +17,13 @@ unlockButtonLabel = Laan konci
 downloadButtonLabel = Undeur
 downloadFinish = Undeuran anggeus
 fileSizeProgress = ({ $partialSize } ti { $totalSize })
-sendYourFilesLink = Pecakan Firefox Send
+sendYourFilesLink = Pecakan Send
 errorPageHeader = Aya nu salah!
 fileTooBig = Koropak unjalkeuneun badag teuing. Kudu kurang ti { $size }.
 linkExpiredAlt = Tutumbu kadaluwarsa
 notSupportedHeader = Panyungsi anjeun teu dirojong
 notSupportedLink = Naha panyungsi kuring teu dirojong?
-notSupportedOutdatedDetail = Hanjakal Firefox vérsi ieu teu ngarojong téhnologi wéb nu ngagerakkeun Firefox Send. Anjeun perlu ngapdét panyungsi anjeun.
+notSupportedOutdatedDetail = Hanjakal Firefox vérsi ieu teu ngarojong téhnologi wéb nu ngagerakkeun Send. Anjeun perlu ngapdét panyungsi anjeun.
 updateFirefox = Apdét Firefox
 deletePopupCancel = Bolay
 deleteButtonHover = Pupus
@@ -31,8 +31,8 @@ footerLinkLegal = Légal
 footerLinkPrivacy = Privasi
 footerLinkCookies = Réréméh
 passwordTryAgain = Kecap sandi salah. Pecakan deui.
-javascriptRequired = Firefox Send merlukeun JavaScript
-whyJavascript = Naha Firefox Send merlukeun JavaScript?
+javascriptRequired = Send merlukeun JavaScript
+whyJavascript = Naha Send merlukeun JavaScript?
 enableJavascript = Prak hurungkeun JavaScript sarta pecakan deui.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }j { $minutes }m
@@ -45,8 +45,8 @@ passwordSetError = Ieu kecap sandi teu bisa disét
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -106,8 +106,8 @@ tooManyArchives =
        *[other] Ngan { $count } arsip nu diidinan.
     }
 expiredTitle = Ieu tutumbu geus kadaluwarsa.
-notSupportedDescription = { -send-brand } moal jalan di ieu panyungsi. { -send-short-brand } jalan naker dina { -firefox } vérsi pamganyarna, sarta bakal jalan di loba panyungsi vérsi kiwari.
-downloadFirefox = Undeur { -firefox }
+notSupportedDescription = { -send-brand } moal jalan di ieu panyungsi. { -send-short-brand } jalan naker dina   vérsi pamganyarna, sarta bakal jalan di loba panyungsi vérsi kiwari.
+downloadFirefox = Undeur  
 legalTitle = { -send-short-brand } Wawar Privasi
 legalDateStamp = Versi 1.0, kaping 12 Maret 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -125,7 +125,7 @@ emailPlaceholder = Asupkeun surélék anjeun
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Asup sangkan bisa ngirim nika { $size }
 signInOnlyButton = Asup
-accountBenefitTitle = Jieun akun { -firefox } atawa asup
+accountBenefitTitle = Jieun akun   atawa asup
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Bagikeun koropak nika { $size }
 accountBenefitDownloadCount = Bagikeun koropak ka balaréa
@@ -143,7 +143,7 @@ noStreamsWarning = Ieu panyungsi kawasna mah teu bisa ngadékrip koropak badag k
 noStreamsOptionCopy = Tiron tutumbu jang bukaeun di panyungsi séjén
 noStreamsOptionFirefox = Pecakan panyungsi karesep kami
 noStreamsOptionDownload = Tuluykeun ku ieu panyungsi
-downloadFirefoxPromo = { -send-short-brand } téh disanggakeun keur anjeun kalawan { -firefox } sarwa anyar.
+downloadFirefoxPromo = { -send-short-brand } téh disanggakeun keur anjeun kalawan   sarwa anyar.
 # the next line after the colon contains a file name
 shareLinkDescription = Bagikeun tutumbu ka koropak anjeun:
 shareLinkButton = Bagikeun tutumbu

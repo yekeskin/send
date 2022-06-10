@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 siteFeedback = Արձագանք
 importingFile = Ներմուծում...
 encryptingFile = Գաղտնագրում…
@@ -20,13 +20,13 @@ unlockButtonLabel = Ապակողպել
 downloadButtonLabel = Ներբեռնել
 downloadFinish = Ներբեռնումն ավարտված է
 fileSizeProgress = ({ $partialSize }-ը { $totalSize })-ից
-sendYourFilesLink = Փորձել Firefox Send-ը
+sendYourFilesLink = Փորձել Send-ը
 errorPageHeader = Ինչ-որ բան այն չէ
 fileTooBig = Այդ ֆայլը չափազանց մեծ է վերբեռնելու համար: Այն պետք է լինի ավելի քիչ, քան { $size }-ը
 linkExpiredAlt = Հղումն ավարտված է
 notSupportedHeader = Ձեր զննարկիչը չի աջակցվում:
 notSupportedLink = Ինչու իմ զննարկիչը չի աջակցվում:
-notSupportedOutdatedDetail = Դժբախտաբար, Firefox- ի այս տարբերակը չի աջակցում այն վեբ տեխնոլոգիան, որը պետք է Firefox Send-ի համար: Դուք պետք է թարմացնեք ձեր զննարկիչը:
+notSupportedOutdatedDetail = Դժբախտաբար, Firefox- ի այս տարբերակը չի աջակցում այն վեբ տեխնոլոգիան, որը պետք է Send-ի համար: Դուք պետք է թարմացնեք ձեր զննարկիչը:
 updateFirefox = Թարմացնել Firefox-ը
 deletePopupCancel = Չեղարկել
 deleteButtonHover = Ջնջել
@@ -34,8 +34,8 @@ footerLinkLegal = Իրավական
 footerLinkPrivacy = Գաղտնիություն
 footerLinkCookies = Cookie-ներ
 passwordTryAgain = Սխալ գաղտնաբառ. Կրկին փորձեք:
-javascriptRequired = Firefox Send-ը պահանջում է JavaScript
-whyJavascript = Ինչո՞ւ է Firefox Send-ը պահանջում JavaScript.
+javascriptRequired = Send-ը պահանջում է JavaScript
+whyJavascript = Ինչո՞ւ է Send-ը պահանջում JavaScript.
 enableJavascript = Խնդրում ենք միացնել JavaScript-ը և կրկին փորձել:
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }ժ { $minutes }ր
@@ -48,8 +48,8 @@ passwordSetError = Այս գաղտնաբառը հնարավոր չէ սահմա�
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Ուղարկել
 -firefox = Firefox
 -mozilla = Mozilla
@@ -109,8 +109,8 @@ tooManyArchives =
        *[other] Միայն { $count } արխիվներ են թույլատրված:
     }
 expiredTitle = Այս հղումն ավարտված է:
-notSupportedDescription = { -send-brand }-ը չի աշխատի այս զննարկչի հետ: { -send-short-brand }-ը լավագույն կերպով աշխատում է { -firefox }-ի վերջին տարբերակի հետ և կաշխատի զննարկիչների մեծամասնության վերջին տարբերակների հետ:
-downloadFirefox = Ներբեռնել { -firefox }-ը
+notSupportedDescription = { -send-brand }-ը չի աշխատի այս զննարկչի հետ: { -send-short-brand }-ը լավագույն կերպով աշխատում է  -ի վերջին տարբերակի հետ և կաշխատի զննարկիչների մեծամասնության վերջին տարբերակների հետ:
+downloadFirefox = Ներբեռնել  -ը
 legalTitle = { -send-short-brand }-ի Գաղտնիության ծանուցում
 legalDateStamp = Տարբերակ 1.0, թվագրված՝ 2019 թ. մարտի 12-ով
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -127,7 +127,7 @@ emailPlaceholder = Մուտքագրեք ձեր էլ. փոստը
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Մուտք գործեք՝ { $size } ուղարկելու համար
 signInOnlyButton = Մուտք գործել
-accountBenefitTitle = Ստեղծեք { -firefox } հաշիվ կամ մուտք գործեք
+accountBenefitTitle = Ստեղծեք   հաշիվ կամ մուտք գործեք
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Կիսվեք մինչև { $size } ֆայլերով
 accountBenefitDownloadCount = Կիսվեք ֆայլերով ավելի շատ մարդկանց հետ
@@ -145,7 +145,7 @@ noStreamsWarning = Այս զննարկիչը չի կարողանա վերծան�
 noStreamsOptionCopy = Պատճենեք հղումը`այլ զննարկիչում բացելու համար
 noStreamsOptionFirefox = Փորձեք մեր սիրած զննարկիչը
 noStreamsOptionDownload = Շարունակեք այս զննարկիչով
-downloadFirefoxPromo = { -send-short-brand }-ը ձեզ է առաջարկում ամբողջովին նոր { -firefox }:
+downloadFirefoxPromo = { -send-short-brand }-ը ձեզ է առաջարկում ամբողջովին նոր  :
 # the next line after the colon contains a file name
 shareLinkDescription = Կիսվեք ձեր ֆայլի հղումով.
 shareLinkButton = Համօգտագործել հղումը

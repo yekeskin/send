@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = Importerer…
 encryptingFile = Krypterer…
 decryptingFile = Dekrypterer…
@@ -19,13 +19,13 @@ unlockButtonLabel = Lås op
 downloadButtonLabel = Hent
 downloadFinish = Hentning fuldført
 fileSizeProgress = ({ $partialSize } af { $totalSize })
-sendYourFilesLink = Prøv Firefox Send
+sendYourFilesLink = Prøv Send
 errorPageHeader = Der gik noget galt!
 fileTooBig = Den fil er for stor at uploade. Den skal være mindre end { $size }.
 linkExpiredAlt = Link er udløbet
 notSupportedHeader = Din browser understøttes ikke.
 notSupportedLink = Hvorfor understøttes min browser ikke?
-notSupportedOutdatedDetail = Desværre understøtter denne version af Firefox ikke den webteknologi, som driver Firefox Send. Du skal opdatere din browser.
+notSupportedOutdatedDetail = Desværre understøtter denne version af Firefox ikke den webteknologi, som driver Send. Du skal opdatere din browser.
 updateFirefox = Opdater Firefox
 deletePopupCancel = Annuller
 deleteButtonHover = Slet
@@ -33,8 +33,8 @@ footerLinkLegal = Juridisk
 footerLinkPrivacy = Privatliv
 footerLinkCookies = Cookies
 passwordTryAgain = Forkert adgangskode. Prøv igen.
-javascriptRequired = Firefox Send kræver JavaScript
-whyJavascript = Hvorfor kræver Firefox Send JavaScript?
+javascriptRequired = Send kræver JavaScript
+whyJavascript = Hvorfor kræver Send JavaScript?
 enableJavascript = Aktiver JavaScript og prøv igen.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } t { $minutes } m
@@ -47,8 +47,8 @@ passwordSetError = Adgangskoden kunne ikke sættes
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -108,8 +108,8 @@ tooManyArchives =
        *[other] Kun { $count } arkiver er tilladt.
     }
 expiredTitle = Dette link er udløbet.
-notSupportedDescription = { -send-brand } virker ikke med denne browser. { -send-short-brand } virker bedst med den nyeste version af { -firefox } og med de fleste andre nye browsere.
-downloadFirefox = Hent { -firefox }
+notSupportedDescription = { -send-brand } virker ikke med denne browser. { -send-short-brand } virker bedst med den nyeste version af   og med de fleste andre nye browsere.
+downloadFirefox = Hent  
 legalTitle = { -send-short-brand }, om privatlivspolitik
 legalDateStamp = Version 1.0, udsendt d. 12. marts 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -127,7 +127,7 @@ emailPlaceholder = Indtast din mailadresse
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Log ind for at sende filer på op til { $size }
 signInOnlyButton = Log ind
-accountBenefitTitle = Opret en { -firefox }-konto eller log ind
+accountBenefitTitle = Opret en  -konto eller log ind
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Del filer på op til { $size }
 accountBenefitDownloadCount = Del filer med flere personer
@@ -145,7 +145,7 @@ noStreamsWarning = Denne browser kan muligvis ikke dekryptere en fil, der er så
 noStreamsOptionCopy = Kopier linket for at åbne det i en anden browser
 noStreamsOptionFirefox = Prøv vores favorit-browser
 noStreamsOptionDownload = Fortsæt med denne browser
-downloadFirefoxPromo = { -send-short-brand } præsenteres af den nye { -firefox }.
+downloadFirefoxPromo = { -send-short-brand } præsenteres af den nye  .
 # the next line after the colon contains a file name
 shareLinkDescription = Del linket til din fil:
 shareLinkButton = Del link

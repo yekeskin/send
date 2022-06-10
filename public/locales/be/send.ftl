@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = Імпартаванне...
 encryptingFile = Зашыфроўка...
 decryptingFile = Расшыфроўка...
@@ -21,13 +21,13 @@ unlockButtonLabel = Разблакаваць
 downloadButtonLabel = Сцягнуць
 downloadFinish = Сцягванне скончана
 fileSizeProgress = ({ $partialSize } з { $totalSize })
-sendYourFilesLink = Паспрабуйце Firefox Send
+sendYourFilesLink = Паспрабуйце Send
 errorPageHeader = Нешта пайшло не так!
 fileTooBig = Гэты файл надта вялікі. Ён мусіць быць меншым за { $size }
 linkExpiredAlt = Тэрмін дзеяння спасылкі сышоў
 notSupportedHeader = Ваш браўзер не падтрымліваецца.
 notSupportedLink = Чаму мой браўзер не падтрымліваецца?
-notSupportedOutdatedDetail = На жаль, гэтая версія Firefox не падтрымлівае вэб-тэхналогію, што забяспечвае працу Firefox Send. Вам трэба абнавіць свой браўзер.
+notSupportedOutdatedDetail = На жаль, гэтая версія Firefox не падтрымлівае вэб-тэхналогію, што забяспечвае працу Send. Вам трэба абнавіць свой браўзер.
 updateFirefox = Абнавіць Firefox
 deletePopupCancel = Скасаваць
 deleteButtonHover = Выдаліць
@@ -35,8 +35,8 @@ footerLinkLegal = Прававыя звесткі
 footerLinkPrivacy = Прыватнасць
 footerLinkCookies = Кукі
 passwordTryAgain = Некарэктны пароль. Паспрабуйце зноў.
-javascriptRequired = Для Firefox Send неабходны JavaScript
-whyJavascript = Чаму для Firefox Send неабходны JavaScript?
+javascriptRequired = Для Send неабходны JavaScript
+whyJavascript = Чаму для Send неабходны JavaScript?
 enableJavascript = Калі ласка, уключыце JavaScript і паспрабуйце зноў.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } г. { $minutes } хв.
@@ -49,8 +49,8 @@ passwordSetError = Гэты пароль немагчыма паставіць
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -116,8 +116,8 @@ tooManyArchives =
        *[many] Толькі { $count } архіваў дазволена.
     }
 expiredTitle = Тэрмін дзеяння гэтай спасылкі сышоў.
-notSupportedDescription = { -send-brand } не будзе працаваць у гэтым браўзеры. Лепей за ўсё { -send-short-brand } працуе з апошняй версіяй { -firefox } і будзе працаваць з бягучай версіяй большасці браўзераў.
-downloadFirefox = Сцягнуць { -firefox }
+notSupportedDescription = { -send-brand } не будзе працаваць у гэтым браўзеры. Лепей за ўсё { -send-short-brand } працуе з апошняй версіяй   і будзе працаваць з бягучай версіяй большасці браўзераў.
+downloadFirefox = Сцягнуць  
 legalTitle = Палітыка прыватнасці { -send-short-brand }
 legalDateStamp = Версія 1.0 ад 12 сакавіка 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -135,7 +135,7 @@ emailPlaceholder = Увядзіце сваю электронную пошту
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Увайдзіце, каб адпраўляць да { $size }
 signInOnlyButton = Увайсці
-accountBenefitTitle = Стварыце ўліковы запіс { -firefox } або ўвайдзіце
+accountBenefitTitle = Стварыце ўліковы запіс   або ўвайдзіце
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Дзяліцеся файламі да { $size }
 accountBenefitDownloadCount = Дзяліцеся файламі з большай колькасцю людзей
@@ -154,7 +154,7 @@ noStreamsWarning = Гэты браўзер не мае магчымасці ра
 noStreamsOptionCopy = Скапіруйце спасылку, каб адкрыць у іншым браўзеры
 noStreamsOptionFirefox = Паспрабуйце наш любімы браўзер
 noStreamsOptionDownload = Працягнуць з гэтым браўзерам
-downloadFirefoxPromo = { -send-short-brand } прыйшоў да вас з цалкам новага { -firefox }.
+downloadFirefoxPromo = { -send-short-brand } прыйшоў да вас з цалкам новага  .
 # the next line after the colon contains a file name
 shareLinkDescription = Падзяліцеся спасылкай на свой файл:
 shareLinkButton = Падзяліцца спасылкай

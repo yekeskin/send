@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = Uvoz…
 encryptingFile = Šifriranje …
 decryptingFile = Dešifriranje …
@@ -21,13 +21,13 @@ unlockButtonLabel = Otključaj
 downloadButtonLabel = Preuzmi
 downloadFinish = Preuzimanje je završeno.
 fileSizeProgress = ({ $partialSize } od { $totalSize })
-sendYourFilesLink = Isprobaj Firefox Send
+sendYourFilesLink = Isprobaj Send
 errorPageHeader = Dogodila se neka greška!
 fileTooBig = Datoteka je prevelika za prijenos. Mora biti manja od { $size }.
 linkExpiredAlt = Poveznica je istekla
 notSupportedHeader = Tvoj preglednik nije podržan.
 notSupportedLink = Zašto moj preglednik nije podržan?
-notSupportedOutdatedDetail = Nažalost, ovo izdanje Firefoxa ne podržava web tehnologiju koja omogućava Firefox Send. Morat ćeš ažurirati preglednik.
+notSupportedOutdatedDetail = Nažalost, ovo izdanje Firefoxa ne podržava web tehnologiju koja omogućava Send. Morat ćeš ažurirati preglednik.
 updateFirefox = Ažuriraj Firefox
 deletePopupCancel = Odustani
 deleteButtonHover = Obriši
@@ -35,8 +35,8 @@ footerLinkLegal = Pravni podaci
 footerLinkPrivacy = Privatnost
 footerLinkCookies = Kolačići
 passwordTryAgain = Netočna lozinka. Pokušaj ponovo.
-javascriptRequired = Za Firefox Send potreban je JavaScript
-whyJavascript = Zašto je za Firefox Send potreban JavaScript?
+javascriptRequired = Za Send potreban je JavaScript
+whyJavascript = Zašto je za Send potreban JavaScript?
 enableJavascript = Aktiviraj JavaScript i pokušaj ponovo.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }s { $minutes }m
@@ -49,8 +49,8 @@ passwordSetError = Lozinku nije moguće postaviti
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -116,8 +116,8 @@ tooManyArchives =
        *[other] Dozvoljeno je samo { $count } arhiva.
     }
 expiredTitle = Poveznica je istekla.
-notSupportedDescription = { -send-brand } neće raditi s ovim preglednikom. { -send-short-brand } najbolje radi sa zadnjom { -firefox } verzijom i radit će s aktualnim verzijama većine preglednika.
-downloadFirefox = Preuzmi { -firefox }
+notSupportedDescription = { -send-brand } neće raditi s ovim preglednikom. { -send-short-brand } najbolje radi sa zadnjom   verzijom i radit će s aktualnim verzijama većine preglednika.
+downloadFirefox = Preuzmi  
 legalTitle = { -send-short-brand } politika privatnosti
 legalDateStamp = Verzija 1.0, od 12. ožujka 2019. godine
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -135,7 +135,7 @@ emailPlaceholder = Upiši svoju e-adresu
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Prijavi se, za slanje do { $size }
 signInOnlyButton = Prijavi se
-accountBenefitTitle = Otvori { -firefox } račun ili se prijavi
+accountBenefitTitle = Otvori   račun ili se prijavi
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Dijeli datoteke do { $size }
 accountBenefitDownloadCount = Dijeli datoteke s više osoba
@@ -154,7 +154,7 @@ noStreamsWarning = Ovaj preglednik možda neće moći dešifrirati datoteku ove 
 noStreamsOptionCopy = Za otvaranje u drugom pregledniku, kopiraj poveznicu
 noStreamsOptionFirefox = Isprobaj naš omiljeni preglednik
 noStreamsOptionDownload = Nastavi s ovim preglednikom
-downloadFirefoxPromo = Potpuno novi { -firefox } donosi { -send-short-brand }.
+downloadFirefoxPromo = Potpuno novi   donosi { -send-short-brand }.
 # the next line after the colon contains a file name
 shareLinkDescription = Dijeli poveznicu na tvoju datoteku:
 shareLinkButton = Dijeli poveznicu

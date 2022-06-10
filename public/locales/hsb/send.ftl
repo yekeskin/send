@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = Importuje so...
 encryptingFile = Zaklučuje so...
 decryptingFile = Dešifruje so...
@@ -23,13 +23,13 @@ unlockButtonLabel = Wotewrěć
 downloadButtonLabel = Sćahnyć
 downloadFinish = Sćehnjenje dokónčene
 fileSizeProgress = ({ $partialSize } z { $totalSize })
-sendYourFilesLink = Firefox Send wupruwować
+sendYourFilesLink = Send wupruwować
 errorPageHeader = Něšto je so nimokuliło!
 fileTooBig = Tuta dataja je přewulka za nahraće. Měła mjeńša hač { $size } być.
 linkExpiredAlt = Wotkaz je spadnjeny
 notSupportedHeader = Waš wobhladowak so njepodpěruje.
 notSupportedLink = Čehodla so mój wobhladowak njepodpěruje?
-notSupportedOutdatedDetail = Bohužel tuta wersija Firefox webtechnologiju njepodpěruje, na kotrejž Firefox Send bazuje. Dyrbiće swój wobhladowak aktualizować.
+notSupportedOutdatedDetail = Bohužel tuta wersija Firefox webtechnologiju njepodpěruje, na kotrejž Send bazuje. Dyrbiće swój wobhladowak aktualizować.
 updateFirefox = Firefox aktualizować
 deletePopupCancel = Přetorhnyć
 deleteButtonHover = Zhašeć
@@ -37,8 +37,8 @@ footerLinkLegal = Prawniske
 footerLinkPrivacy = Priwatnosć
 footerLinkCookies = Placki
 passwordTryAgain = Wopačne hesło. Prošu spytajće hišće raz.
-javascriptRequired = Firefox Send JavaScript trjeba
-whyJavascript = Čehodla Firefox Send JavaScript trjeba?
+javascriptRequired = Send JavaScript trjeba
+whyJavascript = Čehodla Send JavaScript trjeba?
 enableJavascript = Prošu zmóžńće JavaScript a spytajće hišće raz.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } hodź. { $minutes } mjeń.
@@ -51,8 +51,8 @@ passwordSetError = Tute hesło njeda so nastajić
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -124,8 +124,8 @@ tooManyArchives =
        *[other] Jenož { $count } archiwow je dowolene.
     }
 expiredTitle = Tutón wotkaz je spadnjeny.
-notSupportedDescription = { -send-brand } z tutym wobhladowakom njefunguje. { -send-short-brand } najlěpje z najnowšej wersiju { -firefox } funguje, a funguje z aktualnej wersiju najwjace wobhladowakow.
-downloadFirefox = { -firefox } scáhnyć
+notSupportedDescription = { -send-brand } z tutym wobhladowakom njefunguje. { -send-short-brand } najlěpje z najnowšej wersiju   funguje, a funguje z aktualnej wersiju najwjace wobhladowakow.
+downloadFirefox =   scáhnyć
 legalTitle = Zdźělenka priwatnosće { -send-short-brand }
 legalDateStamp = Wersija 1.0 wot 12. měrca 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -143,7 +143,7 @@ emailPlaceholder = Zapodajće swoju e-mejlowu adresu
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Přizjewće so, zo byšće do { $size } pósłał
 signInOnlyButton = Přizjewić
-accountBenefitTitle = Załožće konto { -firefox } abo přizjewće so
+accountBenefitTitle = Załožće konto   abo přizjewće so
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Dataje do { $size } dźělić
 accountBenefitDownloadCount = Dataje z wjace ludźimi dźělić
@@ -163,7 +163,7 @@ noStreamsWarning = Tutón wobhladowak njemóhł tajku wulku dataju dešifrować.
 noStreamsOptionCopy = Kopěrujće wotkaz, zo byšće jón w druhim wobhladowaku wočinił
 noStreamsOptionFirefox = Wupruwujće naš najlubši wobhladowak
 noStreamsOptionDownload = Z tutym wobhladowakom pokročować
-downloadFirefoxPromo = { -send-short-brand } so wam přez cyle nowy { -firefox } přinjese.
+downloadFirefoxPromo = { -send-short-brand } so wam přez cyle nowy   přinjese.
 # the next line after the colon contains a file name
 shareLinkDescription = Dźělće wotkaz k swojej dataji:
 shareLinkButton = Wotkaz dźělić

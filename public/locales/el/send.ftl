@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = Εισαγωγή…
 encryptingFile = Κρυπτογράφηση…
 decryptingFile = Αποκρυπτογράφηση…
@@ -19,13 +19,13 @@ unlockButtonLabel = Ξεκλείδωμα
 downloadButtonLabel = Λήψη
 downloadFinish = Η λήψη ολοκληρώθηκε
 fileSizeProgress = ({ $partialSize } από { $totalSize })
-sendYourFilesLink = Δοκιμάστε το Firefox Send
+sendYourFilesLink = Δοκιμάστε το Send
 errorPageHeader = Κάτι πήγε στραβά!
 fileTooBig = Αυτό το αρχείο είναι πολύ μεγάλο για μεταφόρτωση. Πρέπει να είναι μικρότερο από { $size }.
 linkExpiredAlt = Ο σύνδεσμος έληξε
 notSupportedHeader = Το πρόγραμμα περιήγησής σας δεν υποστηρίζεται.
 notSupportedLink = Γιατί δεν υποστηρίζεται το πρόγραμμα περιήγησής μου;
-notSupportedOutdatedDetail = Δυστυχώς, αυτή η έκδοση του Firefox δεν υποστηρίζει την τεχνολογία ιστού στην οποία βασίζεται το Firefox Send. Πρέπει να ενημερώσετε το πρόγραμμα περιήγησής σας.
+notSupportedOutdatedDetail = Δυστυχώς, αυτή η έκδοση του Firefox δεν υποστηρίζει την τεχνολογία ιστού στην οποία βασίζεται το Send. Πρέπει να ενημερώσετε το πρόγραμμα περιήγησής σας.
 updateFirefox = Ενημέρωση Firefox
 deletePopupCancel = Ακύρωση
 deleteButtonHover = Διαγραφή
@@ -33,8 +33,8 @@ footerLinkLegal = Νομικά
 footerLinkPrivacy = Απόρρητο
 footerLinkCookies = Cookies
 passwordTryAgain = Λάθος κωδικός πρόσβασης. Δοκιμάστε ξανά.
-javascriptRequired = Το Firefox Send απαιτεί JavaScript
-whyJavascript = Γιατί το Firefox Send απαιτεί JavaScript;
+javascriptRequired = Το Send απαιτεί JavaScript
+whyJavascript = Γιατί το Send απαιτεί JavaScript;
 enableJavascript = Παρακαλώ ενεργοποιήστε το JavaScript και δοκιμάστε ξανά.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }ώ { $minutes }λ
@@ -47,8 +47,8 @@ passwordSetError = Δεν ήταν δυνατός ο ορισμός αυτού �
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -108,8 +108,8 @@ tooManyArchives =
        *[other] Μόνο { $count } αρχεία επιτρέπονται.
     }
 expiredTitle = Αυτός ο σύνδεσμος έχει λήξει.
-notSupportedDescription = Το { -send-brand } δεν θα λειτουργήσει με αυτό το πρόγραμμα περιήγησης. Το { -send-short-brand } λειτουργεί καλύτερα με την πιο πρόσφατη έκδοση του { -firefox }, καθώς και με την τρέχουσα έκδοση των περισσότερων προγραμμάτων περιήγησης.
-downloadFirefox = Λήψη του { -firefox }
+notSupportedDescription = Το { -send-brand } δεν θα λειτουργήσει με αυτό το πρόγραμμα περιήγησης. Το { -send-short-brand } λειτουργεί καλύτερα με την πιο πρόσφατη έκδοση του  , καθώς και με την τρέχουσα έκδοση των περισσότερων προγραμμάτων περιήγησης.
+downloadFirefox = Λήψη του  
 legalTitle = Σημείωση Απορρήτου { -send-short-brand }
 legalDateStamp = Έκδοση 1.0, από 12 Μαρτίου 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -127,7 +127,7 @@ emailPlaceholder = Εισάγετε το email σας
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Συνδεθείτε για να στείλετε μέχρι { $size }
 signInOnlyButton = Σύνδεση
-accountBenefitTitle = Δημιουργία λογαριασμού { -firefox } ή σύνδεση
+accountBenefitTitle = Δημιουργία λογαριασμού   ή σύνδεση
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Μοιραστείτε αρχεία έως { $size }
 accountBenefitDownloadCount = Μοιραστείτε αρχεία με περισσότερα άτομα
@@ -145,7 +145,7 @@ noStreamsWarning = Αυτό το πρόγραμμα περιήγησης ενδ�
 noStreamsOptionCopy = Αντιγράψτε το σύνδεσμο για άνοιγμα σε άλλο πρόγραμμα περιήγησης
 noStreamsOptionFirefox = Δοκιμάστε το αγαπημένο μας πρόγραμμα περιήγησης
 noStreamsOptionDownload = Συνέχεια με αυτό το πρόγραμμα περιήγησης
-downloadFirefoxPromo = Το { -send-short-brand } παρέχεται σε εσάς από το ολοκαίνουριο { -firefox }.
+downloadFirefoxPromo = Το { -send-short-brand } παρέχεται σε εσάς από το ολοκαίνουριο  .
 # the next line after the colon contains a file name
 shareLinkDescription = Μοιραστείτε το σύνδεσμο του αρχείου σας:
 shareLinkButton = Κοινή χρήση συνδέσμου

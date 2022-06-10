@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = Akter...
 encryptingFile = Awgelhen...
 decryptingFile = Azmek...
@@ -19,13 +19,13 @@ unlockButtonLabel = Serreḥ
 downloadButtonLabel = Sider
 downloadFinish = Asider yemmed
 fileSizeProgress = ({ $partialSize } seg { $totalSize })
-sendYourFilesLink = Ɛreḍ Firefox Send
+sendYourFilesLink = Ɛreḍ Send
 errorPageHeader = Yella wayen yeḍran!
 fileTooBig = Afaylu-agi meqqer aṭas. Yessefk ad yili daw n  { $size }.
 linkExpiredAlt = Aseɣwen yemmut
 notSupportedHeader = Iminig-ik ur ittusefrak ara
 notSupportedLink = Ayγer iminig inu ur yettwasefrek ara?
-notSupportedOutdatedDetail = Ad nesḥissef imilqem-agi n Firefox Firefox ur isefrak ara titiknulujiyin web yettwaseqdacen di Firefox Send. Yessefk ad tleqmeḍ iminig-ik.
+notSupportedOutdatedDetail = Ad nesḥissef imilqem-agi n Firefox Firefox ur isefrak ara titiknulujiyin web yettwaseqdacen di Send. Yessefk ad tleqmeḍ iminig-ik.
 updateFirefox = Leqqem Firefox
 deletePopupCancel = Sefsex
 deleteButtonHover = Kkes
@@ -33,8 +33,8 @@ footerLinkLegal = Usḍif
 footerLinkPrivacy = Tabaḍnit
 footerLinkCookies = Inagan n tuqqna
 passwordTryAgain = Yir awal uffir. Ɛreḍ tikelt nniḍen.
-javascriptRequired = Firefox Send yesra JavaScript
-whyJavascript = Ayɣer firefox Send yesra JavaScript?
+javascriptRequired = Send yesra JavaScript
+whyJavascript = Ayɣer Send yesra JavaScript?
 enableJavascript = Ma ulac aɣilif rmed JavaScript sakin ɛreḍ tikkelt nniḍen.
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours }Isragen { $minutes }Tisdatin
@@ -47,8 +47,8 @@ passwordSetError = Awal-agi uffir ur izmir ara ad ittwabaded
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -108,8 +108,8 @@ tooManyArchives =
        *[other] Ala { $count } n teṛcibin i yettwasiregn.
     }
 expiredTitle = Immut useɣwen.
-notSupportedDescription = { -send-brand } ur iteddu ara s yiminig-a. { -send-short-brand } iteddu akken iwata s lqem aneggaru n { -firefox }, daɣen iteddu s lqem amiran n tuget n yiminigen.
-downloadFirefox = Sider { -firefox }
+notSupportedDescription = { -send-brand } ur iteddu ara s yiminig-a. { -send-short-brand } iteddu akken iwata s lqem aneggaru n  , daɣen iteddu s lqem amiran n tuget n yiminigen.
+downloadFirefox = Sider  
 legalTitle = Tasertit tabaḍnit n { -send-short-brand }
 legalDateStamp = Lqem  1.0, azemz n 12 Meɣres 2019
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -127,7 +127,7 @@ emailPlaceholder = Sekcem imayl inek
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = Qqen akken ad tazneḍ arma d { $size }
 signInOnlyButton = Qqen
-accountBenefitTitle = Rnu amiḍan { -firefox } akken ad teqqneḍ
+accountBenefitTitle = Rnu amiḍan   akken ad teqqneḍ
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = Bḍu ifuyla arma d { $size }
 accountBenefitDownloadCount = Bḍu ifuyla d wugan n medden
@@ -145,7 +145,7 @@ noStreamsWarning = Iminig-a ur yezmir ara ad yezmek afaylu meqqren.
 noStreamsOptionCopy = Nɣel aseɣwen i tulya deg yiminig-nniden
 noStreamsOptionFirefox = Ɛreḍ iminig-ik ufrin
 noStreamsOptionDownload = Kemmel akked iminig-a
-downloadFirefoxPromo = { -send-short-brand } yettwasumer i yal { -firefox } amaynut.
+downloadFirefoxPromo = { -send-short-brand } yettwasumer i yal   amaynut.
 # the next line after the colon contains a file name
 shareLinkDescription = Bḍu aseɣwen ɣer ufaylu-ik:
 shareLinkButton = Bḍu aseɣwen

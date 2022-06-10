@@ -1,5 +1,5 @@
-# Firefox Send is a brand name and should not be localized.
-title = Firefox Send
+# Send is a brand name and should not be localized.
+title = Send
 importingFile = 匯入中…
 encryptingFile = 加密中…
 decryptingFile = 解密中…
@@ -17,13 +17,13 @@ unlockButtonLabel = 解鎖
 downloadButtonLabel = 下載
 downloadFinish = 下載完成
 fileSizeProgress = （{ $partialSize }，共 { $totalSize }）
-sendYourFilesLink = 試用 Firefox Send
+sendYourFilesLink = 試用 Send
 errorPageHeader = 有些東西不對勁！
 fileTooBig = 檔案太大無法上傳。檔案大小限制為 { $size }。
 linkExpiredAlt = 鏈結已過期
 notSupportedHeader = 不支援您的瀏覽器。
 notSupportedLink = 為什麼我的瀏覽器不支援？
-notSupportedOutdatedDetail = 很可惜，此版本的 Firefox 不支援 Firefox Send 所需的 Web 技術。請更新瀏覽器後再使用。
+notSupportedOutdatedDetail = 很可惜，此版本的 Firefox 不支援 Send 所需的 Web 技術。請更新瀏覽器後再使用。
 updateFirefox = 更新 Firefox
 deletePopupCancel = 取消
 deleteButtonHover = 刪除
@@ -31,8 +31,8 @@ footerLinkLegal = 法律資訊
 footerLinkPrivacy = 隱私權
 footerLinkCookies = Cookie
 passwordTryAgain = 密碼不正確，請再試一次。
-javascriptRequired = Firefox Send 需要開啟 JavaScript 功能
-whyJavascript = 為什麼 Firefox Send 需要 JavaScript 才能使用？
+javascriptRequired = Send 需要開啟 JavaScript 功能
+whyJavascript = 為什麼 Send 需要 JavaScript 才能使用？
 enableJavascript = 請開啟 JavaScript 功能後再試一次。
 # A short representation of a countdown timer containing the number of hours and minutes remaining as digits, example "13h 47m"
 expiresHoursMinutes = { $hours } 時 { $minutes } 分
@@ -45,8 +45,8 @@ passwordSetError = 無法設定此密碼
 
 ## Send version 2 strings
 
-# Firefox Send, Send, Firefox, Mozilla are proper names and should not be localized
--send-brand = Firefox Send
+# Send, Send, Firefox, Mozilla are proper names and should not be localized
+-send-brand = Send
 -send-short-brand = Send
 -firefox = Firefox
 -mozilla = Mozilla
@@ -100,8 +100,8 @@ tooManyArchives =
        *[other] 僅允許 { $count } 個壓縮檔。
     }
 expiredTitle = 此鏈結已經失效。
-notSupportedDescription = 無法於此瀏覽器使用 { -send-brand }。在最新版的 { -firefox } 中使用 { -send-short-brand } 會有最佳效果，也可在大部分瀏覽器的最新版本當中使用。
-downloadFirefox = 下載 { -firefox }
+notSupportedDescription = 無法於此瀏覽器使用 { -send-brand }。在最新版的   中使用 { -send-short-brand } 會有最佳效果，也可在大部分瀏覽器的最新版本當中使用。
+downloadFirefox = 下載  
 legalTitle = { -send-short-brand } 隱私權公告
 legalDateStamp = 1.0 版，2019 年 3 月 12 日生效
 # A short representation of a countdown timer containing the number of days, hours, and minutes remaining as digits, example "2d 11h 56m"
@@ -119,7 +119,7 @@ emailPlaceholder = 輸入您的電子郵件地址
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 signInSizeBump = 登入後即可傳送最大 { $size } 的檔案
 signInOnlyButton = 登入
-accountBenefitTitle = 註冊 { -firefox } 帳號或登入
+accountBenefitTitle = 註冊   帳號或登入
 # $size is the size of the file, displayed using the fileSize message as format (e.g. "2.5MB")
 accountBenefitLargeFiles = 分享最大 { $size } 的檔案
 accountBenefitDownloadCount = 分享檔案給更多人
@@ -136,7 +136,7 @@ noStreamsWarning = 此瀏覽器無法解密這麼大的檔案。
 noStreamsOptionCopy = 複製鏈結，用其他瀏覽器開啟
 noStreamsOptionFirefox = 試試我們最愛的瀏覽器
 noStreamsOptionDownload = 繼續使用目前的瀏覽器
-downloadFirefoxPromo = { -send-short-brand } 是由全新的 { -firefox } 提供。
+downloadFirefoxPromo = { -send-short-brand } 是由全新的   提供。
 # the next line after the colon contains a file name
 shareLinkDescription = 您的檔案鏈結:
 shareLinkButton = 分享鏈結
